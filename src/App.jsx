@@ -4,28 +4,52 @@ import Papa from "papaparse";
 import { Layers, Calendar, ShieldCheck, Info } from "lucide-react";
 import "leaflet/dist/leaflet.css";
 
-// 10 distinct percentage group tiers mapping
-const getViridisColor = (d) => {
-  if (d === undefined || d === null) return "#e2e8f0"; // Gray for missing data
-  return d > 95
+// Dual-mode thematic map rendering color scale
+const getFeatureColor = (value, isChangeMetric) => {
+  if (value === undefined || value === null) return "#e2e8f0"; // Gray for missing data
+
+  // Mode A: Diverging Scale specifically for the "Change" calculation metric
+  // Completely neutral palette (Plum/Red to Slate Gray to Deep Teal) to avoid polarizing colors
+  if (isChangeMetric) {
+    return value > 15
+      ? "#004d40" // Exceptional Growth (Deep Midnight Teal)
+      : value > 10
+        ? "#00796b" // Strong Growth (Dark Teal)
+        : value > 5
+          ? "#009688" // Moderate Growth (Teal)
+          : value > 1
+            ? "#4db6ac" // Slight Growth (Soft Teal)
+            : value >= -1
+              ? "#b4c2d0" // Neutral / Stable (Custom Soft Slate Gray)
+              : value > -5
+                ? "#c2185b" // Slight Decline (Muted Rose)
+                : value > -10
+                  ? "#ad1457" // Moderate Decline (Plum)
+                  : value > -15
+                    ? "#880e4f" // Heavy Decline (Deep Wine)
+                    : "#5c0632"; // Severe Decline (Dark Maroon)
+  }
+
+  // Mode B: Standard Sequential Tiering for absolute NFHS 4 & NFHS 5 values
+  return value > 95
     ? "#0f172a"
-    : d > 90
+    : value > 90
       ? "#1e3a8a"
-      : d > 85
+      : value > 85
         ? "#1d4ed8"
-        : d > 80
+        : value > 80
           ? "#3b82f6"
-          : d > 75
+          : value > 75
             ? "#60a5fa"
-            : d > 70
+            : value > 70
               ? "#93c5fd"
-              : d > 65
+              : value > 65
                 ? "#fed7aa"
-                : d > 60
+                : value > 60
                   ? "#f97316"
-                  : d > 50
+                  : value > 50
                     ? "#ea580c"
-                    : d > 40
+                    : value > 40
                       ? "#dc2626"
                       : "#991b1b";
 };
@@ -111,8 +135,10 @@ export default function App() {
   const featureStyle = (feature) => {
     const stateName = getStateDisplayName(feature);
     const value = getDataValue(stateName);
+    const isChange = selectedSurvey?.toLowerCase().includes("change");
+
     return {
-      fillColor: getViridisColor(value),
+      fillColor: getFeatureColor(value, isChange),
       weight: 1,
       opacity: 1,
       color: "#ffffff",
@@ -124,13 +150,21 @@ export default function App() {
   const onEachFeature = (feature, layer) => {
     const stateName = getStateDisplayName(feature);
     const value = getDataValue(stateName);
+    const isChange = selectedSurvey?.toLowerCase().includes("change");
 
-    // Bind native interactive tooltips structurally within Leaflet's vector panes
+    const valueString =
+      value !== null
+        ? isChange && value > 0
+          ? `+${value.toFixed(1)}%`
+          : `${value.toFixed(1)}%`
+        : "N/A";
+
+    // Bind interactive tooltips structurally within Leaflet's vector panes
     layer.bindTooltip(
       `<div style="font-family: sans-serif; padding: 4px; line-height: 1.4;">
         <strong style="font-size: 14px; color: #0f172a; display: block; margin-bottom: 2px;">${stateName}</strong>
         <span style="color: #475569; font-size: 12px;">${selectedVaccine}:</span> 
-        <strong style="color: #2563eb; font-size: 14px;">${value !== null ? value.toFixed(1) + "%" : "N/A"}</strong>
+        <strong style="color: #2563eb; font-size: 14px;">${valueString}</strong>
        </div>`,
       { sticky: true, direction: "auto", opacity: 0.98 },
     );
@@ -164,7 +198,7 @@ export default function App() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-slate-50">
+      <div className="flex items-center justify-center min-h-screen w-screen bg-slate-50">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
           <p className="text-slate-700 font-medium">
@@ -175,12 +209,14 @@ export default function App() {
     );
   }
 
+  const isChangeActive = selectedSurvey?.toLowerCase().includes("change");
+
   return (
-    <div className="flex flex-col md:flex-row h-screen w-screen overflow-hidden bg-slate-50 font-sans text-slate-800">
-      {/* Sidebar Control Panel - Desktop left panel / Mobile top banner */}
-      <div className="w-full md:w-85 bg-white border-b md:border-b-0 md:border-r border-slate-200 flex flex-col justify-between shadow-md md:shadow-xl z-20 shrink-0 max-h-[45vh] md:max-h-full overflow-y-auto">
+    <div className="flex flex-col md:flex-row h-screen w-screen fixed top-0 left-0 overflow-hidden bg-slate-50 font-sans text-slate-800">
+      {/* Sidebar Control Panel */}
+      <div className="w-full md:w-96 bg-white border-b md:border-b-0 md:border-r border-slate-200 flex flex-col justify-between shadow-md md:shadow-xl z-20 shrink-0 max-h-[45vh] md:max-h-full overflow-y-auto">
         <div className="p-5 md:p-6">
-          {/* Header Title Section - Fixed High-Contrast Formatting */}
+          {/* Header Title Section */}
           <div className="flex items-center space-x-2 mb-4 md:mb-6">
             <ShieldCheck className="h-6 w-6 text-blue-600 shrink-0" />
             <h1
@@ -195,11 +231,11 @@ export default function App() {
             style={{ color: "#475569" }}
             className="hidden md:block text-xs font-semibold mb-6 leading-relaxed"
           >
-            Visualize national vaccination metrics derived from NFHS analytics
-            across individual states.
+            Visualize national vaccination metrics derived from demographic and
+            health survey analytics across individual states.
           </p>
 
-          {/* Form Filter Layout - Rows on desktop / Grid columns on tablets & mobile */}
+          {/* Form Filter Layout */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-4">
             {/* Vaccine Dropdown */}
             <div>
@@ -247,60 +283,105 @@ export default function App() {
           </div>
         </div>
 
-        {/* Legend Panel - Hidden on small phone screens to maximize space, scrollable on desktop */}
+        {/* Dynamic Context-Aware Legend Panel */}
         <div className="hidden sm:block p-5 bg-slate-50 border-t border-slate-200 overflow-y-auto">
           <h3
             style={{ color: "#334155" }}
             className="text-[11px] font-bold uppercase tracking-wider mb-3"
           >
-            Coverage Index
+            {isChangeActive ? "Percentage Point Shift" : "Coverage Index"}
           </h3>
-          <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#0f172a] shrink-0"></span>{" "}
-              &gt; 95%
+
+          {isChangeActive ? (
+            /* Diverging Change Legend Grid Layout - Policy Neutral Purple/Teal Scale */
+            <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#004d40] shrink-0"></span>{" "}
+                &gt; +15%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00796b] shrink-0"></span>{" "}
+                +11% to +15%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#009688] shrink-0"></span>{" "}
+                +6% to +10%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#4db6ac] shrink-0"></span>{" "}
+                +1% to +5%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#b4c2d0] border border-slate-200 shrink-0"></span>{" "}
+                Neutral (0%)
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#c2185b] shrink-0"></span>{" "}
+                -1% to -4%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ad1457] shrink-0"></span>{" "}
+                -5% to -9%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#880e4f] shrink-0"></span>{" "}
+                -10% to -15%
+              </div>
+              <div className="flex items-center col-span-2">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#5c0632] shrink-0"></span>{" "}
+                &le; -15%
+              </div>
             </div>
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1e3a8a] shrink-0"></span>{" "}
-              91% - 95%
+          ) : (
+            /* Original Absolute Legend Grid Layout */
+            <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#0f172a] shrink-0"></span>{" "}
+                &gt; 95%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1e3a8a] shrink-0"></span>{" "}
+                91% - 95%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1d4ed8] shrink-0"></span>{" "}
+                86% - 90%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#3b82f6] shrink-0"></span>{" "}
+                81% - 85%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#60a5fa] shrink-0"></span>{" "}
+                76% - 80%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#93c5fd] shrink-0"></span>{" "}
+                71% - 75%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#fed7aa] shrink-0"></span>{" "}
+                66% - 70%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f97316] shrink-0"></span>{" "}
+                61% - 65%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ea580c] shrink-0"></span>{" "}
+                51% - 60%
+              </div>
+              <div className="flex items-center">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#dc2626] shrink-0"></span>{" "}
+                41% - 50%
+              </div>
+              <div className="flex items-center col-span-2">
+                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#991b1b] shrink-0"></span>{" "}
+                &le; 40%
+              </div>
             </div>
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1d4ed8] shrink-0"></span>{" "}
-              86% - 90%
-            </div>
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#3b82f6] shrink-0"></span>{" "}
-              81% - 85%
-            </div>
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#60a5fa] shrink-0"></span>{" "}
-              76% - 80%
-            </div>
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#93c5fd] shrink-0"></span>{" "}
-              71% - 75%
-            </div>
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#fed7aa] shrink-0"></span>{" "}
-              66% - 70%
-            </div>
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f97316] shrink-0"></span>{" "}
-              61% - 65%
-            </div>
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ea580c] shrink-0"></span>{" "}
-              51% - 60%
-            </div>
-            <div className="flex items-center">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#dc2626] shrink-0"></span>{" "}
-              41% - 50%
-            </div>
-            <div className="flex items-center col-span-2">
-              <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#991b1b] shrink-0"></span>{" "}
-              &le; 40%
-            </div>
-          </div>
+          )}
+
           <div className="hidden md:flex items-start space-x-2 text-slate-500 text-[10px] leading-snug">
             <Info className="h-3.5 w-3.5 flex-shrink-0 text-slate-500 mt-0.5" />
             <span>
@@ -311,7 +392,7 @@ export default function App() {
         </div>
       </div>
 
-      {/* Main Map Canvas Area - Dynamically fills remaining screen layout space */}
+      {/* Main Map Canvas Area */}
       <div className="flex-1 h-full w-full relative bg-slate-100 z-10">
         <MapContainer
           center={[22.9734, 78.6569]}
