@@ -192,12 +192,13 @@ export default function App() {
             </h1>
           </div>
 
+          {/* Updated Context Description Line */}
           <p
             style={{ color: "#475569" }}
             className="hidden md:block text-xs font-semibold mb-6 leading-relaxed"
           >
-            Visualize national vaccination metrics derived from demographic and
-            health survey analytics across individual states.
+            Visualize national vaccination metrics derived from NFHS analytics
+            across individual states.
           </p>
 
           {/* Form Filter Layout */}
@@ -248,108 +249,122 @@ export default function App() {
           </div>
         </div>
 
-        {/* Desktop Sidebar Legend (Hidden on Mobile) */}
-        <div className="hidden md:block p-5 bg-slate-50 border-t border-slate-200">
-          <h3
-            style={{ color: "#334155" }}
-            className="text-[11px] font-bold uppercase tracking-wider mb-3"
-          >
-            {isChangeActive ? "Percentage Point Shift" : "Coverage Index"}
-          </h3>
+        {/* Dynamic Legend Panel & Attribution Footer */}
+        <div className="p-4 md:p-5 bg-slate-50 border-t border-slate-200">
+          {/* Desktop Sidebar Legend Area */}
+          <div className="hidden md:block">
+            <h3
+              style={{ color: "#334155" }}
+              className="text-[11px] font-bold uppercase tracking-wider mb-3"
+            >
+              {isChangeActive ? "Percentage Point Shift" : "Coverage Index"}
+            </h3>
 
-          {isChangeActive ? (
-            <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#004d40]"></span>{" "}
-                &gt; +15%
+            {isChangeActive ? (
+              <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#004d40]"></span>{" "}
+                  &gt; +15%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00796b]"></span>{" "}
+                  +11% to +15%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#009688]"></span>{" "}
+                  +6% to +10%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#4db6ac]"></span>{" "}
+                  +1% to +5%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#b4c2d0] border border-slate-200"></span>{" "}
+                  Neutral (0%)
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#c2185b]"></span>{" "}
+                  -1% to -4%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ad1457]"></span>{" "}
+                  -5% to -9%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#880e4f]"></span>{" "}
+                  -10% to -15%
+                </div>
+                <div className="flex items-center col-span-2">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#5c0632]"></span>{" "}
+                  &le; -15%
+                </div>
               </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00796b]"></span>{" "}
-                +11% to +15%
+            ) : (
+              <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#0f172a]"></span>{" "}
+                  &gt; 95%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1e3a8a]"></span>{" "}
+                  91% - 95%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1d4ed8]"></span>{" "}
+                  86% - 90%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#3b82f6]"></span>{" "}
+                  81% - 85%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#60a5fa]"></span>{" "}
+                  76% - 80%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#93c5fd]"></span>{" "}
+                  71% - 75%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#fed7aa]"></span>{" "}
+                  66% - 70%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f97316]"></span>{" "}
+                  61% - 65%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ea580c]"></span>{" "}
+                  51% - 60%
+                </div>
+                <div className="flex items-center">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#dc2626]"></span>{" "}
+                  41% - 50%
+                </div>
+                <div className="flex items-center col-span-2">
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#991b1b]"></span>{" "}
+                  &le; 40%
+                </div>
               </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#009688]"></span>{" "}
-                +6% to +10%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#4db6ac]"></span>{" "}
-                +1% to +5%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#b4c2d0] border border-slate-200"></span>{" "}
-                Neutral (0%)
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#c2185b]"></span>{" "}
-                -1% to -4%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ad1457]"></span>{" "}
-                -5% to -9%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#880e4f]"></span>{" "}
-                -10% to -15%
-              </div>
-              <div className="flex items-center col-span-2">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#5c0632]"></span>{" "}
-                &le; -15%
-              </div>
-            </div>
-          ) : (
-            <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#0f172a]"></span>{" "}
-                &gt; 95%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1e3a8a]"></span>{" "}
-                91% - 95%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1d4ed8]"></span>{" "}
-                86% - 90%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#3b82f6]"></span>{" "}
-                81% - 85%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#60a5fa]"></span>{" "}
-                76% - 80%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#93c5fd]"></span>{" "}
-                71% - 75%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#fed7aa]"></span>{" "}
-                66% - 70%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f97316]"></span>{" "}
-                61% - 65%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ea580c]"></span>{" "}
-                51% - 60%
-              </div>
-              <div className="flex items-center">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#dc2626]"></span>{" "}
-                41% - 50%
-              </div>
-              <div className="flex items-center col-span-2">
-                <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#991b1b]"></span>{" "}
-                &le; 40%
-              </div>
-            </div>
-          )}
+            )}
 
-          <div className="flex items-start space-x-2 text-slate-500 text-[10px] leading-snug">
-            <Info className="h-3.5 w-3.5 flex-shrink-0 text-slate-500 mt-0.5" />
-            <span>
-              Hover cursor or tap an individual state boundary to display
-              precise coverage percentages instantly.
+            <div className="flex items-start space-x-2 text-slate-500 text-[10px] leading-snug mb-4">
+              <Info className="h-3.5 w-3.5 flex-shrink-0 text-slate-500 mt-0.5" />
+              <span>
+                Hover cursor or tap an individual state boundary to display
+                precise coverage percentages instantly.
+              </span>
+            </div>
+          </div>
+
+          {/* Clean Dashboard Personal Credit Footer Section */}
+          <div className="flex items-center justify-between pt-1 text-[10px] text-slate-400 font-mono border-t border-slate-200/60 md:border-t-0">
+            <span>v1.2.0</span>
+            <span className="tracking-wide">
+              Dashboard :{" "}
+              <strong className="text-slate-500 font-semibold font-sans">
+                Deepak Varughese
+              </strong>
             </span>
           </div>
         </div>
@@ -387,7 +402,7 @@ export default function App() {
           <ScaleControl position="bottomright" />
         </MapContainer>
 
-        {/* Mobile Horizontal Colorbar Legend - Explicit Key Implemented */}
+        {/* Mobile Horizontal Colorbar Legend Container */}
         <div
           key={selectedSurvey}
           className="absolute bottom-4 left-4 right-4 md:hidden bg-white/95 backdrop-blur-sm p-3 rounded-xl shadow-lg border border-slate-200 z-[1000]"
@@ -406,7 +421,6 @@ export default function App() {
             </span>
           </div>
 
-          {/* Compressed gradient visual track */}
           {isChangeActive ? (
             <div className="w-full flex h-2 rounded-full overflow-hidden">
               <div className="flex-1 bg-[#5c0632]"></div>
