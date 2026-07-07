@@ -38,7 +38,6 @@ export default function App() {
   // State for selectors
   const [selectedVaccine, setSelectedVaccine] = useState("BCG");
   const [selectedSurvey, setSelectedSurvey] = useState("NFHS 5");
-  const [hoveredState, setHoveredState] = useState(null);
 
   // Lists for UI dropdowns
   const [vaccines, setVaccines] = useState([]);
@@ -87,36 +86,31 @@ export default function App() {
     loadAssets();
   }, []);
 
-  // Helper to find specific immunization data point
+  // Standardized exact data lookup routine
   const getDataValue = (stateName) => {
     const match = csvData.find(
-      (row) =>
-        row.state?.toLowerCase().trim() === stateName?.toLowerCase().trim(),
-    );
-
-    // Find row matching specific filters
-    const filteredMatch = csvData.find(
       (row) =>
         row.state?.toLowerCase().trim() === stateName?.toLowerCase().trim() &&
         row.vaccine === selectedVaccine &&
         row.survey === selectedSurvey,
     );
+    return match ? match.value : null;
+  };
 
-    // Return both the value and the clean display name from your CSV
-    return {
-      value: filteredMatch ? filteredMatch.value : null,
-      displayName: match ? match.state : stateName,
-    };
+  // Extract proper name string across multiple shapefile variants
+  const getStateDisplayName = (feature) => {
+    return (
+      feature.properties.s_name ||
+      feature.properties.state ||
+      feature.properties.STATE ||
+      feature.properties.ST_NM
+    );
   };
 
   // GeoJSON layer styling logic
   const featureStyle = (feature) => {
-    const stateName =
-      feature.properties.s_name ||
-      feature.properties.state ||
-      feature.properties.STATE ||
-      feature.properties.ST_NM;
-    const { value } = getDataValue(stateName);
+    const stateName = getStateDisplayName(feature);
+    const value = getDataValue(stateName);
     return {
       fillColor: getViridisColor(value),
       weight: 1,
@@ -128,32 +122,52 @@ export default function App() {
 
   // Interactions per state layer
   const onEachFeature = (feature, layer) => {
-    const stateName =
-      feature.properties.s_name ||
-      feature.properties.state ||
-      feature.properties.STATE ||
-      feature.properties.ST_NM;
+    const stateName = getStateDisplayName(feature);
+    const value = getDataValue(stateName);
+
+    // Bind native interactive tooltips structurally within Leaflet's vector panes
+    layer.bindTooltip(
+      `<div style="font-family: sans-serif; padding: 4px; line-height: 1.4;">
+        <strong style="font-size: 14px; color: #0f172a; display: block; margin-bottom: 2px;">${stateName}</strong>
+        <span style="color: #475569; font-size: 12px;">${selectedVaccine}:</span> 
+        <strong style="color: #2563eb; font-size: 14px;">${value !== null ? value.toFixed(1) + "%" : "N/A"}</strong>
+       </div>`,
+      { sticky: true, direction: "auto", opacity: 0.98 },
+    );
 
     layer.on({
       mouseover: (e) => {
-        const { value, displayName } = getDataValue(stateName);
-        // Pass down the matching data payload to populate the display card overlay
-        setHoveredState({ name: displayName, value });
-        e.target.setStyle({ fillOpacity: 0.95, weight: 2, color: "#64748b" });
+        const targetLayer = e.target;
+        targetLayer.setStyle({
+          fillOpacity: 0.95,
+          weight: 2.5,
+          color: "#2563eb",
+        });
+
+        if (
+          !window.L?.Browser.ie &&
+          !window.L?.Browser.opera &&
+          !window.L?.Browser.edge
+        ) {
+          targetLayer.bringToFront();
+        }
       },
       mouseout: (e) => {
-        setHoveredState(null);
-        e.target.setStyle({ fillOpacity: 0.85, weight: 1, color: "#ffffff" });
+        e.target.setStyle({
+          fillOpacity: 0.85,
+          weight: 1,
+          color: "#ffffff",
+        });
       },
     });
   };
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-screen bg-slate-50">
+      <div className="flex items-center justify-center min-h-screen bg-slate-50">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
-          <p className="text-slate-600 font-medium">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-slate-700 font-medium">
             Loading Interactive Dashboard Map...
           </p>
         </div>
@@ -162,33 +176,44 @@ export default function App() {
   }
 
   return (
-    <div className="flex h-screen w-screen overflow-hidden bg-slate-100 font-sans text-slate-800">
-      {/* Interactive Sidebar Panel */}
-      <div className="w-80 bg-white border-r border-slate-200 flex flex-col justify-between shadow-xl z-10">
-        <div className="p-6 overflow-y-auto">
-          <div className="flex items-center space-x-2 mb-6">
-            <ShieldCheck className="h-6 w-6 text-indigo-600" />
-            <h1 className="text-xl font-bold tracking-tight text-slate-900">
+    <div className="flex flex-col md:flex-row h-screen w-screen overflow-hidden bg-slate-50 font-sans text-slate-800">
+      {/* Sidebar Control Panel - Desktop left panel / Mobile top banner */}
+      <div className="w-full md:w-85 bg-white border-b md:border-b-0 md:border-r border-slate-200 flex flex-col justify-between shadow-md md:shadow-xl z-20 shrink-0 max-h-[45vh] md:max-h-full overflow-y-auto">
+        <div className="p-5 md:p-6">
+          {/* Header Title Section - Fixed High-Contrast Formatting */}
+          <div className="flex items-center space-x-2 mb-4 md:mb-6">
+            <ShieldCheck className="h-6 w-6 text-blue-600 shrink-0" />
+            <h1
+              style={{ color: "#0f172a" }}
+              className="text-xl md:text-2xl font-black tracking-tight"
+            >
               India Immunization
             </h1>
           </div>
 
-          <p className="text-xs text-slate-500 mb-6 leading-relaxed">
-            Visualize national vaccination metrics derived from demographic and
-            health survey analytics across individual states.
+          <p
+            style={{ color: "#475569" }}
+            className="hidden md:block text-xs font-semibold mb-6 leading-relaxed"
+          >
+            Visualize national vaccination metrics derived from NFHS analytics
+            across individual states.
           </p>
 
-          <div className="space-y-5">
+          {/* Form Filter Layout - Rows on desktop / Grid columns on tablets & mobile */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-4">
             {/* Vaccine Dropdown */}
             <div>
-              <label className="flex items-center text-xs font-semibold text-slate-600 uppercase tracking-wider mb-2">
-                <Layers className="h-3.5 w-3.5 mr-1.5 text-slate-400" /> Select
+              <label
+                style={{ color: "#334155" }}
+                className="flex items-center text-[11px] font-bold uppercase tracking-wider mb-1.5"
+              >
+                <Layers className="h-3.5 w-3.5 mr-1.5 text-slate-500" /> Select
                 Metric / Vaccine
               </label>
               <select
                 value={selectedVaccine}
                 onChange={(e) => setSelectedVaccine(e.target.value)}
-                className="w-full rounded-lg border border-slate-200 bg-slate-50 p-2.5 text-sm font-medium focus:border-indigo-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-100 transition-all"
+                className="w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm font-semibold text-slate-900 focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-100 transition-all cursor-pointer"
               >
                 {vaccines.map((v) => (
                   <option key={v} value={v}>
@@ -200,14 +225,17 @@ export default function App() {
 
             {/* Survey Dataset Dropdown */}
             <div>
-              <label className="flex items-center text-xs font-semibold text-slate-600 uppercase tracking-wider mb-2">
-                <Calendar className="h-3.5 w-3.5 mr-1.5 text-slate-400" />{" "}
+              <label
+                style={{ color: "#334155" }}
+                className="flex items-center text-[11px] font-bold uppercase tracking-wider mb-1.5"
+              >
+                <Calendar className="h-3.5 w-3.5 mr-1.5 text-slate-500" />{" "}
                 Survey Reference Timeframe
               </label>
               <select
                 value={selectedSurvey}
                 onChange={(e) => setSelectedSurvey(e.target.value)}
-                className="w-full rounded-lg border border-slate-200 bg-slate-50 p-2.5 text-sm font-medium focus:border-indigo-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-100 transition-all"
+                className="w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm font-semibold text-slate-900 focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-100 transition-all cursor-pointer"
               >
                 {surveys.map((s) => (
                   <option key={s} value={s}>
@@ -219,12 +247,15 @@ export default function App() {
           </div>
         </div>
 
-        {/* Dynamic 10-Tier Map Legend Context Block */}
-        <div className="p-5 bg-slate-50 border-t border-slate-100 overflow-y-auto max-h-[40vh]">
-          <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2.5">
+        {/* Legend Panel - Hidden on small phone screens to maximize space, scrollable on desktop */}
+        <div className="hidden sm:block p-5 bg-slate-50 border-t border-slate-200 overflow-y-auto">
+          <h3
+            style={{ color: "#334155" }}
+            className="text-[11px] font-bold uppercase tracking-wider mb-3"
+          >
             Coverage Index
           </h3>
-          <div className="grid grid-cols-2 gap-y-1.5 gap-x-2 text-[11px] font-semibold text-slate-700 mb-4">
+          <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
             <div className="flex items-center">
               <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#0f172a] shrink-0"></span>{" "}
               &gt; 95%
@@ -270,41 +301,18 @@ export default function App() {
               &le; 40%
             </div>
           </div>
-          <div className="flex items-start space-x-2 text-slate-400 text-[10px] leading-snug">
-            <Info className="h-3.5 w-3.5 flex-shrink-0 text-slate-400 mt-0.5" />
+          <div className="hidden md:flex items-start space-x-2 text-slate-500 text-[10px] leading-snug">
+            <Info className="h-3.5 w-3.5 flex-shrink-0 text-slate-500 mt-0.5" />
             <span>
-              Hover cursor directly over an individual state boundary to display
+              Hover cursor or tap an individual state boundary to display
               precise coverage percentages instantly.
             </span>
           </div>
         </div>
       </div>
 
-      {/* Main Map Canvas Area */}
-      <div className="flex-1 relative bg-slate-50">
-        {/* Original Dynamic Hover Tooltip Overlay */}
-        {hoveredState && (
-          <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md shadow-xl border border-slate-200/60 rounded-xl p-4 z-[1000] min-w-[200px] pointer-events-none animate-in fade-in zoom-in-95 duration-150">
-            <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">
-              Region Context
-            </p>
-            <p className="text-lg font-bold text-slate-900 mt-0.5">
-              {hoveredState.name}
-            </p>
-            <div className="mt-2 pt-2 border-t border-slate-100 flex justify-between items-baseline">
-              <span className="text-sm font-medium text-slate-500">
-                {selectedVaccine}:
-              </span>
-              <span className="text-xl font-black text-indigo-600">
-                {hoveredState.value !== null
-                  ? `${Number(hoveredState.value).toFixed(1)}%`
-                  : "N/A"}
-              </span>
-            </div>
-          </div>
-        )}
-
-        {/* Leaflet Frame Container with Constraints */}
+      {/* Main Map Canvas Area - Dynamically fills remaining screen layout space */}
+      <div className="flex-1 h-full w-full relative bg-slate-100 z-10">
         <MapContainer
           center={[22.9734, 78.6569]}
           zoom={5}
@@ -327,6 +335,10 @@ export default function App() {
             data={geoData}
             style={featureStyle}
             onEachFeature={onEachFeature}
+            filter={(feature) => {
+              const type = feature.geometry?.type;
+              return type === "Polygon" || type === "MultiPolygon";
+            }}
           />
           <ScaleControl position="bottomright" />
         </MapContainer>
