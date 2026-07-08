@@ -8,6 +8,8 @@ import "leaflet/dist/leaflet.css";
 const getFeatureColor = (value, isChangeMetric) => {
   if (value === undefined || value === null) return "#e2e8f0";
 
+  // Mode A: Diverging Scale specifically for the "Change" calculation metric
+  // Completely neutral palette (Plum/Red to Slate Gray to Deep Teal) to avoid polarizing colors
   if (isChangeMetric) {
     return value > 15
       ? "#004d40"
@@ -28,27 +30,28 @@ const getFeatureColor = (value, isChangeMetric) => {
                     : "#5c0632";
   }
 
+  // Mode B: Polished Reuters/FT Style Sequential Tiering for Absolute Coverage Index
   return value > 95
-    ? "#0f172a"
+    ? "#004d40" // Full Coverage (Midnight Teal)
     : value > 90
-      ? "#1e3a8a"
+      ? "#00695c" // Excellent (Deep Teal)
       : value > 85
-        ? "#1d4ed8"
+        ? "#00897b" // High (Dark Cyan/Teal)
         : value > 80
-          ? "#3b82f6"
+          ? "#26a69a" // Strong (Medium Teal)
           : value > 75
-            ? "#60a5fa"
+            ? "#4db6ac" // Good (Soft Teal)
             : value > 70
-              ? "#93c5fd"
+              ? "#80cbc4" // Moderate (Pale Teal)
               : value > 65
-                ? "#fed7aa"
+                ? "#b2dfdb" // Fair (Ice Blue/Teal)
                 : value > 60
-                  ? "#f97316"
+                  ? "#e0f2f1" // Transition Zone (Very Light Teal/Gray)
                   : value > 50
-                    ? "#ea580c"
+                    ? "#f5ebe0" // Low (Muted Sand)
                     : value > 40
-                      ? "#dc2626"
-                      : "#991b1b";
+                      ? "#f0d6c2" // Very Low (Soft Coral/Clay)
+                      : "#e6b8a2"; // Critical Under-coverage (Muted Earthy Rose)
 };
 
 export default function App() {
@@ -192,7 +195,7 @@ export default function App() {
             </h1>
           </div>
 
-          {/* Updated Context Description Line */}
+          {/* Updated Summary Subtitle Text Line */}
           <p
             style={{ color: "#475569" }}
             className="hidden md:block text-xs font-semibold mb-6 leading-relaxed"
@@ -302,47 +305,47 @@ export default function App() {
             ) : (
               <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#0f172a]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#004d40]"></span>{" "}
                   &gt; 95%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1e3a8a]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00695c]"></span>{" "}
                   91% - 95%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#1d4ed8]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00897b]"></span>{" "}
                   86% - 90%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#3b82f6]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#26a69a]"></span>{" "}
                   81% - 85%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#60a5fa]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#4db6ac]"></span>{" "}
                   76% - 80%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#93c5fd]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#80cbc4]"></span>{" "}
                   71% - 75%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#fed7aa]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#b2dfdb]"></span>{" "}
                   66% - 70%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f97316]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#e0f2f1]"></span>{" "}
                   61% - 65%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ea580c]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f5ebe0]"></span>{" "}
                   51% - 60%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#dc2626]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f0d6c2]"></span>{" "}
                   41% - 50%
                 </div>
                 <div className="flex items-center col-span-2">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#991b1b]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#e6b8a2]"></span>{" "}
                   &le; 40%
                 </div>
               </div>
@@ -402,7 +405,7 @@ export default function App() {
           <ScaleControl position="bottomright" />
         </MapContainer>
 
-        {/* Mobile Horizontal Colorbar Legend Container */}
+        {/* Mobile Horizontal Colorbar Legend Container - Explicit Key Implemented */}
         <div
           key={selectedSurvey}
           className="absolute bottom-4 left-4 right-4 md:hidden bg-white/95 backdrop-blur-sm p-3 rounded-xl shadow-lg border border-slate-200 z-[1000]"
@@ -417,10 +420,11 @@ export default function App() {
             <span className="text-[9px] font-medium text-slate-500">
               {isChangeActive
                 ? "Plum (Decline) → Teal (Growth)"
-                : "Red (Low) → Slate Blue (High)"}
+                : "Sand (Low) → Deep Teal (High)"}
             </span>
           </div>
 
+          {/* Compressed gradient visual tracking segment array */}
           {isChangeActive ? (
             <div className="w-full flex h-2 rounded-full overflow-hidden">
               <div className="flex-1 bg-[#5c0632]"></div>
@@ -435,17 +439,17 @@ export default function App() {
             </div>
           ) : (
             <div className="w-full flex h-2 rounded-full overflow-hidden">
-              <div className="flex-1 bg-[#991b1b]"></div>
-              <div className="flex-1 bg-[#dc2626]"></div>
-              <div className="flex-1 bg-[#ea580c]"></div>
-              <div className="flex-1 bg-[#f97316]"></div>
-              <div className="flex-1 bg-[#fed7aa]"></div>
-              <div className="flex-1 bg-[#93c5fd]"></div>
-              <div className="flex-1 bg-[#60a5fa]"></div>
-              <div className="flex-1 bg-[#3b82f6]"></div>
-              <div className="flex-1 bg-[#1d4ed8]"></div>
-              <div className="flex-1 bg-[#1e3a8a]"></div>
-              <div className="flex-1 bg-[#0f172a]"></div>
+              <div className="flex-1 bg-[#e6b8a2]"></div>
+              <div className="flex-1 bg-[#f0d6c2]"></div>
+              <div className="flex-1 bg-[#f5ebe0]"></div>
+              <div className="flex-1 bg-[#e0f2f1]"></div>
+              <div className="flex-1 bg-[#b2dfdb]"></div>
+              <div className="flex-1 bg-[#80cbc4]"></div>
+              <div className="flex-1 bg-[#4db6ac]"></div>
+              <div className="flex-1 bg-[#26a69a]"></div>
+              <div className="flex-1 bg-[#00897b]"></div>
+              <div className="flex-1 bg-[#00695c]"></div>
+              <div className="flex-1 bg-[#004d40]"></div>
             </div>
           )}
 
