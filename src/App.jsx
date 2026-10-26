@@ -8,8 +8,7 @@ import "leaflet/dist/leaflet.css";
 const getFeatureColor = (value, isChangeMetric) => {
   if (value === undefined || value === null) return "#e2e8f0";
 
-  // Mode A: Diverging Scale specifically for the "Change" calculation metric
-  // Completely neutral palette (Plum/Red to Slate Gray to Deep Teal) to avoid polarizing colors
+  // Mode A: Diverging Scale specifically for any "Change" calculation metric
   if (isChangeMetric) {
     return value > 15
       ? "#004d40"
@@ -85,11 +84,29 @@ export default function App() {
                 .filter(Boolean)
                 .sort(),
             );
-            setSurveys(
-              [...new Set(results.data.map((d) => d.survey))]
-                .filter(Boolean)
-                .sort(),
+
+            const extractedSurveys = [
+              ...new Set(results.data.map((d) => d.survey)),
+            ].filter(Boolean);
+            const customOrder = {
+              "NFHS 4": 1,
+              "NFHS 5": 2,
+              Change: 3,
+              "NFHS 6": 4,
+              "Change 2": 5,
+            };
+            extractedSurveys.sort(
+              (a, b) => (customOrder[a] || 99) - (customOrder[b] || 99),
             );
+
+            setSurveys(extractedSurveys);
+
+            if (extractedSurveys.includes("NFHS 6")) {
+              setSelectedSurvey("NFHS 6");
+            } else if (extractedSurveys.includes("NFHS 5")) {
+              setSelectedSurvey("NFHS 5");
+            }
+
             setLoading(false);
           },
         });
@@ -195,7 +212,7 @@ export default function App() {
             </h1>
           </div>
 
-          {/* Updated Summary Subtitle Text Line */}
+          {/* Subtitle Text Line */}
           <p
             style={{ color: "#475569" }}
             className="hidden md:block text-xs font-semibold mb-6 leading-relaxed"
@@ -212,7 +229,7 @@ export default function App() {
                 style={{ color: "#334155" }}
                 className="flex items-center text-[10px] md:text-[11px] font-bold uppercase tracking-wider mb-1"
               >
-                <Layers className="h-3 w-3 mr-1 text-slate-500 hidden sm:inline" />{" "}
+                <Layers className="h-3 w-3 mr-1 text-slate-500 hidden sm:inline" />
                 Metric / Vaccine
               </label>
               <select
@@ -234,7 +251,7 @@ export default function App() {
                 style={{ color: "#334155" }}
                 className="flex items-center text-[10px] md:text-[11px] font-bold uppercase tracking-wider mb-1"
               >
-                <Calendar className="h-3 w-3 mr-1 text-slate-500 hidden sm:inline" />{" "}
+                <Calendar className="h-3 w-3 mr-1 text-slate-500 hidden sm:inline" />
                 Reference Timeframe
               </label>
               <select
@@ -266,86 +283,86 @@ export default function App() {
             {isChangeActive ? (
               <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#004d40]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#004d40]"></span>
                   &gt; +15%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00796b]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00796b]"></span>
                   +11% to +15%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#009688]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#009688]"></span>
                   +6% to +10%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#4db6ac]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#4db6ac]"></span>
                   +1% to +5%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#b4c2d0] border border-slate-200"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#b4c2d0] border border-slate-200"></span>
                   Neutral (0%)
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#c2185b]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#c2185b]"></span>
                   -1% to -4%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ad1457]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#ad1457]"></span>
                   -5% to -9%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#880e4f]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#880e4f]"></span>
                   -10% to -15%
                 </div>
                 <div className="flex items-center col-span-2">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#5c0632]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#5c0632]"></span>
                   &le; -15%
                 </div>
               </div>
             ) : (
               <div className="grid grid-cols-2 gap-y-2 gap-x-3 text-[11px] font-bold text-slate-800 mb-4">
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#004d40]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#004d40]"></span>
                   &gt; 95%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00695c]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00695c]"></span>
                   91% - 95%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00897b]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#00897b]"></span>
                   86% - 90%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#26a69a]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#26a69a]"></span>
                   81% - 85%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#4db6ac]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#4db6ac]"></span>
                   76% - 80%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#80cbc4]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#80cbc4]"></span>
                   71% - 75%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#b2dfdb]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#b2dfdb]"></span>
                   66% - 70%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#e0f2f1]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#e0f2f1]"></span>
                   61% - 65%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f5ebe0]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f5ebe0]"></span>
                   51% - 60%
                 </div>
                 <div className="flex items-center">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f0d6c2]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#f0d6c2]"></span>
                   41% - 50%
                 </div>
                 <div className="flex items-center col-span-2">
-                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#e6b8a2]"></span>{" "}
+                  <span className="w-3 h-3 rounded-sm mr-1.5 bg-[#e6b8a2]"></span>
                   &le; 40%
                 </div>
               </div>
@@ -362,7 +379,7 @@ export default function App() {
 
           {/* Clean Dashboard Personal Credit Footer Section */}
           <div className="flex items-center justify-between pt-1 text-[10px] text-slate-400 font-mono border-t border-slate-200/60 md:border-t-0">
-            <span>v1.2.0</span>
+            <span>v1.3.0</span>
             <span className="tracking-wide">
               Dashboard :{" "}
               <strong className="text-slate-500 font-semibold font-sans">
@@ -388,24 +405,26 @@ export default function App() {
           className="w-full h-full"
         >
           <TileLayer
-            attribution='&copy; <a href="https://carto.com/attributions">CARTO</a>'
-            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+            attribution='&copy; <a href="https://www.esri.com/">Esri</a> &mdash; Esri, DeLorme, NAVTEQ'
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
           />
 
-          <GeoJSON
-            key={`${selectedVaccine}-${selectedSurvey}`}
-            data={geoData}
-            style={featureStyle}
-            onEachFeature={onEachFeature}
-            filter={(feature) => {
-              const type = feature.geometry?.type;
-              return type === "Polygon" || type === "MultiPolygon";
-            }}
-          />
+          {geoData && (
+            <GeoJSON
+              key={`${selectedVaccine}-${selectedSurvey}`}
+              data={geoData}
+              style={featureStyle}
+              onEachFeature={onEachFeature}
+              filter={(feature) => {
+                const type = feature.geometry?.type;
+                return type === "Polygon" || type === "MultiPolygon";
+              }}
+            />
+          )}
           <ScaleControl position="bottomright" />
         </MapContainer>
 
-        {/* Mobile Horizontal Colorbar Legend Container - Explicit Key Implemented */}
+        {/* Mobile Horizontal Colorbar Legend Container */}
         <div
           key={selectedSurvey}
           className="absolute bottom-4 left-4 right-4 md:hidden bg-white/95 backdrop-blur-sm p-3 rounded-xl shadow-lg border border-slate-200 z-[1000]"

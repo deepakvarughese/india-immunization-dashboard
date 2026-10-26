@@ -2,1887 +2,3700 @@ state,vaccine,survey,value
 India,BCG,NFHS 4,91.9
 India,BCG,NFHS 5,95.2
 India,BCG,Change,3.3
+India,BCG,NFHS 6,95.0
+India,BCG,Change 2,-0.2
 India,Hepatitis B 0 Dose,NFHS 4,65.6
 India,Hepatitis B 0 Dose,NFHS 5,67.4
 India,Hepatitis B 0 Dose,Change,1.8
+India,Hepatitis B 0 Dose,NFHS 6,77.6
+India,Hepatitis B 0 Dose,Change 2,10.2
 India,Hepatitis B 1st Dose,NFHS 4,82.5
 India,Hepatitis B 1st Dose,NFHS 5,91.5
-India,Hepatitis B 1st Dose,Change,9
+India,Hepatitis B 1st Dose,Change,9.0
+India,Hepatitis B 1st Dose,NFHS 6,
+India,Hepatitis B 1st Dose,Change 2,
 India,Hepatitis B 2nd Dose,NFHS 4,77.1
 India,Hepatitis B 2nd Dose,NFHS 5,88.6
 India,Hepatitis B 2nd Dose,Change,11.5
+India,Hepatitis B 2nd Dose,NFHS 6,
+India,Hepatitis B 2nd Dose,Change 2,
 India,Hepatitis B 3rd Dose,NFHS 4,62.8
 India,Hepatitis B 3rd Dose,NFHS 5,83.9
 India,Hepatitis B 3rd Dose,Change,21.1
+India,Hepatitis B 3rd Dose,NFHS 6,
+India,Hepatitis B 3rd Dose,Change 2,
 India,Pentavalent and DPT 1,NFHS 4,89.5
 India,Pentavalent and DPT 1,NFHS 5,93.6
 India,Pentavalent and DPT 1,Change,4.1
+India,Pentavalent and DPT 1,NFHS 6,
+India,Pentavalent and DPT 1,Change 2,
 India,Pentavalent and DPT 2,NFHS 4,85.7
 India,Pentavalent and DPT 2,NFHS 5,91.4
 India,Pentavalent and DPT 2,Change,5.7
+India,Pentavalent and DPT 2,NFHS 6,
+India,Pentavalent and DPT 2,Change 2,
 India,Pentavalent and DPT 3,NFHS 4,78.4
-India,Pentavalent and DPT 3,NFHS 5,86.7
-India,Pentavalent and DPT 3,Change,8.3
+India,Pentavalent and DPT 3,NFHS 5,87
+India,Pentavalent and DPT 3,Change,8.6
+India,Pentavalent and DPT 3,NFHS 6,89.2
+India,Pentavalent and DPT 3,Change 2,2.2
 India,Polio 0,NFHS 4,79.1
 India,Polio 0,NFHS 5,85.5
 India,Polio 0,Change,6.4
+India,Polio 0,NFHS 6,
+India,Polio 0,Change 2,
 India,Polio 1,NFHS 4,90.8
 India,Polio 1,NFHS 5,92.4
 India,Polio 1,Change,1.6
-India,Polio 2,NFHS 4,86
+India,Polio 1,NFHS 6,
+India,Polio 1,Change 2,
+India,Polio 2,NFHS 4,86.0
 India,Polio 2,NFHS 5,88.5
 India,Polio 2,Change,2.5
+India,Polio 2,NFHS 6,
+India,Polio 2,Change 2,
 India,Polio 3,NFHS 4,72.8
 India,Polio 3,NFHS 5,80.5
 India,Polio 3,Change,7.7
+India,Polio 3,NFHS 6,85.0
+India,Polio 3,Change 2,4.5
 India,MCV Measles and MMR,NFHS 4,81.1
 India,MCV Measles and MMR,NFHS 5,87.9
 India,MCV Measles and MMR,Change,6.8
-India,Fully Vaccinated,NFHS 4,62
+India,MCV Measles and MMR,NFHS 6,91.7
+India,MCV Measles and MMR,Change 2,3.8
+India,Fully Vaccinated,NFHS 4,62.0
 India,Fully Vaccinated,NFHS 5,76.6
 India,Fully Vaccinated,Change,14.6
+India,Fully Vaccinated,NFHS 6,82.6
+India,Fully Vaccinated,Change 2,6.0
 India,All Age Appropriate Vaccines,NFHS 4,42.9
-India,All Age Appropriate Vaccines,NFHS 5,56
+India,All Age Appropriate Vaccines,NFHS 5,56.0
 India,All Age Appropriate Vaccines,Change,13.1
-India,No Vaccination,NFHS 4,6
+India,All Age Appropriate Vaccines,NFHS 6,
+India,All Age Appropriate Vaccines,Change 2,
+India,No Vaccination,NFHS 4,6.0
 India,No Vaccination,NFHS 5,3.6
 India,No Vaccination,Change,-2.4
+India,No Vaccination,NFHS 6,3.6
+India,No Vaccination,Change 2,0.0
 India,Vaccination Card Seen,NFHS 4,63.2
 India,Vaccination Card Seen,NFHS 5,85.8
 India,Vaccination Card Seen,Change,22.6
+India,Vaccination Card Seen,NFHS 6,
+India,Vaccination Card Seen,Change 2,
+India,Fully Vaccinated Card Only,NFHS 4,
+India,Fully Vaccinated Card Only,NFHS 5,83.8
+India,Fully Vaccinated Card Only,Change,
+India,Fully Vaccinated Card Only,NFHS 6,87.1
+India,Fully Vaccinated Card Only,Change 2,3.3
+India,MCV 2nd Dose,NFHS 4,
+India,MCV 2nd Dose,NFHS 5,58.6
+India,MCV 2nd Dose,Change,
+India,MCV 2nd Dose,NFHS 6,71.8
+India,MCV 2nd Dose,Change 2,13.2
+India,Rotavirus 3 Doses,NFHS 4,
+India,Rotavirus 3 Doses,NFHS 5,36.4
+India,Rotavirus 3 Doses,Change,
+India,Rotavirus 3 Doses,NFHS 6,85.4
+India,Rotavirus 3 Doses,Change 2,49.0
 Chandigarh,BCG,NFHS 4,95.9
 Chandigarh,BCG,NFHS 5,96.8
 Chandigarh,BCG,Change,0.9
+Chandigarh,BCG,NFHS 6,100.0
+Chandigarh,BCG,Change 2,3.2
 Chandigarh,Hepatitis B 0 Dose,NFHS 4,89.4
 Chandigarh,Hepatitis B 0 Dose,NFHS 5,87.3
 Chandigarh,Hepatitis B 0 Dose,Change,-2.1
+Chandigarh,Hepatitis B 0 Dose,NFHS 6,99.0
+Chandigarh,Hepatitis B 0 Dose,Change 2,11.7
 Chandigarh,Hepatitis B 1st Dose,NFHS 4,95.9
 Chandigarh,Hepatitis B 1st Dose,NFHS 5,90.5
 Chandigarh,Hepatitis B 1st Dose,Change,-5.4
+Chandigarh,Hepatitis B 1st Dose,NFHS 6,
+Chandigarh,Hepatitis B 1st Dose,Change 2,
 Chandigarh,Hepatitis B 2nd Dose,NFHS 4,93.2
 Chandigarh,Hepatitis B 2nd Dose,NFHS 5,90.5
 Chandigarh,Hepatitis B 2nd Dose,Change,-2.7
+Chandigarh,Hepatitis B 2nd Dose,NFHS 6,
+Chandigarh,Hepatitis B 2nd Dose,Change 2,
 Chandigarh,Hepatitis B 3rd Dose,NFHS 4,82.6
 Chandigarh,Hepatitis B 3rd Dose,NFHS 5,84.9
 Chandigarh,Hepatitis B 3rd Dose,Change,2.3
+Chandigarh,Hepatitis B 3rd Dose,NFHS 6,
+Chandigarh,Hepatitis B 3rd Dose,Change 2,
 Chandigarh,Pentavalent and DPT 1,NFHS 4,95.9
 Chandigarh,Pentavalent and DPT 1,NFHS 5,93.4
 Chandigarh,Pentavalent and DPT 1,Change,-2.5
+Chandigarh,Pentavalent and DPT 1,NFHS 6,
+Chandigarh,Pentavalent and DPT 1,Change 2,
 Chandigarh,Pentavalent and DPT 2,NFHS 4,95.9
 Chandigarh,Pentavalent and DPT 2,NFHS 5,93.4
 Chandigarh,Pentavalent and DPT 2,Change,-2.5
+Chandigarh,Pentavalent and DPT 2,NFHS 6,
+Chandigarh,Pentavalent and DPT 2,Change 2,
 Chandigarh,Pentavalent and DPT 3,NFHS 4,95.9
 Chandigarh,Pentavalent and DPT 3,NFHS 5,87.9
-Chandigarh,Pentavalent and DPT 3,Change,-8
+Chandigarh,Pentavalent and DPT 3,Change,-8.0
+Chandigarh,Pentavalent and DPT 3,NFHS 6,93.6
+Chandigarh,Pentavalent and DPT 3,Change 2,5.7
 Chandigarh,Polio 0,NFHS 4,93.2
 Chandigarh,Polio 0,NFHS 5,93.6
 Chandigarh,Polio 0,Change,0.4
+Chandigarh,Polio 0,NFHS 6,
+Chandigarh,Polio 0,Change 2,
 Chandigarh,Polio 1,NFHS 4,92.7
 Chandigarh,Polio 1,NFHS 5,92.7
-Chandigarh,Polio 1,Change,0
+Chandigarh,Polio 1,Change,0.0
+Chandigarh,Polio 1,NFHS 6,
+Chandigarh,Polio 1,Change 2,
 Chandigarh,Polio 2,NFHS 4,90.1
 Chandigarh,Polio 2,NFHS 5,89.3
 Chandigarh,Polio 2,Change,-0.8
+Chandigarh,Polio 2,NFHS 6,
+Chandigarh,Polio 2,Change 2,
 Chandigarh,Polio 3,NFHS 4,79.5
 Chandigarh,Polio 3,NFHS 5,80.9
 Chandigarh,Polio 3,Change,1.4
+Chandigarh,Polio 3,NFHS 6,84.6
+Chandigarh,Polio 3,Change 2,3.7
 Chandigarh,MCV Measles and MMR,NFHS 4,95.9
 Chandigarh,MCV Measles and MMR,NFHS 5,87.9
-Chandigarh,MCV Measles and MMR,Change,-8
+Chandigarh,MCV Measles and MMR,Change,-8.0
+Chandigarh,MCV Measles and MMR,NFHS 6,90.7
+Chandigarh,MCV Measles and MMR,Change 2,2.8
 Chandigarh,Fully Vaccinated,NFHS 4,79.5
 Chandigarh,Fully Vaccinated,NFHS 5,80.9
 Chandigarh,Fully Vaccinated,Change,1.4
-Chandigarh,All Age Appropriate Vaccines,NFHS 4,73
+Chandigarh,Fully Vaccinated,NFHS 6,82.1
+Chandigarh,Fully Vaccinated,Change 2,1.2
+Chandigarh,All Age Appropriate Vaccines,NFHS 4,73.0
 Chandigarh,All Age Appropriate Vaccines,NFHS 5,74.8
 Chandigarh,All Age Appropriate Vaccines,Change,1.8
+Chandigarh,All Age Appropriate Vaccines,NFHS 6,
+Chandigarh,All Age Appropriate Vaccines,Change 2,
 Chandigarh,No Vaccination,NFHS 4,4.1
 Chandigarh,No Vaccination,NFHS 5,3.2
 Chandigarh,No Vaccination,Change,-0.9
-Chandigarh,Vaccination Card Seen,NFHS 4,78
+Chandigarh,No Vaccination,NFHS 6,0.0
+Chandigarh,No Vaccination,Change 2,-3.2
+Chandigarh,Vaccination Card Seen,NFHS 4,78.0
 Chandigarh,Vaccination Card Seen,NFHS 5,93.9
 Chandigarh,Vaccination Card Seen,Change,15.9
-Delhi,BCG,NFHS 4,95
+Chandigarh,Vaccination Card Seen,NFHS 6,
+Chandigarh,Vaccination Card Seen,Change 2,
+Chandigarh,Fully Vaccinated Card Only,NFHS 4,
+Chandigarh,Fully Vaccinated Card Only,NFHS 5,82.8
+Chandigarh,Fully Vaccinated Card Only,Change,
+Chandigarh,Fully Vaccinated Card Only,NFHS 6,85.9
+Chandigarh,Fully Vaccinated Card Only,Change 2,3.1
+Chandigarh,MCV 2nd Dose,NFHS 4,
+Chandigarh,MCV 2nd Dose,NFHS 5,75.5
+Chandigarh,MCV 2nd Dose,Change,
+Chandigarh,MCV 2nd Dose,NFHS 6,91.8
+Chandigarh,MCV 2nd Dose,Change 2,16.3
+Chandigarh,Rotavirus 3 Doses,NFHS 4,
+Chandigarh,Rotavirus 3 Doses,NFHS 5,84.9
+Chandigarh,Rotavirus 3 Doses,Change,
+Chandigarh,Rotavirus 3 Doses,NFHS 6,93.6
+Chandigarh,Rotavirus 3 Doses,Change 2,8.7
+Delhi,BCG,NFHS 4,95.0
 Delhi,BCG,NFHS 5,96.7
 Delhi,BCG,Change,1.7
+Delhi,BCG,NFHS 6,87.3
+Delhi,BCG,Change 2,-9.4
 Delhi,Hepatitis B 0 Dose,NFHS 4,75.6
 Delhi,Hepatitis B 0 Dose,NFHS 5,75.1
 Delhi,Hepatitis B 0 Dose,Change,-0.5
+Delhi,Hepatitis B 0 Dose,NFHS 6,73.6
+Delhi,Hepatitis B 0 Dose,Change 2,-1.5
 Delhi,Hepatitis B 1st Dose,NFHS 4,85.2
 Delhi,Hepatitis B 1st Dose,NFHS 5,91.1
 Delhi,Hepatitis B 1st Dose,Change,5.9
+Delhi,Hepatitis B 1st Dose,NFHS 6,
+Delhi,Hepatitis B 1st Dose,Change 2,
 Delhi,Hepatitis B 2nd Dose,NFHS 4,79.3
 Delhi,Hepatitis B 2nd Dose,NFHS 5,87.8
 Delhi,Hepatitis B 2nd Dose,Change,8.5
+Delhi,Hepatitis B 2nd Dose,NFHS 6,
+Delhi,Hepatitis B 2nd Dose,Change 2,
 Delhi,Hepatitis B 3rd Dose,NFHS 4,62.7
 Delhi,Hepatitis B 3rd Dose,NFHS 5,81.9
 Delhi,Hepatitis B 3rd Dose,Change,19.2
+Delhi,Hepatitis B 3rd Dose,NFHS 6,
+Delhi,Hepatitis B 3rd Dose,Change 2,
 Delhi,Pentavalent and DPT 1,NFHS 4,93.3
 Delhi,Pentavalent and DPT 1,NFHS 5,93.7
 Delhi,Pentavalent and DPT 1,Change,0.4
+Delhi,Pentavalent and DPT 1,NFHS 6,
+Delhi,Pentavalent and DPT 1,Change 2,
 Delhi,Pentavalent and DPT 2,NFHS 4,89.5
 Delhi,Pentavalent and DPT 2,NFHS 5,90.9
 Delhi,Pentavalent and DPT 2,Change,1.4
+Delhi,Pentavalent and DPT 2,NFHS 6,
+Delhi,Pentavalent and DPT 2,Change 2,
 Delhi,Pentavalent and DPT 3,NFHS 4,84.8
-Delhi,Pentavalent and DPT 3,NFHS 5,85
+Delhi,Pentavalent and DPT 3,NFHS 5,85.0
 Delhi,Pentavalent and DPT 3,Change,0.2
+Delhi,Pentavalent and DPT 3,NFHS 6,82.9
+Delhi,Pentavalent and DPT 3,Change 2,-2.1
 Delhi,Polio 0,NFHS 4,83.8
 Delhi,Polio 0,NFHS 5,91.2
 Delhi,Polio 0,Change,7.4
+Delhi,Polio 0,NFHS 6,
+Delhi,Polio 0,Change 2,
 Delhi,Polio 1,NFHS 4,94.2
-Delhi,Polio 1,NFHS 5,92
+Delhi,Polio 1,NFHS 5,92.0
 Delhi,Polio 1,Change,-2.2
+Delhi,Polio 1,NFHS 6,
+Delhi,Polio 1,Change 2,
 Delhi,Polio 2,NFHS 4,90.1
-Delhi,Polio 2,NFHS 5,88
+Delhi,Polio 2,NFHS 5,88.0
 Delhi,Polio 2,Change,-2.1
-Delhi,Polio 3,NFHS 4,79
+Delhi,Polio 2,NFHS 6,
+Delhi,Polio 2,Change 2,
+Delhi,Polio 3,NFHS 4,79.0
 Delhi,Polio 3,NFHS 5,80.2
 Delhi,Polio 3,Change,1.2
+Delhi,Polio 3,NFHS 6,86.0
+Delhi,Polio 3,Change 2,5.8
 Delhi,MCV Measles and MMR,NFHS 4,91.1
 Delhi,MCV Measles and MMR,NFHS 5,90.1
-Delhi,MCV Measles and MMR,Change,-1
+Delhi,MCV Measles and MMR,Change,-1.0
+Delhi,MCV Measles and MMR,NFHS 6,83.9
+Delhi,MCV Measles and MMR,Change 2,-6.2
 Delhi,Fully Vaccinated,NFHS 4,68.8
-Delhi,Fully Vaccinated,NFHS 5,76
+Delhi,Fully Vaccinated,NFHS 5,76.0
 Delhi,Fully Vaccinated,Change,7.2
+Delhi,Fully Vaccinated,NFHS 6,80.7
+Delhi,Fully Vaccinated,Change 2,4.7
 Delhi,All Age Appropriate Vaccines,NFHS 4,46.3
 Delhi,All Age Appropriate Vaccines,NFHS 5,60.2
 Delhi,All Age Appropriate Vaccines,Change,13.9
+Delhi,All Age Appropriate Vaccines,NFHS 6,
+Delhi,All Age Appropriate Vaccines,Change 2,
 Delhi,No Vaccination,NFHS 4,2.9
 Delhi,No Vaccination,NFHS 5,3.3
 Delhi,No Vaccination,Change,0.4
-Delhi,Vaccination Card Seen,NFHS 4,71
+Delhi,No Vaccination,NFHS 6,12.5
+Delhi,No Vaccination,Change 2,9.2
+Delhi,Vaccination Card Seen,NFHS 4,71.0
 Delhi,Vaccination Card Seen,NFHS 5,89.3
 Delhi,Vaccination Card Seen,Change,18.3
+Delhi,Vaccination Card Seen,NFHS 6,
+Delhi,Vaccination Card Seen,Change 2,
+Delhi,Fully Vaccinated Card Only,NFHS 4,
+Delhi,Fully Vaccinated Card Only,NFHS 5,79.4
+Delhi,Fully Vaccinated Card Only,Change,
+Delhi,Fully Vaccinated Card Only,NFHS 6,70.0
+Delhi,Fully Vaccinated Card Only,Change 2,-9.4
+Delhi,MCV 2nd Dose,NFHS 4,
+Delhi,MCV 2nd Dose,NFHS 5,73.5
+Delhi,MCV 2nd Dose,Change,
+Delhi,MCV 2nd Dose,NFHS 6,61.7
+Delhi,MCV 2nd Dose,Change 2,-11.8
+Delhi,Rotavirus 3 Doses,NFHS 4,
+Delhi,Rotavirus 3 Doses,NFHS 5,26.6
+Delhi,Rotavirus 3 Doses,Change,
+Delhi,Rotavirus 3 Doses,NFHS 6,67.9
+Delhi,Rotavirus 3 Doses,Change 2,41.3
 Haryana,BCG,NFHS 4,92.8
 Haryana,BCG,NFHS 5,94.9
 Haryana,BCG,Change,2.1
+Haryana,BCG,NFHS 6,94.2
+Haryana,BCG,Change 2,-0.7
 Haryana,Hepatitis B 0 Dose,NFHS 4,67.7
 Haryana,Hepatitis B 0 Dose,NFHS 5,66.6
 Haryana,Hepatitis B 0 Dose,Change,-1.1
+Haryana,Hepatitis B 0 Dose,NFHS 6,84.7
+Haryana,Hepatitis B 0 Dose,Change 2,18.1
 Haryana,Hepatitis B 1st Dose,NFHS 4,68.4
 Haryana,Hepatitis B 1st Dose,NFHS 5,93.7
 Haryana,Hepatitis B 1st Dose,Change,25.3
+Haryana,Hepatitis B 1st Dose,NFHS 6,
+Haryana,Hepatitis B 1st Dose,Change 2,
 Haryana,Hepatitis B 2nd Dose,NFHS 4,62.9
 Haryana,Hepatitis B 2nd Dose,NFHS 5,90.6
 Haryana,Hepatitis B 2nd Dose,Change,27.7
+Haryana,Hepatitis B 2nd Dose,NFHS 6,
+Haryana,Hepatitis B 2nd Dose,Change 2,
 Haryana,Hepatitis B 3rd Dose,NFHS 4,54.3
 Haryana,Hepatitis B 3rd Dose,NFHS 5,87.4
 Haryana,Hepatitis B 3rd Dose,Change,33.1
+Haryana,Hepatitis B 3rd Dose,NFHS 6,
+Haryana,Hepatitis B 3rd Dose,Change 2,
 Haryana,Pentavalent and DPT 1,NFHS 4,87.6
-Haryana,Pentavalent and DPT 1,NFHS 5,94
+Haryana,Pentavalent and DPT 1,NFHS 5,94.0
 Haryana,Pentavalent and DPT 1,Change,6.4
+Haryana,Pentavalent and DPT 1,NFHS 6,
+Haryana,Pentavalent and DPT 1,Change 2,
 Haryana,Pentavalent and DPT 2,NFHS 4,83.6
 Haryana,Pentavalent and DPT 2,NFHS 5,92.2
 Haryana,Pentavalent and DPT 2,Change,8.6
+Haryana,Pentavalent and DPT 2,NFHS 6,
+Haryana,Pentavalent and DPT 2,Change 2,
 Haryana,Pentavalent and DPT 3,NFHS 4,76.5
 Haryana,Pentavalent and DPT 3,NFHS 5,88.7
 Haryana,Pentavalent and DPT 3,Change,12.2
+Haryana,Pentavalent and DPT 3,NFHS 6,86.8
+Haryana,Pentavalent and DPT 3,Change 2,-1.9
 Haryana,Polio 0,NFHS 4,83.8
 Haryana,Polio 0,NFHS 5,85.3
 Haryana,Polio 0,Change,1.5
+Haryana,Polio 0,NFHS 6,
+Haryana,Polio 0,Change 2,
 Haryana,Polio 1,NFHS 4,90.2
 Haryana,Polio 1,NFHS 5,90.2
-Haryana,Polio 1,Change,0
+Haryana,Polio 1,Change,0.0
+Haryana,Polio 1,NFHS 6,
+Haryana,Polio 1,Change 2,
 Haryana,Polio 2,NFHS 4,84.7
 Haryana,Polio 2,NFHS 5,86.3
 Haryana,Polio 2,Change,1.6
+Haryana,Polio 2,NFHS 6,
+Haryana,Polio 2,Change 2,
 Haryana,Polio 3,NFHS 4,75.3
 Haryana,Polio 3,NFHS 5,80.6
 Haryana,Polio 3,Change,5.3
-Haryana,MCV Measles and MMR,NFHS 4,79
+Haryana,Polio 3,NFHS 6,82.2
+Haryana,Polio 3,Change 2,1.6
+Haryana,MCV Measles and MMR,NFHS 4,79.0
 Haryana,MCV Measles and MMR,NFHS 5,89.4
 Haryana,MCV Measles and MMR,Change,10.4
+Haryana,MCV Measles and MMR,NFHS 6,90.1
+Haryana,MCV Measles and MMR,Change 2,0.7
 Haryana,Fully Vaccinated,NFHS 4,62.2
 Haryana,Fully Vaccinated,NFHS 5,76.9
 Haryana,Fully Vaccinated,Change,14.7
+Haryana,Fully Vaccinated,NFHS 6,79.7
+Haryana,Fully Vaccinated,Change 2,2.8
 Haryana,All Age Appropriate Vaccines,NFHS 4,45.4
 Haryana,All Age Appropriate Vaccines,NFHS 5,55.6
 Haryana,All Age Appropriate Vaccines,Change,10.2
+Haryana,All Age Appropriate Vaccines,NFHS 6,
+Haryana,All Age Appropriate Vaccines,Change 2,
 Haryana,No Vaccination,NFHS 4,6.3
-Haryana,No Vaccination,NFHS 5,4
+Haryana,No Vaccination,NFHS 5,4.0
 Haryana,No Vaccination,Change,-2.3
+Haryana,No Vaccination,NFHS 6,4.4
+Haryana,No Vaccination,Change 2,0.4
 Haryana,Vaccination Card Seen,NFHS 4,70.6
 Haryana,Vaccination Card Seen,NFHS 5,87.1
 Haryana,Vaccination Card Seen,Change,16.5
+Haryana,Vaccination Card Seen,NFHS 6,
+Haryana,Vaccination Card Seen,Change 2,
+Haryana,Fully Vaccinated Card Only,NFHS 4,
+Haryana,Fully Vaccinated Card Only,NFHS 5,81.1
+Haryana,Fully Vaccinated Card Only,Change,
+Haryana,Fully Vaccinated Card Only,NFHS 6,86.2
+Haryana,Fully Vaccinated Card Only,Change 2,5.1
+Haryana,MCV 2nd Dose,NFHS 4,
+Haryana,MCV 2nd Dose,NFHS 5,56.7
+Haryana,MCV 2nd Dose,Change,
+Haryana,MCV 2nd Dose,NFHS 6,73.9
+Haryana,MCV 2nd Dose,Change 2,17.2
+Haryana,Rotavirus 3 Doses,NFHS 4,
+Haryana,Rotavirus 3 Doses,NFHS 5,79.8
+Haryana,Rotavirus 3 Doses,Change,
+Haryana,Rotavirus 3 Doses,NFHS 6,86.6
+Haryana,Rotavirus 3 Doses,Change 2,6.8
 Himachal Pradesh,BCG,NFHS 4,94.8
 Himachal Pradesh,BCG,NFHS 5,98.2
 Himachal Pradesh,BCG,Change,3.4
+Himachal Pradesh,BCG,NFHS 6,97.9
+Himachal Pradesh,BCG,Change 2,-0.3
 Himachal Pradesh,Hepatitis B 0 Dose,NFHS 4,71.6
 Himachal Pradesh,Hepatitis B 0 Dose,NFHS 5,92.4
 Himachal Pradesh,Hepatitis B 0 Dose,Change,20.8
+Himachal Pradesh,Hepatitis B 0 Dose,NFHS 6,91.2
+Himachal Pradesh,Hepatitis B 0 Dose,Change 2,-1.2
 Himachal Pradesh,Hepatitis B 1st Dose,NFHS 4,92.4
 Himachal Pradesh,Hepatitis B 1st Dose,NFHS 5,97.3
 Himachal Pradesh,Hepatitis B 1st Dose,Change,4.9
+Himachal Pradesh,Hepatitis B 1st Dose,NFHS 6,
+Himachal Pradesh,Hepatitis B 1st Dose,Change 2,
 Himachal Pradesh,Hepatitis B 2nd Dose,NFHS 4,87.1
 Himachal Pradesh,Hepatitis B 2nd Dose,NFHS 5,97.2
 Himachal Pradesh,Hepatitis B 2nd Dose,Change,10.1
+Himachal Pradesh,Hepatitis B 2nd Dose,NFHS 6,
+Himachal Pradesh,Hepatitis B 2nd Dose,Change 2,
 Himachal Pradesh,Hepatitis B 3rd Dose,NFHS 4,74.1
 Himachal Pradesh,Hepatitis B 3rd Dose,NFHS 5,96.3
 Himachal Pradesh,Hepatitis B 3rd Dose,Change,22.2
+Himachal Pradesh,Hepatitis B 3rd Dose,NFHS 6,
+Himachal Pradesh,Hepatitis B 3rd Dose,Change 2,
 Himachal Pradesh,Pentavalent and DPT 1,NFHS 4,95.2
-Himachal Pradesh,Pentavalent and DPT 1,NFHS 5,98
+Himachal Pradesh,Pentavalent and DPT 1,NFHS 5,98.0
 Himachal Pradesh,Pentavalent and DPT 1,Change,2.8
+Himachal Pradesh,Pentavalent and DPT 1,NFHS 6,
+Himachal Pradesh,Pentavalent and DPT 1,Change 2,
 Himachal Pradesh,Pentavalent and DPT 2,NFHS 4,91.8
 Himachal Pradesh,Pentavalent and DPT 2,NFHS 5,97.3
 Himachal Pradesh,Pentavalent and DPT 2,Change,5.5
-Himachal Pradesh,Pentavalent and DPT 3,NFHS 4,85
+Himachal Pradesh,Pentavalent and DPT 2,NFHS 6,
+Himachal Pradesh,Pentavalent and DPT 2,Change 2,
+Himachal Pradesh,Pentavalent and DPT 3,NFHS 4,85.0
 Himachal Pradesh,Pentavalent and DPT 3,NFHS 5,96.1
 Himachal Pradesh,Pentavalent and DPT 3,Change,11.1
+Himachal Pradesh,Pentavalent and DPT 3,NFHS 6,95.2
+Himachal Pradesh,Pentavalent and DPT 3,Change 2,-0.9
 Himachal Pradesh,Polio 0,NFHS 4,75.8
 Himachal Pradesh,Polio 0,NFHS 5,95.8
-Himachal Pradesh,Polio 0,Change,20
+Himachal Pradesh,Polio 0,Change,20.0
+Himachal Pradesh,Polio 0,NFHS 6,
+Himachal Pradesh,Polio 0,Change 2,
 Himachal Pradesh,Polio 1,NFHS 4,94.6
-Himachal Pradesh,Polio 1,NFHS 5,97
+Himachal Pradesh,Polio 1,NFHS 5,97.0
 Himachal Pradesh,Polio 1,Change,2.4
+Himachal Pradesh,Polio 1,NFHS 6,
+Himachal Pradesh,Polio 1,Change 2,
 Himachal Pradesh,Polio 2,NFHS 4,91.7
-Himachal Pradesh,Polio 2,NFHS 5,96
+Himachal Pradesh,Polio 2,NFHS 5,96.0
 Himachal Pradesh,Polio 2,Change,4.3
+Himachal Pradesh,Polio 2,NFHS 6,
+Himachal Pradesh,Polio 2,Change 2,
 Himachal Pradesh,Polio 3,NFHS 4,82.4
 Himachal Pradesh,Polio 3,NFHS 5,90.1
 Himachal Pradesh,Polio 3,Change,7.7
+Himachal Pradesh,Polio 3,NFHS 6,92.6
+Himachal Pradesh,Polio 3,Change 2,2.5
 Himachal Pradesh,MCV Measles and MMR,NFHS 4,87.5
 Himachal Pradesh,MCV Measles and MMR,NFHS 5,95.9
 Himachal Pradesh,MCV Measles and MMR,Change,8.4
+Himachal Pradesh,MCV Measles and MMR,NFHS 6,95.7
+Himachal Pradesh,MCV Measles and MMR,Change 2,-0.2
 Himachal Pradesh,Fully Vaccinated,NFHS 4,69.5
 Himachal Pradesh,Fully Vaccinated,NFHS 5,89.2
 Himachal Pradesh,Fully Vaccinated,Change,19.7
+Himachal Pradesh,Fully Vaccinated,NFHS 6,90.1
+Himachal Pradesh,Fully Vaccinated,Change 2,0.9
 Himachal Pradesh,All Age Appropriate Vaccines,NFHS 4,50.2
 Himachal Pradesh,All Age Appropriate Vaccines,NFHS 5,84.7
 Himachal Pradesh,All Age Appropriate Vaccines,Change,34.5
+Himachal Pradesh,All Age Appropriate Vaccines,NFHS 6,
+Himachal Pradesh,All Age Appropriate Vaccines,Change 2,
 Himachal Pradesh,No Vaccination,NFHS 4,2.7
 Himachal Pradesh,No Vaccination,NFHS 5,1.8
 Himachal Pradesh,No Vaccination,Change,-0.9
+Himachal Pradesh,No Vaccination,NFHS 6,1.5
+Himachal Pradesh,No Vaccination,Change 2,-0.3
 Himachal Pradesh,Vaccination Card Seen,NFHS 4,70.8
 Himachal Pradesh,Vaccination Card Seen,NFHS 5,87.8
-Himachal Pradesh,Vaccination Card Seen,Change,17
+Himachal Pradesh,Vaccination Card Seen,Change,17.0
+Himachal Pradesh,Vaccination Card Seen,NFHS 6,
+Himachal Pradesh,Vaccination Card Seen,Change 2,
+Himachal Pradesh,Fully Vaccinated Card Only,NFHS 4,
+Himachal Pradesh,Fully Vaccinated Card Only,NFHS 5,96.4
+Himachal Pradesh,Fully Vaccinated Card Only,Change,
+Himachal Pradesh,Fully Vaccinated Card Only,NFHS 6,86.3
+Himachal Pradesh,Fully Vaccinated Card Only,Change 2,-10.1
+Himachal Pradesh,MCV 2nd Dose,NFHS 4,
+Himachal Pradesh,MCV 2nd Dose,NFHS 5,69.2
+Himachal Pradesh,MCV 2nd Dose,Change,
+Himachal Pradesh,MCV 2nd Dose,NFHS 6,77.2
+Himachal Pradesh,MCV 2nd Dose,Change 2,8.0
+Himachal Pradesh,Rotavirus 3 Doses,NFHS 4,
+Himachal Pradesh,Rotavirus 3 Doses,NFHS 5,87.9
+Himachal Pradesh,Rotavirus 3 Doses,Change,
+Himachal Pradesh,Rotavirus 3 Doses,NFHS 6,90.5
+Himachal Pradesh,Rotavirus 3 Doses,Change 2,2.6
 Jammu and Kashmir,BCG,NFHS 4,95.6
 Jammu and Kashmir,BCG,NFHS 5,95.1
 Jammu and Kashmir,BCG,Change,-0.5
+Jammu and Kashmir,BCG,NFHS 6,97.5
+Jammu and Kashmir,BCG,Change 2,2.4
 Jammu and Kashmir,Hepatitis B 0 Dose,NFHS 4,85.5
 Jammu and Kashmir,Hepatitis B 0 Dose,NFHS 5,88.1
 Jammu and Kashmir,Hepatitis B 0 Dose,Change,2.6
+Jammu and Kashmir,Hepatitis B 0 Dose,NFHS 6,94.1
+Jammu and Kashmir,Hepatitis B 0 Dose,Change 2,6.0
 Jammu and Kashmir,Hepatitis B 1st Dose,NFHS 4,82.1
 Jammu and Kashmir,Hepatitis B 1st Dose,NFHS 5,94.2
 Jammu and Kashmir,Hepatitis B 1st Dose,Change,12.1
+Jammu and Kashmir,Hepatitis B 1st Dose,NFHS 6,
+Jammu and Kashmir,Hepatitis B 1st Dose,Change 2,
 Jammu and Kashmir,Hepatitis B 2nd Dose,NFHS 4,78.1
 Jammu and Kashmir,Hepatitis B 2nd Dose,NFHS 5,92.7
 Jammu and Kashmir,Hepatitis B 2nd Dose,Change,14.6
+Jammu and Kashmir,Hepatitis B 2nd Dose,NFHS 6,
+Jammu and Kashmir,Hepatitis B 2nd Dose,Change 2,
 Jammu and Kashmir,Hepatitis B 3rd Dose,NFHS 4,70.3
 Jammu and Kashmir,Hepatitis B 3rd Dose,NFHS 5,91.4
 Jammu and Kashmir,Hepatitis B 3rd Dose,Change,21.1
+Jammu and Kashmir,Hepatitis B 3rd Dose,NFHS 6,
+Jammu and Kashmir,Hepatitis B 3rd Dose,Change 2,
 Jammu and Kashmir,Pentavalent and DPT 1,NFHS 4,94.1
 Jammu and Kashmir,Pentavalent and DPT 1,NFHS 5,94.6
 Jammu and Kashmir,Pentavalent and DPT 1,Change,0.5
+Jammu and Kashmir,Pentavalent and DPT 1,NFHS 6,
+Jammu and Kashmir,Pentavalent and DPT 1,Change 2,
 Jammu and Kashmir,Pentavalent and DPT 2,NFHS 4,91.6
-Jammu and Kashmir,Pentavalent and DPT 2,NFHS 5,94
+Jammu and Kashmir,Pentavalent and DPT 2,NFHS 5,94.0
 Jammu and Kashmir,Pentavalent and DPT 2,Change,2.4
+Jammu and Kashmir,Pentavalent and DPT 2,NFHS 6,
+Jammu and Kashmir,Pentavalent and DPT 2,Change 2,
 Jammu and Kashmir,Pentavalent and DPT 3,NFHS 4,88.1
 Jammu and Kashmir,Pentavalent and DPT 3,NFHS 5,92.8
 Jammu and Kashmir,Pentavalent and DPT 3,Change,4.7
+Jammu and Kashmir,Pentavalent and DPT 3,NFHS 6,93.6
+Jammu and Kashmir,Pentavalent and DPT 3,Change 2,0.8
 Jammu and Kashmir,Polio 0,NFHS 4,92.7
 Jammu and Kashmir,Polio 0,NFHS 5,92.8
 Jammu and Kashmir,Polio 0,Change,0.1
+Jammu and Kashmir,Polio 0,NFHS 6,
+Jammu and Kashmir,Polio 0,Change 2,
 Jammu and Kashmir,Polio 1,NFHS 4,94.3
 Jammu and Kashmir,Polio 1,NFHS 5,93.5
 Jammu and Kashmir,Polio 1,Change,-0.8
+Jammu and Kashmir,Polio 1,NFHS 6,
+Jammu and Kashmir,Polio 1,Change 2,
 Jammu and Kashmir,Polio 2,NFHS 4,91.6
 Jammu and Kashmir,Polio 2,NFHS 5,92.7
 Jammu and Kashmir,Polio 2,Change,1.1
+Jammu and Kashmir,Polio 2,NFHS 6,
+Jammu and Kashmir,Polio 2,Change 2,
 Jammu and Kashmir,Polio 3,NFHS 4,83.8
 Jammu and Kashmir,Polio 3,NFHS 5,87.6
 Jammu and Kashmir,Polio 3,Change,3.8
+Jammu and Kashmir,Polio 3,NFHS 6,90.3
+Jammu and Kashmir,Polio 3,Change 2,2.7
 Jammu and Kashmir,MCV Measles and MMR,NFHS 4,86.2
 Jammu and Kashmir,MCV Measles and MMR,NFHS 5,91.7
 Jammu and Kashmir,MCV Measles and MMR,Change,5.5
+Jammu and Kashmir,MCV Measles and MMR,NFHS 6,95.0
+Jammu and Kashmir,MCV Measles and MMR,Change 2,3.3
 Jammu and Kashmir,Fully Vaccinated,NFHS 4,75.1
 Jammu and Kashmir,Fully Vaccinated,NFHS 5,86.2
 Jammu and Kashmir,Fully Vaccinated,Change,11.1
+Jammu and Kashmir,Fully Vaccinated,NFHS 6,89.4
+Jammu and Kashmir,Fully Vaccinated,Change 2,3.2
 Jammu and Kashmir,All Age Appropriate Vaccines,NFHS 4,61.7
 Jammu and Kashmir,All Age Appropriate Vaccines,NFHS 5,81.3
 Jammu and Kashmir,All Age Appropriate Vaccines,Change,19.6
+Jammu and Kashmir,All Age Appropriate Vaccines,NFHS 6,
+Jammu and Kashmir,All Age Appropriate Vaccines,Change 2,
 Jammu and Kashmir,No Vaccination,NFHS 4,3.5
 Jammu and Kashmir,No Vaccination,NFHS 5,4.3
 Jammu and Kashmir,No Vaccination,Change,0.8
+Jammu and Kashmir,No Vaccination,NFHS 6,2.3
+Jammu and Kashmir,No Vaccination,Change 2,-2.0
 Jammu and Kashmir,Vaccination Card Seen,NFHS 4,80.4
 Jammu and Kashmir,Vaccination Card Seen,NFHS 5,85.7
 Jammu and Kashmir,Vaccination Card Seen,Change,5.3
-Ladakh,BCG,NFHS 4,NA
+Jammu and Kashmir,Vaccination Card Seen,NFHS 6,
+Jammu and Kashmir,Vaccination Card Seen,Change 2,
+Jammu and Kashmir,Fully Vaccinated Card Only,NFHS 4,
+Jammu and Kashmir,Fully Vaccinated Card Only,NFHS 5,96.5
+Jammu and Kashmir,Fully Vaccinated Card Only,Change,
+Jammu and Kashmir,Fully Vaccinated Card Only,NFHS 6,93.7
+Jammu and Kashmir,Fully Vaccinated Card Only,Change 2,-2.8
+Jammu and Kashmir,MCV 2nd Dose,NFHS 4,
+Jammu and Kashmir,MCV 2nd Dose,NFHS 5,73.6
+Jammu and Kashmir,MCV 2nd Dose,Change,
+Jammu and Kashmir,MCV 2nd Dose,NFHS 6,82.4
+Jammu and Kashmir,MCV 2nd Dose,Change 2,8.8
+Jammu and Kashmir,Rotavirus 3 Doses,NFHS 4,
+Jammu and Kashmir,Rotavirus 3 Doses,NFHS 5,5.3
+Jammu and Kashmir,Rotavirus 3 Doses,Change,
+Jammu and Kashmir,Rotavirus 3 Doses,NFHS 6,91.4
+Jammu and Kashmir,Rotavirus 3 Doses,Change 2,86.1
+Ladakh,BCG,NFHS 4,
 Ladakh,BCG,NFHS 5,99.1
-Ladakh,BCG,Change,NA
-Ladakh,Hepatitis B 0 Dose,NFHS 4,NA
+Ladakh,BCG,Change,
+Ladakh,BCG,NFHS 6,99.0
+Ladakh,BCG,Change 2,-0.1
+Ladakh,Hepatitis B 0 Dose,NFHS 4,
 Ladakh,Hepatitis B 0 Dose,NFHS 5,89.8
-Ladakh,Hepatitis B 0 Dose,Change,NA
-Ladakh,Hepatitis B 1st Dose,NFHS 4,NA
+Ladakh,Hepatitis B 0 Dose,Change,
+Ladakh,Hepatitis B 0 Dose,NFHS 6,98.2
+Ladakh,Hepatitis B 0 Dose,Change 2,8.4
+Ladakh,Hepatitis B 1st Dose,NFHS 4,
 Ladakh,Hepatitis B 1st Dose,NFHS 5,96.3
-Ladakh,Hepatitis B 1st Dose,Change,NA
-Ladakh,Hepatitis B 2nd Dose,NFHS 4,NA
+Ladakh,Hepatitis B 1st Dose,Change,
+Ladakh,Hepatitis B 1st Dose,NFHS 6,
+Ladakh,Hepatitis B 1st Dose,Change 2,
+Ladakh,Hepatitis B 2nd Dose,NFHS 4,
 Ladakh,Hepatitis B 2nd Dose,NFHS 5,96.3
-Ladakh,Hepatitis B 2nd Dose,Change,NA
-Ladakh,Hepatitis B 3rd Dose,NFHS 4,NA
+Ladakh,Hepatitis B 2nd Dose,Change,
+Ladakh,Hepatitis B 2nd Dose,NFHS 6,
+Ladakh,Hepatitis B 2nd Dose,Change 2,
+Ladakh,Hepatitis B 3rd Dose,NFHS 4,
 Ladakh,Hepatitis B 3rd Dose,NFHS 5,94.1
-Ladakh,Hepatitis B 3rd Dose,Change,NA
-Ladakh,Pentavalent and DPT 1,NFHS 4,NA
+Ladakh,Hepatitis B 3rd Dose,Change,
+Ladakh,Hepatitis B 3rd Dose,NFHS 6,
+Ladakh,Hepatitis B 3rd Dose,Change 2,
+Ladakh,Pentavalent and DPT 1,NFHS 4,
 Ladakh,Pentavalent and DPT 1,NFHS 5,99.1
-Ladakh,Pentavalent and DPT 1,Change,NA
-Ladakh,Pentavalent and DPT 2,NFHS 4,NA
+Ladakh,Pentavalent and DPT 1,Change,
+Ladakh,Pentavalent and DPT 1,NFHS 6,
+Ladakh,Pentavalent and DPT 1,Change 2,
+Ladakh,Pentavalent and DPT 2,NFHS 4,
 Ladakh,Pentavalent and DPT 2,NFHS 5,99.1
-Ladakh,Pentavalent and DPT 2,Change,NA
-Ladakh,Pentavalent and DPT 3,NFHS 4,NA
-Ladakh,Pentavalent and DPT 3,NFHS 5,95
-Ladakh,Pentavalent and DPT 3,Change,NA
-Ladakh,Polio 0,NFHS 4,NA
+Ladakh,Pentavalent and DPT 2,Change,
+Ladakh,Pentavalent and DPT 2,NFHS 6,
+Ladakh,Pentavalent and DPT 2,Change 2,
+Ladakh,Pentavalent and DPT 3,NFHS 4,
+Ladakh,Pentavalent and DPT 3,NFHS 5,95.0
+Ladakh,Pentavalent and DPT 3,Change,
+Ladakh,Pentavalent and DPT 3,NFHS 6,98.7
+Ladakh,Pentavalent and DPT 3,Change 2,3.7
+Ladakh,Polio 0,NFHS 4,
 Ladakh,Polio 0,NFHS 5,96.9
-Ladakh,Polio 0,Change,NA
-Ladakh,Polio 1,NFHS 4,NA
-Ladakh,Polio 1,NFHS 5,98
-Ladakh,Polio 1,Change,NA
-Ladakh,Polio 2,NFHS 4,NA
+Ladakh,Polio 0,Change,
+Ladakh,Polio 0,NFHS 6,
+Ladakh,Polio 0,Change 2,
+Ladakh,Polio 1,NFHS 4,
+Ladakh,Polio 1,NFHS 5,98.0
+Ladakh,Polio 1,Change,
+Ladakh,Polio 1,NFHS 6,
+Ladakh,Polio 1,Change 2,
+Ladakh,Polio 2,NFHS 4,
 Ladakh,Polio 2,NFHS 5,96.6
-Ladakh,Polio 2,Change,NA
-Ladakh,Polio 3,NFHS 4,NA
+Ladakh,Polio 2,Change,
+Ladakh,Polio 2,NFHS 6,
+Ladakh,Polio 2,Change 2,
+Ladakh,Polio 3,NFHS 4,
 Ladakh,Polio 3,NFHS 5,88.2
-Ladakh,Polio 3,Change,NA
-Ladakh,MCV Measles and MMR,NFHS 4,NA
+Ladakh,Polio 3,Change,
+Ladakh,Polio 3,NFHS 6,94.1
+Ladakh,Polio 3,Change 2,5.9
+Ladakh,MCV Measles and MMR,NFHS 4,
 Ladakh,MCV Measles and MMR,NFHS 5,92.9
-Ladakh,MCV Measles and MMR,Change,NA
-Ladakh,Fully Vaccinated,NFHS 4,NA
+Ladakh,MCV Measles and MMR,Change,
+Ladakh,MCV Measles and MMR,NFHS 6,98.1
+Ladakh,MCV Measles and MMR,Change 2,5.2
+Ladakh,Fully Vaccinated,NFHS 4,
 Ladakh,Fully Vaccinated,NFHS 5,88.2
-Ladakh,Fully Vaccinated,Change,NA
-Ladakh,All Age Appropriate Vaccines,NFHS 4,NA
+Ladakh,Fully Vaccinated,Change,
+Ladakh,Fully Vaccinated,NFHS 6,94.1
+Ladakh,Fully Vaccinated,Change 2,5.9
+Ladakh,All Age Appropriate Vaccines,NFHS 4,
 Ladakh,All Age Appropriate Vaccines,NFHS 5,81.2
-Ladakh,All Age Appropriate Vaccines,Change,NA
-Ladakh,No Vaccination,NFHS 4,NA
+Ladakh,All Age Appropriate Vaccines,Change,
+Ladakh,All Age Appropriate Vaccines,NFHS 6,
+Ladakh,All Age Appropriate Vaccines,Change 2,
+Ladakh,No Vaccination,NFHS 4,
 Ladakh,No Vaccination,NFHS 5,0.9
-Ladakh,No Vaccination,Change,NA
-Ladakh,Vaccination Card Seen,NFHS 4,NA
+Ladakh,No Vaccination,Change,
+Ladakh,No Vaccination,NFHS 6,1.0
+Ladakh,No Vaccination,Change 2,0.1
+Ladakh,Vaccination Card Seen,NFHS 4,
 Ladakh,Vaccination Card Seen,NFHS 5,88.2
-Ladakh,Vaccination Card Seen,Change,NA
+Ladakh,Vaccination Card Seen,Change,
+Ladakh,Vaccination Card Seen,NFHS 6,
+Ladakh,Vaccination Card Seen,Change 2,
+Ladakh,Fully Vaccinated Card Only,NFHS 4,
+Ladakh,Fully Vaccinated Card Only,NFHS 5,100.0
+Ladakh,Fully Vaccinated Card Only,Change,
+Ladakh,Fully Vaccinated Card Only,NFHS 6,95.6
+Ladakh,Fully Vaccinated Card Only,Change 2,-4.4
+Ladakh,MCV 2nd Dose,NFHS 4,
+Ladakh,MCV 2nd Dose,NFHS 5,74.2
+Ladakh,MCV 2nd Dose,Change,
+Ladakh,MCV 2nd Dose,NFHS 6,85.7
+Ladakh,MCV 2nd Dose,Change 2,11.5
+Ladakh,Rotavirus 3 Doses,NFHS 4,
+Ladakh,Rotavirus 3 Doses,NFHS 5,10.6
+Ladakh,Rotavirus 3 Doses,Change,
+Ladakh,Rotavirus 3 Doses,NFHS 6,92.2
+Ladakh,Rotavirus 3 Doses,Change 2,81.6
 Punjab,BCG,NFHS 4,98.2
 Punjab,BCG,NFHS 5,95.3
 Punjab,BCG,Change,-2.9
+Punjab,BCG,NFHS 6,97.8
+Punjab,BCG,Change 2,2.5
 Punjab,Hepatitis B 0 Dose,NFHS 4,94.2
 Punjab,Hepatitis B 0 Dose,NFHS 5,85.8
 Punjab,Hepatitis B 0 Dose,Change,-8.4
+Punjab,Hepatitis B 0 Dose,NFHS 6,80.8
+Punjab,Hepatitis B 0 Dose,Change 2,-5.0
 Punjab,Hepatitis B 1st Dose,NFHS 4,95.8
-Punjab,Hepatitis B 1st Dose,NFHS 5,92
+Punjab,Hepatitis B 1st Dose,NFHS 5,92.0
 Punjab,Hepatitis B 1st Dose,Change,-3.8
+Punjab,Hepatitis B 1st Dose,NFHS 6,
+Punjab,Hepatitis B 1st Dose,Change 2,
 Punjab,Hepatitis B 2nd Dose,NFHS 4,94.3
 Punjab,Hepatitis B 2nd Dose,NFHS 5,89.3
-Punjab,Hepatitis B 2nd Dose,Change,-5
-Punjab,Hepatitis B 3rd Dose,NFHS 4,91
+Punjab,Hepatitis B 2nd Dose,Change,-5.0
+Punjab,Hepatitis B 2nd Dose,NFHS 6,
+Punjab,Hepatitis B 2nd Dose,Change 2,
+Punjab,Hepatitis B 3rd Dose,NFHS 4,91.0
 Punjab,Hepatitis B 3rd Dose,NFHS 5,85.4
 Punjab,Hepatitis B 3rd Dose,Change,-5.6
+Punjab,Hepatitis B 3rd Dose,NFHS 6,
+Punjab,Hepatitis B 3rd Dose,Change 2,
 Punjab,Pentavalent and DPT 1,NFHS 4,96.7
 Punjab,Pentavalent and DPT 1,NFHS 5,93.7
-Punjab,Pentavalent and DPT 1,Change,-3
+Punjab,Pentavalent and DPT 1,Change,-3.0
+Punjab,Pentavalent and DPT 1,NFHS 6,
+Punjab,Pentavalent and DPT 1,Change 2,
 Punjab,Pentavalent and DPT 2,NFHS 4,96.3
 Punjab,Pentavalent and DPT 2,NFHS 5,92.1
 Punjab,Pentavalent and DPT 2,Change,-4.2
+Punjab,Pentavalent and DPT 2,NFHS 6,
+Punjab,Pentavalent and DPT 2,Change 2,
 Punjab,Pentavalent and DPT 3,NFHS 4,94.5
 Punjab,Pentavalent and DPT 3,NFHS 5,88.5
-Punjab,Pentavalent and DPT 3,Change,-6
+Punjab,Pentavalent and DPT 3,Change,-6.0
+Punjab,Pentavalent and DPT 3,NFHS 6,86.7
+Punjab,Pentavalent and DPT 3,Change 2,-1.8
 Punjab,Polio 0,NFHS 4,96.8
 Punjab,Polio 0,NFHS 5,92.6
 Punjab,Polio 0,Change,-4.2
+Punjab,Polio 0,NFHS 6,
+Punjab,Polio 0,Change 2,
 Punjab,Polio 1,NFHS 4,97.5
 Punjab,Polio 1,NFHS 5,93.4
 Punjab,Polio 1,Change,-4.1
+Punjab,Polio 1,NFHS 6,
+Punjab,Polio 1,Change 2,
 Punjab,Polio 2,NFHS 4,96.5
 Punjab,Polio 2,NFHS 5,89.1
 Punjab,Polio 2,Change,-7.4
+Punjab,Polio 2,NFHS 6,
+Punjab,Polio 2,Change 2,
 Punjab,Polio 3,NFHS 4,93.7
 Punjab,Polio 3,NFHS 5,79.7
-Punjab,Polio 3,Change,-14
+Punjab,Polio 3,Change,-14.0
+Punjab,Polio 3,NFHS 6,80.4
+Punjab,Polio 3,Change 2,0.7
 Punjab,MCV Measles and MMR,NFHS 4,93.1
 Punjab,MCV Measles and MMR,NFHS 5,88.1
-Punjab,MCV Measles and MMR,Change,-5
-Punjab,Fully Vaccinated,NFHS 4,89
+Punjab,MCV Measles and MMR,Change,-5.0
+Punjab,MCV Measles and MMR,NFHS 6,92.3
+Punjab,MCV Measles and MMR,Change 2,4.2
+Punjab,Fully Vaccinated,NFHS 4,89.0
 Punjab,Fully Vaccinated,NFHS 5,76.2
 Punjab,Fully Vaccinated,Change,-12.8
+Punjab,Fully Vaccinated,NFHS 6,77.7
+Punjab,Fully Vaccinated,Change 2,1.5
 Punjab,All Age Appropriate Vaccines,NFHS 4,84.7
 Punjab,All Age Appropriate Vaccines,NFHS 5,70.8
 Punjab,All Age Appropriate Vaccines,Change,-13.9
+Punjab,All Age Appropriate Vaccines,NFHS 6,
+Punjab,All Age Appropriate Vaccines,Change 2,
 Punjab,No Vaccination,NFHS 4,1.7
 Punjab,No Vaccination,NFHS 5,3.7
-Punjab,No Vaccination,Change,2
+Punjab,No Vaccination,Change,2.0
+Punjab,No Vaccination,NFHS 6,2.1
+Punjab,No Vaccination,Change 2,-1.6
 Punjab,Vaccination Card Seen,NFHS 4,90.9
 Punjab,Vaccination Card Seen,NFHS 5,83.9
-Punjab,Vaccination Card Seen,Change,-7
+Punjab,Vaccination Card Seen,Change,-7.0
+Punjab,Vaccination Card Seen,NFHS 6,
+Punjab,Vaccination Card Seen,Change 2,
+Punjab,Fully Vaccinated Card Only,NFHS 4,
+Punjab,Fully Vaccinated Card Only,NFHS 5,85.2
+Punjab,Fully Vaccinated Card Only,Change,
+Punjab,Fully Vaccinated Card Only,NFHS 6,79.9
+Punjab,Fully Vaccinated Card Only,Change 2,-5.3
+Punjab,MCV 2nd Dose,NFHS 4,
+Punjab,MCV 2nd Dose,NFHS 5,56.7
+Punjab,MCV 2nd Dose,Change,
+Punjab,MCV 2nd Dose,NFHS 6,60.7
+Punjab,MCV 2nd Dose,Change 2,4.0
+Punjab,Rotavirus 3 Doses,NFHS 4,
+Punjab,Rotavirus 3 Doses,NFHS 5,65.9
+Punjab,Rotavirus 3 Doses,Change,
+Punjab,Rotavirus 3 Doses,NFHS 6,80.4
+Punjab,Rotavirus 3 Doses,Change 2,14.5
 Rajasthan,BCG,NFHS 4,88.8
 Rajasthan,BCG,NFHS 5,95.6
 Rajasthan,BCG,Change,6.8
+Rajasthan,BCG,NFHS 6,92.9
+Rajasthan,BCG,Change 2,-2.7
 Rajasthan,Hepatitis B 0 Dose,NFHS 4,67.4
-Rajasthan,Hepatitis B 0 Dose,NFHS 5,75
+Rajasthan,Hepatitis B 0 Dose,NFHS 5,75.0
 Rajasthan,Hepatitis B 0 Dose,Change,7.6
+Rajasthan,Hepatitis B 0 Dose,NFHS 6,82.6
+Rajasthan,Hepatitis B 0 Dose,Change 2,7.6
 Rajasthan,Hepatitis B 1st Dose,NFHS 4,76.9
 Rajasthan,Hepatitis B 1st Dose,NFHS 5,93.9
-Rajasthan,Hepatitis B 1st Dose,Change,17
+Rajasthan,Hepatitis B 1st Dose,Change,17.0
+Rajasthan,Hepatitis B 1st Dose,NFHS 6,
+Rajasthan,Hepatitis B 1st Dose,Change 2,
 Rajasthan,Hepatitis B 2nd Dose,NFHS 4,69.8
 Rajasthan,Hepatitis B 2nd Dose,NFHS 5,91.4
 Rajasthan,Hepatitis B 2nd Dose,Change,21.6
-Rajasthan,Hepatitis B 3rd Dose,NFHS 4,53
+Rajasthan,Hepatitis B 2nd Dose,NFHS 6,
+Rajasthan,Hepatitis B 2nd Dose,Change 2,
+Rajasthan,Hepatitis B 3rd Dose,NFHS 4,53.0
 Rajasthan,Hepatitis B 3rd Dose,NFHS 5,88.2
 Rajasthan,Hepatitis B 3rd Dose,Change,35.2
+Rajasthan,Hepatitis B 3rd Dose,NFHS 6,
+Rajasthan,Hepatitis B 3rd Dose,Change 2,
 Rajasthan,Pentavalent and DPT 1,NFHS 4,86.1
 Rajasthan,Pentavalent and DPT 1,NFHS 5,94.6
 Rajasthan,Pentavalent and DPT 1,Change,8.5
-Rajasthan,Pentavalent and DPT 2,NFHS 4,81
+Rajasthan,Pentavalent and DPT 1,NFHS 6,
+Rajasthan,Pentavalent and DPT 1,Change 2,
+Rajasthan,Pentavalent and DPT 2,NFHS 4,81.0
 Rajasthan,Pentavalent and DPT 2,NFHS 5,92.5
 Rajasthan,Pentavalent and DPT 2,Change,11.5
+Rajasthan,Pentavalent and DPT 2,NFHS 6,
+Rajasthan,Pentavalent and DPT 2,Change 2,
 Rajasthan,Pentavalent and DPT 3,NFHS 4,71.6
 Rajasthan,Pentavalent and DPT 3,NFHS 5,89.4
 Rajasthan,Pentavalent and DPT 3,Change,17.8
+Rajasthan,Pentavalent and DPT 3,NFHS 6,87.2
+Rajasthan,Pentavalent and DPT 3,Change 2,-2.2
 Rajasthan,Polio 0,NFHS 4,76.3
 Rajasthan,Polio 0,NFHS 5,90.8
 Rajasthan,Polio 0,Change,14.5
+Rajasthan,Polio 0,NFHS 6,
+Rajasthan,Polio 0,Change 2,
 Rajasthan,Polio 1,NFHS 4,87.9
 Rajasthan,Polio 1,NFHS 5,94.8
 Rajasthan,Polio 1,Change,6.9
+Rajasthan,Polio 1,NFHS 6,
+Rajasthan,Polio 1,Change 2,
 Rajasthan,Polio 2,NFHS 4,81.1
-Rajasthan,Polio 2,NFHS 5,91
+Rajasthan,Polio 2,NFHS 5,91.0
 Rajasthan,Polio 2,Change,9.9
+Rajasthan,Polio 2,NFHS 6,
+Rajasthan,Polio 2,Change 2,
 Rajasthan,Polio 3,NFHS 4,65.4
 Rajasthan,Polio 3,NFHS 5,84.6
 Rajasthan,Polio 3,Change,19.2
+Rajasthan,Polio 3,NFHS 6,84.3
+Rajasthan,Polio 3,Change 2,-0.3
 Rajasthan,MCV Measles and MMR,NFHS 4,78.1
 Rajasthan,MCV Measles and MMR,NFHS 5,91.1
-Rajasthan,MCV Measles and MMR,Change,13
+Rajasthan,MCV Measles and MMR,Change,13.0
+Rajasthan,MCV Measles and MMR,NFHS 6,90.3
+Rajasthan,MCV Measles and MMR,Change 2,-0.8
 Rajasthan,Fully Vaccinated,NFHS 4,54.8
 Rajasthan,Fully Vaccinated,NFHS 5,80.5
 Rajasthan,Fully Vaccinated,Change,25.7
+Rajasthan,Fully Vaccinated,NFHS 6,80.6
+Rajasthan,Fully Vaccinated,Change 2,0.1
 Rajasthan,All Age Appropriate Vaccines,NFHS 4,39.1
-Rajasthan,All Age Appropriate Vaccines,NFHS 5,66
+Rajasthan,All Age Appropriate Vaccines,NFHS 5,66.0
 Rajasthan,All Age Appropriate Vaccines,Change,26.9
+Rajasthan,All Age Appropriate Vaccines,NFHS 6,
+Rajasthan,All Age Appropriate Vaccines,Change 2,
 Rajasthan,No Vaccination,NFHS 4,7.4
 Rajasthan,No Vaccination,NFHS 5,2.6
 Rajasthan,No Vaccination,Change,-4.8
+Rajasthan,No Vaccination,NFHS 6,4.8
+Rajasthan,No Vaccination,Change 2,2.2
 Rajasthan,Vaccination Card Seen,NFHS 4,50.3
 Rajasthan,Vaccination Card Seen,NFHS 5,86.5
 Rajasthan,Vaccination Card Seen,Change,36.2
+Rajasthan,Vaccination Card Seen,NFHS 6,
+Rajasthan,Vaccination Card Seen,Change 2,
+Rajasthan,Fully Vaccinated Card Only,NFHS 4,
+Rajasthan,Fully Vaccinated Card Only,NFHS 5,85.3
+Rajasthan,Fully Vaccinated Card Only,Change,
+Rajasthan,Fully Vaccinated Card Only,NFHS 6,75.0
+Rajasthan,Fully Vaccinated Card Only,Change 2,-10.3
+Rajasthan,MCV 2nd Dose,NFHS 4,
+Rajasthan,MCV 2nd Dose,NFHS 5,52.3
+Rajasthan,MCV 2nd Dose,Change,
+Rajasthan,MCV 2nd Dose,NFHS 6,57.6
+Rajasthan,MCV 2nd Dose,Change 2,5.3
+Rajasthan,Rotavirus 3 Doses,NFHS 4,
+Rajasthan,Rotavirus 3 Doses,NFHS 5,61.6
+Rajasthan,Rotavirus 3 Doses,Change,
+Rajasthan,Rotavirus 3 Doses,NFHS 6,83.4
+Rajasthan,Rotavirus 3 Doses,Change 2,21.8
 Uttarakhand,BCG,NFHS 4,92.8
 Uttarakhand,BCG,NFHS 5,95.2
 Uttarakhand,BCG,Change,2.4
+Uttarakhand,BCG,NFHS 6,97.9
+Uttarakhand,BCG,Change 2,2.7
 Uttarakhand,Hepatitis B 0 Dose,NFHS 4,59.6
 Uttarakhand,Hepatitis B 0 Dose,NFHS 5,68.5
 Uttarakhand,Hepatitis B 0 Dose,Change,8.9
+Uttarakhand,Hepatitis B 0 Dose,NFHS 6,79.7
+Uttarakhand,Hepatitis B 0 Dose,Change 2,11.2
 Uttarakhand,Hepatitis B 1st Dose,NFHS 4,83.2
 Uttarakhand,Hepatitis B 1st Dose,NFHS 5,92.9
 Uttarakhand,Hepatitis B 1st Dose,Change,9.7
+Uttarakhand,Hepatitis B 1st Dose,NFHS 6,
+Uttarakhand,Hepatitis B 1st Dose,Change 2,
 Uttarakhand,Hepatitis B 2nd Dose,NFHS 4,76.9
 Uttarakhand,Hepatitis B 2nd Dose,NFHS 5,90.6
 Uttarakhand,Hepatitis B 2nd Dose,Change,13.7
+Uttarakhand,Hepatitis B 2nd Dose,NFHS 6,
+Uttarakhand,Hepatitis B 2nd Dose,Change 2,
 Uttarakhand,Hepatitis B 3rd Dose,NFHS 4,59.4
 Uttarakhand,Hepatitis B 3rd Dose,NFHS 5,86.6
 Uttarakhand,Hepatitis B 3rd Dose,Change,27.2
+Uttarakhand,Hepatitis B 3rd Dose,NFHS 6,
+Uttarakhand,Hepatitis B 3rd Dose,Change 2,
 Uttarakhand,Pentavalent and DPT 1,NFHS 4,90.7
 Uttarakhand,Pentavalent and DPT 1,NFHS 5,94.8
 Uttarakhand,Pentavalent and DPT 1,Change,4.1
+Uttarakhand,Pentavalent and DPT 1,NFHS 6,
+Uttarakhand,Pentavalent and DPT 1,Change 2,
 Uttarakhand,Pentavalent and DPT 2,NFHS 4,86.1
 Uttarakhand,Pentavalent and DPT 2,NFHS 5,93.9
 Uttarakhand,Pentavalent and DPT 2,Change,7.8
+Uttarakhand,Pentavalent and DPT 2,NFHS 6,
+Uttarakhand,Pentavalent and DPT 2,Change 2,
 Uttarakhand,Pentavalent and DPT 3,NFHS 4,79.9
 Uttarakhand,Pentavalent and DPT 3,NFHS 5,89.7
 Uttarakhand,Pentavalent and DPT 3,Change,9.8
+Uttarakhand,Pentavalent and DPT 3,NFHS 6,93.7
+Uttarakhand,Pentavalent and DPT 3,Change 2,4.0
 Uttarakhand,Polio 0,NFHS 4,73.8
 Uttarakhand,Polio 0,NFHS 5,86.8
-Uttarakhand,Polio 0,Change,13
+Uttarakhand,Polio 0,Change,13.0
+Uttarakhand,Polio 0,NFHS 6,
+Uttarakhand,Polio 0,Change 2,
 Uttarakhand,Polio 1,NFHS 4,90.4
 Uttarakhand,Polio 1,NFHS 5,93.2
 Uttarakhand,Polio 1,Change,2.8
+Uttarakhand,Polio 1,NFHS 6,
+Uttarakhand,Polio 1,Change 2,
 Uttarakhand,Polio 2,NFHS 4,83.5
 Uttarakhand,Polio 2,NFHS 5,91.2
 Uttarakhand,Polio 2,Change,7.7
+Uttarakhand,Polio 2,NFHS 6,
+Uttarakhand,Polio 2,Change 2,
 Uttarakhand,Polio 3,NFHS 4,67.9
-Uttarakhand,Polio 3,NFHS 5,84
+Uttarakhand,Polio 3,NFHS 5,84.0
 Uttarakhand,Polio 3,Change,16.1
+Uttarakhand,Polio 3,NFHS 6,87.1
+Uttarakhand,Polio 3,Change 2,3.1
 Uttarakhand,MCV Measles and MMR,NFHS 4,80.4
 Uttarakhand,MCV Measles and MMR,NFHS 5,90.9
 Uttarakhand,MCV Measles and MMR,Change,10.5
+Uttarakhand,MCV Measles and MMR,NFHS 6,95.4
+Uttarakhand,MCV Measles and MMR,Change 2,4.5
 Uttarakhand,Fully Vaccinated,NFHS 4,57.6
 Uttarakhand,Fully Vaccinated,NFHS 5,81.1
 Uttarakhand,Fully Vaccinated,Change,23.5
+Uttarakhand,Fully Vaccinated,NFHS 6,86.0
+Uttarakhand,Fully Vaccinated,Change 2,4.9
 Uttarakhand,All Age Appropriate Vaccines,NFHS 4,33.5
 Uttarakhand,All Age Appropriate Vaccines,NFHS 5,60.1
 Uttarakhand,All Age Appropriate Vaccines,Change,26.6
+Uttarakhand,All Age Appropriate Vaccines,NFHS 6,
+Uttarakhand,All Age Appropriate Vaccines,Change 2,
 Uttarakhand,No Vaccination,NFHS 4,5.2
 Uttarakhand,No Vaccination,NFHS 5,3.6
 Uttarakhand,No Vaccination,Change,-1.6
+Uttarakhand,No Vaccination,NFHS 6,1.7
+Uttarakhand,No Vaccination,Change 2,-1.9
 Uttarakhand,Vaccination Card Seen,NFHS 4,57.8
 Uttarakhand,Vaccination Card Seen,NFHS 5,85.5
 Uttarakhand,Vaccination Card Seen,Change,27.7
+Uttarakhand,Vaccination Card Seen,NFHS 6,
+Uttarakhand,Vaccination Card Seen,Change 2,
+Uttarakhand,Fully Vaccinated Card Only,NFHS 4,
+Uttarakhand,Fully Vaccinated Card Only,NFHS 5,88.6
+Uttarakhand,Fully Vaccinated Card Only,Change,
+Uttarakhand,Fully Vaccinated Card Only,NFHS 6,90.8
+Uttarakhand,Fully Vaccinated Card Only,Change 2,2.2
+Uttarakhand,MCV 2nd Dose,NFHS 4,
+Uttarakhand,MCV 2nd Dose,NFHS 5,71.3
+Uttarakhand,MCV 2nd Dose,Change,
+Uttarakhand,MCV 2nd Dose,NFHS 6,83.2
+Uttarakhand,MCV 2nd Dose,Change 2,11.9
+Uttarakhand,Rotavirus 3 Doses,NFHS 4,
+Uttarakhand,Rotavirus 3 Doses,NFHS 5,32.3
+Uttarakhand,Rotavirus 3 Doses,Change,
+Uttarakhand,Rotavirus 3 Doses,NFHS 6,92.8
+Uttarakhand,Rotavirus 3 Doses,Change 2,60.5
 Chhattisgarh,BCG,NFHS 4,98.4
 Chhattisgarh,BCG,NFHS 5,96.4
-Chhattisgarh,BCG,Change,-2
+Chhattisgarh,BCG,Change,-2.0
+Chhattisgarh,BCG,NFHS 6,93.2
+Chhattisgarh,BCG,Change 2,-3.2
 Chhattisgarh,Hepatitis B 0 Dose,NFHS 4,80.4
 Chhattisgarh,Hepatitis B 0 Dose,NFHS 5,70.6
 Chhattisgarh,Hepatitis B 0 Dose,Change,-9.8
+Chhattisgarh,Hepatitis B 0 Dose,NFHS 6,77.7
+Chhattisgarh,Hepatitis B 0 Dose,Change 2,7.1
 Chhattisgarh,Hepatitis B 1st Dose,NFHS 4,92.2
-Chhattisgarh,Hepatitis B 1st Dose,NFHS 5,94
+Chhattisgarh,Hepatitis B 1st Dose,NFHS 5,94.0
 Chhattisgarh,Hepatitis B 1st Dose,Change,1.8
+Chhattisgarh,Hepatitis B 1st Dose,NFHS 6,
+Chhattisgarh,Hepatitis B 1st Dose,Change 2,
 Chhattisgarh,Hepatitis B 2nd Dose,NFHS 4,90.1
 Chhattisgarh,Hepatitis B 2nd Dose,NFHS 5,90.8
 Chhattisgarh,Hepatitis B 2nd Dose,Change,0.7
+Chhattisgarh,Hepatitis B 2nd Dose,NFHS 6,
+Chhattisgarh,Hepatitis B 2nd Dose,Change 2,
 Chhattisgarh,Hepatitis B 3rd Dose,NFHS 4,76.4
 Chhattisgarh,Hepatitis B 3rd Dose,NFHS 5,85.9
 Chhattisgarh,Hepatitis B 3rd Dose,Change,9.5
+Chhattisgarh,Hepatitis B 3rd Dose,NFHS 6,
+Chhattisgarh,Hepatitis B 3rd Dose,Change 2,
 Chhattisgarh,Pentavalent and DPT 1,NFHS 4,97.9
 Chhattisgarh,Pentavalent and DPT 1,NFHS 5,95.2
 Chhattisgarh,Pentavalent and DPT 1,Change,-2.7
+Chhattisgarh,Pentavalent and DPT 1,NFHS 6,
+Chhattisgarh,Pentavalent and DPT 1,Change 2,
 Chhattisgarh,Pentavalent and DPT 2,NFHS 4,96.2
 Chhattisgarh,Pentavalent and DPT 2,NFHS 5,93.2
-Chhattisgarh,Pentavalent and DPT 2,Change,-3
+Chhattisgarh,Pentavalent and DPT 2,Change,-3.0
+Chhattisgarh,Pentavalent and DPT 2,NFHS 6,
+Chhattisgarh,Pentavalent and DPT 2,Change 2,
 Chhattisgarh,Pentavalent and DPT 3,NFHS 4,91.4
 Chhattisgarh,Pentavalent and DPT 3,NFHS 5,87.5
 Chhattisgarh,Pentavalent and DPT 3,Change,-3.9
+Chhattisgarh,Pentavalent and DPT 3,NFHS 6,85.4
+Chhattisgarh,Pentavalent and DPT 3,Change 2,-2.1
 Chhattisgarh,Polio 0,NFHS 4,90.6
 Chhattisgarh,Polio 0,NFHS 5,90.6
-Chhattisgarh,Polio 0,Change,0
+Chhattisgarh,Polio 0,Change,0.0
+Chhattisgarh,Polio 0,NFHS 6,
+Chhattisgarh,Polio 0,Change 2,
 Chhattisgarh,Polio 1,NFHS 4,97.9
 Chhattisgarh,Polio 1,NFHS 5,94.6
 Chhattisgarh,Polio 1,Change,-3.3
+Chhattisgarh,Polio 1,NFHS 6,
+Chhattisgarh,Polio 1,Change 2,
 Chhattisgarh,Polio 2,NFHS 4,94.7
-Chhattisgarh,Polio 2,NFHS 5,91
+Chhattisgarh,Polio 2,NFHS 5,91.0
 Chhattisgarh,Polio 2,Change,-3.7
+Chhattisgarh,Polio 2,NFHS 6,
+Chhattisgarh,Polio 2,Change 2,
 Chhattisgarh,Polio 3,NFHS 4,81.7
 Chhattisgarh,Polio 3,NFHS 5,84.2
 Chhattisgarh,Polio 3,Change,2.5
+Chhattisgarh,Polio 3,NFHS 6,81.3
+Chhattisgarh,Polio 3,Change 2,-2.9
 Chhattisgarh,MCV Measles and MMR,NFHS 4,93.9
 Chhattisgarh,MCV Measles and MMR,NFHS 5,90.2
 Chhattisgarh,MCV Measles and MMR,Change,-3.7
+Chhattisgarh,MCV Measles and MMR,NFHS 6,89.9
+Chhattisgarh,MCV Measles and MMR,Change 2,-0.3
 Chhattisgarh,Fully Vaccinated,NFHS 4,76.4
 Chhattisgarh,Fully Vaccinated,NFHS 5,79.7
 Chhattisgarh,Fully Vaccinated,Change,3.3
+Chhattisgarh,Fully Vaccinated,NFHS 6,77.9
+Chhattisgarh,Fully Vaccinated,Change 2,-1.8
 Chhattisgarh,All Age Appropriate Vaccines,NFHS 4,61.2
 Chhattisgarh,All Age Appropriate Vaccines,NFHS 5,58.8
 Chhattisgarh,All Age Appropriate Vaccines,Change,-2.4
+Chhattisgarh,All Age Appropriate Vaccines,NFHS 6,
+Chhattisgarh,All Age Appropriate Vaccines,Change 2,
 Chhattisgarh,No Vaccination,NFHS 4,0.8
 Chhattisgarh,No Vaccination,NFHS 5,2.5
 Chhattisgarh,No Vaccination,Change,1.7
+Chhattisgarh,No Vaccination,NFHS 6,4.6
+Chhattisgarh,No Vaccination,Change 2,2.1
 Chhattisgarh,Vaccination Card Seen,NFHS 4,71.5
-Chhattisgarh,Vaccination Card Seen,NFHS 5,91
+Chhattisgarh,Vaccination Card Seen,NFHS 5,91.0
 Chhattisgarh,Vaccination Card Seen,Change,19.5
+Chhattisgarh,Vaccination Card Seen,NFHS 6,
+Chhattisgarh,Vaccination Card Seen,Change 2,
+Chhattisgarh,Fully Vaccinated Card Only,NFHS 4,
+Chhattisgarh,Fully Vaccinated Card Only,NFHS 5,84.8
+Chhattisgarh,Fully Vaccinated Card Only,Change,
+Chhattisgarh,Fully Vaccinated Card Only,NFHS 6,84.6
+Chhattisgarh,Fully Vaccinated Card Only,Change 2,-0.2
+Chhattisgarh,MCV 2nd Dose,NFHS 4,
+Chhattisgarh,MCV 2nd Dose,NFHS 5,56.3
+Chhattisgarh,MCV 2nd Dose,Change,
+Chhattisgarh,MCV 2nd Dose,NFHS 6,64.1
+Chhattisgarh,MCV 2nd Dose,Change 2,7.8
+Chhattisgarh,Rotavirus 3 Doses,NFHS 4,
+Chhattisgarh,Rotavirus 3 Doses,NFHS 5,50.4
+Chhattisgarh,Rotavirus 3 Doses,Change,
+Chhattisgarh,Rotavirus 3 Doses,NFHS 6,83.8
+Chhattisgarh,Rotavirus 3 Doses,Change 2,33.4
 Madhya Pradesh,BCG,NFHS 4,91.6
 Madhya Pradesh,BCG,NFHS 5,95.4
 Madhya Pradesh,BCG,Change,3.8
+Madhya Pradesh,BCG,NFHS 6,95.7
+Madhya Pradesh,BCG,Change 2,0.3
 Madhya Pradesh,Hepatitis B 0 Dose,NFHS 4,74.6
 Madhya Pradesh,Hepatitis B 0 Dose,NFHS 5,81.9
 Madhya Pradesh,Hepatitis B 0 Dose,Change,7.3
+Madhya Pradesh,Hepatitis B 0 Dose,NFHS 6,86.5
+Madhya Pradesh,Hepatitis B 0 Dose,Change 2,4.6
 Madhya Pradesh,Hepatitis B 1st Dose,NFHS 4,81.6
 Madhya Pradesh,Hepatitis B 1st Dose,NFHS 5,92.9
 Madhya Pradesh,Hepatitis B 1st Dose,Change,11.3
+Madhya Pradesh,Hepatitis B 1st Dose,NFHS 6,
+Madhya Pradesh,Hepatitis B 1st Dose,Change 2,
 Madhya Pradesh,Hepatitis B 2nd Dose,NFHS 4,74.4
 Madhya Pradesh,Hepatitis B 2nd Dose,NFHS 5,89.8
 Madhya Pradesh,Hepatitis B 2nd Dose,Change,15.4
+Madhya Pradesh,Hepatitis B 2nd Dose,NFHS 6,
+Madhya Pradesh,Hepatitis B 2nd Dose,Change 2,
 Madhya Pradesh,Hepatitis B 3rd Dose,NFHS 4,56.3
-Madhya Pradesh,Hepatitis B 3rd Dose,NFHS 5,85
+Madhya Pradesh,Hepatitis B 3rd Dose,NFHS 5,85.0
 Madhya Pradesh,Hepatitis B 3rd Dose,Change,28.7
+Madhya Pradesh,Hepatitis B 3rd Dose,NFHS 6,
+Madhya Pradesh,Hepatitis B 3rd Dose,Change 2,
 Madhya Pradesh,Pentavalent and DPT 1,NFHS 4,89.7
-Madhya Pradesh,Pentavalent and DPT 1,NFHS 5,94
+Madhya Pradesh,Pentavalent and DPT 1,NFHS 5,94.0
 Madhya Pradesh,Pentavalent and DPT 1,Change,4.3
+Madhya Pradesh,Pentavalent and DPT 1,NFHS 6,
+Madhya Pradesh,Pentavalent and DPT 1,Change 2,
 Madhya Pradesh,Pentavalent and DPT 2,NFHS 4,84.4
 Madhya Pradesh,Pentavalent and DPT 2,NFHS 5,92.4
-Madhya Pradesh,Pentavalent and DPT 2,Change,8
+Madhya Pradesh,Pentavalent and DPT 2,Change,8.0
+Madhya Pradesh,Pentavalent and DPT 2,NFHS 6,
+Madhya Pradesh,Pentavalent and DPT 2,Change 2,
 Madhya Pradesh,Pentavalent and DPT 3,NFHS 4,73.4
 Madhya Pradesh,Pentavalent and DPT 3,NFHS 5,87.9
 Madhya Pradesh,Pentavalent and DPT 3,Change,14.5
+Madhya Pradesh,Pentavalent and DPT 3,NFHS 6,88.6
+Madhya Pradesh,Pentavalent and DPT 3,Change 2,0.7
 Madhya Pradesh,Polio 0,NFHS 4,82.6
 Madhya Pradesh,Polio 0,NFHS 5,91.3
 Madhya Pradesh,Polio 0,Change,8.7
+Madhya Pradesh,Polio 0,NFHS 6,
+Madhya Pradesh,Polio 0,Change 2,
 Madhya Pradesh,Polio 1,NFHS 4,88.9
 Madhya Pradesh,Polio 1,NFHS 5,92.4
 Madhya Pradesh,Polio 1,Change,3.5
+Madhya Pradesh,Polio 1,NFHS 6,
+Madhya Pradesh,Polio 1,Change 2,
 Madhya Pradesh,Polio 2,NFHS 4,81.2
 Madhya Pradesh,Polio 2,NFHS 5,88.8
 Madhya Pradesh,Polio 2,Change,7.6
+Madhya Pradesh,Polio 2,NFHS 6,
+Madhya Pradesh,Polio 2,Change 2,
 Madhya Pradesh,Polio 3,NFHS 4,63.6
 Madhya Pradesh,Polio 3,NFHS 5,81.4
 Madhya Pradesh,Polio 3,Change,17.8
+Madhya Pradesh,Polio 3,NFHS 6,85.4
+Madhya Pradesh,Polio 3,Change 2,4.0
 Madhya Pradesh,MCV Measles and MMR,NFHS 4,79.6
 Madhya Pradesh,MCV Measles and MMR,NFHS 5,88.1
 Madhya Pradesh,MCV Measles and MMR,Change,8.5
+Madhya Pradesh,MCV Measles and MMR,NFHS 6,92.0
+Madhya Pradesh,MCV Measles and MMR,Change 2,3.9
 Madhya Pradesh,Fully Vaccinated,NFHS 4,53.6
 Madhya Pradesh,Fully Vaccinated,NFHS 5,77.4
 Madhya Pradesh,Fully Vaccinated,Change,23.8
+Madhya Pradesh,Fully Vaccinated,NFHS 6,81.5
+Madhya Pradesh,Fully Vaccinated,Change 2,4.1
 Madhya Pradesh,All Age Appropriate Vaccines,NFHS 4,44.4
 Madhya Pradesh,All Age Appropriate Vaccines,NFHS 5,68.1
 Madhya Pradesh,All Age Appropriate Vaccines,Change,23.7
+Madhya Pradesh,All Age Appropriate Vaccines,NFHS 6,
+Madhya Pradesh,All Age Appropriate Vaccines,Change 2,
 Madhya Pradesh,No Vaccination,NFHS 4,6.1
 Madhya Pradesh,No Vaccination,NFHS 5,3.6
 Madhya Pradesh,No Vaccination,Change,-2.5
+Madhya Pradesh,No Vaccination,NFHS 6,3.0
+Madhya Pradesh,No Vaccination,Change 2,-0.6
 Madhya Pradesh,Vaccination Card Seen,NFHS 4,52.8
 Madhya Pradesh,Vaccination Card Seen,NFHS 5,86.7
 Madhya Pradesh,Vaccination Card Seen,Change,33.9
+Madhya Pradesh,Vaccination Card Seen,NFHS 6,
+Madhya Pradesh,Vaccination Card Seen,Change 2,
+Madhya Pradesh,Fully Vaccinated Card Only,NFHS 4,
+Madhya Pradesh,Fully Vaccinated Card Only,NFHS 5,83.3
+Madhya Pradesh,Fully Vaccinated Card Only,Change,
+Madhya Pradesh,Fully Vaccinated Card Only,NFHS 6,85.8
+Madhya Pradesh,Fully Vaccinated Card Only,Change 2,2.5
+Madhya Pradesh,MCV 2nd Dose,NFHS 4,
+Madhya Pradesh,MCV 2nd Dose,NFHS 5,63.9
+Madhya Pradesh,MCV 2nd Dose,Change,
+Madhya Pradesh,MCV 2nd Dose,NFHS 6,67.0
+Madhya Pradesh,MCV 2nd Dose,Change 2,3.1
+Madhya Pradesh,Rotavirus 3 Doses,NFHS 4,
+Madhya Pradesh,Rotavirus 3 Doses,NFHS 5,70.9
+Madhya Pradesh,Rotavirus 3 Doses,Change,
+Madhya Pradesh,Rotavirus 3 Doses,NFHS 6,86.3
+Madhya Pradesh,Rotavirus 3 Doses,Change 2,15.4
 Uttar Pradesh,BCG,NFHS 4,87.6
 Uttar Pradesh,BCG,NFHS 5,93.2
 Uttar Pradesh,BCG,Change,5.6
+Uttar Pradesh,BCG,NFHS 6,94.3
+Uttar Pradesh,BCG,Change 2,1.1
 Uttar Pradesh,Hepatitis B 0 Dose,NFHS 4,45.2
 Uttar Pradesh,Hepatitis B 0 Dose,NFHS 5,50.4
 Uttar Pradesh,Hepatitis B 0 Dose,Change,5.2
+Uttar Pradesh,Hepatitis B 0 Dose,NFHS 6,57.3
+Uttar Pradesh,Hepatitis B 0 Dose,Change 2,6.9
 Uttar Pradesh,Hepatitis B 1st Dose,NFHS 4,76.8
 Uttar Pradesh,Hepatitis B 1st Dose,NFHS 5,88.6
 Uttar Pradesh,Hepatitis B 1st Dose,Change,11.8
+Uttar Pradesh,Hepatitis B 1st Dose,NFHS 6,
+Uttar Pradesh,Hepatitis B 1st Dose,Change 2,
 Uttar Pradesh,Hepatitis B 2nd Dose,NFHS 4,69.7
 Uttar Pradesh,Hepatitis B 2nd Dose,NFHS 5,84.5
 Uttar Pradesh,Hepatitis B 2nd Dose,Change,14.8
+Uttar Pradesh,Hepatitis B 2nd Dose,NFHS 6,
+Uttar Pradesh,Hepatitis B 2nd Dose,Change 2,
 Uttar Pradesh,Hepatitis B 3rd Dose,NFHS 4,52.8
 Uttar Pradesh,Hepatitis B 3rd Dose,NFHS 5,78.3
 Uttar Pradesh,Hepatitis B 3rd Dose,Change,25.5
+Uttar Pradesh,Hepatitis B 3rd Dose,NFHS 6,
+Uttar Pradesh,Hepatitis B 3rd Dose,Change 2,
 Uttar Pradesh,Pentavalent and DPT 1,NFHS 4,83.7
 Uttar Pradesh,Pentavalent and DPT 1,NFHS 5,90.9
 Uttar Pradesh,Pentavalent and DPT 1,Change,7.2
+Uttar Pradesh,Pentavalent and DPT 1,NFHS 6,
+Uttar Pradesh,Pentavalent and DPT 1,Change 2,
 Uttar Pradesh,Pentavalent and DPT 2,NFHS 4,77.7
 Uttar Pradesh,Pentavalent and DPT 2,NFHS 5,87.6
 Uttar Pradesh,Pentavalent and DPT 2,Change,9.9
+Uttar Pradesh,Pentavalent and DPT 2,NFHS 6,
+Uttar Pradesh,Pentavalent and DPT 2,Change 2,
 Uttar Pradesh,Pentavalent and DPT 3,NFHS 4,66.5
 Uttar Pradesh,Pentavalent and DPT 3,NFHS 5,81.3
 Uttar Pradesh,Pentavalent and DPT 3,Change,14.8
+Uttar Pradesh,Pentavalent and DPT 3,NFHS 6,88.1
+Uttar Pradesh,Pentavalent and DPT 3,Change 2,6.8
 Uttar Pradesh,Polio 0,NFHS 4,64.1
 Uttar Pradesh,Polio 0,NFHS 5,77.3
 Uttar Pradesh,Polio 0,Change,13.2
+Uttar Pradesh,Polio 0,NFHS 6,
+Uttar Pradesh,Polio 0,Change 2,
 Uttar Pradesh,Polio 1,NFHS 4,86.8
 Uttar Pradesh,Polio 1,NFHS 5,88.3
 Uttar Pradesh,Polio 1,Change,1.5
+Uttar Pradesh,Polio 1,NFHS 6,
+Uttar Pradesh,Polio 1,Change 2,
 Uttar Pradesh,Polio 2,NFHS 4,80.6
 Uttar Pradesh,Polio 2,NFHS 5,83.4
 Uttar Pradesh,Polio 2,Change,2.8
+Uttar Pradesh,Polio 2,NFHS 6,
+Uttar Pradesh,Polio 2,Change 2,
 Uttar Pradesh,Polio 3,NFHS 4,68.3
 Uttar Pradesh,Polio 3,NFHS 5,74.3
-Uttar Pradesh,Polio 3,Change,6
+Uttar Pradesh,Polio 3,Change,6.0
+Uttar Pradesh,Polio 3,NFHS 6,84.5
+Uttar Pradesh,Polio 3,Change 2,10.2
 Uttar Pradesh,MCV Measles and MMR,NFHS 4,70.8
 Uttar Pradesh,MCV Measles and MMR,NFHS 5,83.4
 Uttar Pradesh,MCV Measles and MMR,Change,12.6
+Uttar Pradesh,MCV Measles and MMR,NFHS 6,90.4
+Uttar Pradesh,MCV Measles and MMR,Change 2,7.0
 Uttar Pradesh,Fully Vaccinated,NFHS 4,51.1
 Uttar Pradesh,Fully Vaccinated,NFHS 5,69.9
 Uttar Pradesh,Fully Vaccinated,Change,18.8
+Uttar Pradesh,Fully Vaccinated,NFHS 6,81.4
+Uttar Pradesh,Fully Vaccinated,Change 2,11.5
 Uttar Pradesh,All Age Appropriate Vaccines,NFHS 4,25.6
 Uttar Pradesh,All Age Appropriate Vaccines,NFHS 5,39.3
 Uttar Pradesh,All Age Appropriate Vaccines,Change,13.7
+Uttar Pradesh,All Age Appropriate Vaccines,NFHS 6,
+Uttar Pradesh,All Age Appropriate Vaccines,Change 2,
 Uttar Pradesh,No Vaccination,NFHS 4,8.7
 Uttar Pradesh,No Vaccination,NFHS 5,4.9
 Uttar Pradesh,No Vaccination,Change,-3.8
+Uttar Pradesh,No Vaccination,NFHS 6,4.1
+Uttar Pradesh,No Vaccination,Change 2,-0.8
 Uttar Pradesh,Vaccination Card Seen,NFHS 4,52.5
 Uttar Pradesh,Vaccination Card Seen,NFHS 5,93.5
-Uttar Pradesh,Vaccination Card Seen,Change,41
+Uttar Pradesh,Vaccination Card Seen,Change,41.0
+Uttar Pradesh,Vaccination Card Seen,NFHS 6,
+Uttar Pradesh,Vaccination Card Seen,Change 2,
+Uttar Pradesh,Fully Vaccinated Card Only,NFHS 4,
+Uttar Pradesh,Fully Vaccinated Card Only,NFHS 5,78.4
+Uttar Pradesh,Fully Vaccinated Card Only,Change,
+Uttar Pradesh,Fully Vaccinated Card Only,NFHS 6,88.6
+Uttar Pradesh,Fully Vaccinated Card Only,Change 2,10.2
+Uttar Pradesh,MCV 2nd Dose,NFHS 4,
+Uttar Pradesh,MCV 2nd Dose,NFHS 5,58.8
+Uttar Pradesh,MCV 2nd Dose,Change,
+Uttar Pradesh,MCV 2nd Dose,NFHS 6,72.6
+Uttar Pradesh,MCV 2nd Dose,Change 2,13.8
+Uttar Pradesh,Rotavirus 3 Doses,NFHS 4,
+Uttar Pradesh,Rotavirus 3 Doses,NFHS 5,49.1
+Uttar Pradesh,Rotavirus 3 Doses,Change,
+Uttar Pradesh,Rotavirus 3 Doses,NFHS 6,85.9
+Uttar Pradesh,Rotavirus 3 Doses,Change 2,36.8
 Bihar,BCG,NFHS 4,91.6
 Bihar,BCG,NFHS 5,95.5
 Bihar,BCG,Change,3.9
-Bihar,Hepatitis B 0 Dose,NFHS 4,65
+Bihar,BCG,NFHS 6,95.3
+Bihar,BCG,Change 2,-0.2
+Bihar,Hepatitis B 0 Dose,NFHS 4,65.0
 Bihar,Hepatitis B 0 Dose,NFHS 5,68.2
 Bihar,Hepatitis B 0 Dose,Change,3.2
+Bihar,Hepatitis B 0 Dose,NFHS 6,74.9
+Bihar,Hepatitis B 0 Dose,Change 2,6.7
 Bihar,Hepatitis B 1st Dose,NFHS 4,83.6
 Bihar,Hepatitis B 1st Dose,NFHS 5,91.8
 Bihar,Hepatitis B 1st Dose,Change,8.2
+Bihar,Hepatitis B 1st Dose,NFHS 6,
+Bihar,Hepatitis B 1st Dose,Change 2,
 Bihar,Hepatitis B 2nd Dose,NFHS 4,79.9
 Bihar,Hepatitis B 2nd Dose,NFHS 5,88.5
 Bihar,Hepatitis B 2nd Dose,Change,8.6
+Bihar,Hepatitis B 2nd Dose,NFHS 6,
+Bihar,Hepatitis B 2nd Dose,Change 2,
 Bihar,Hepatitis B 3rd Dose,NFHS 4,65.5
 Bihar,Hepatitis B 3rd Dose,NFHS 5,82.3
 Bihar,Hepatitis B 3rd Dose,Change,16.8
+Bihar,Hepatitis B 3rd Dose,NFHS 6,
+Bihar,Hepatitis B 3rd Dose,Change 2,
 Bihar,Pentavalent and DPT 1,NFHS 4,90.2
 Bihar,Pentavalent and DPT 1,NFHS 5,93.5
 Bihar,Pentavalent and DPT 1,Change,3.3
+Bihar,Pentavalent and DPT 1,NFHS 6,
+Bihar,Pentavalent and DPT 1,Change 2,
 Bihar,Pentavalent and DPT 2,NFHS 4,87.2
 Bihar,Pentavalent and DPT 2,NFHS 5,90.9
 Bihar,Pentavalent and DPT 2,Change,3.7
+Bihar,Pentavalent and DPT 2,NFHS 6,
+Bihar,Pentavalent and DPT 2,Change 2,
 Bihar,Pentavalent and DPT 3,NFHS 4,80.1
 Bihar,Pentavalent and DPT 3,NFHS 5,85.2
 Bihar,Pentavalent and DPT 3,Change,5.1
+Bihar,Pentavalent and DPT 3,NFHS 6,87.6
+Bihar,Pentavalent and DPT 3,Change 2,2.4
 Bihar,Polio 0,NFHS 4,76.3
 Bihar,Polio 0,NFHS 5,81.1
 Bihar,Polio 0,Change,4.8
+Bihar,Polio 0,NFHS 6,
+Bihar,Polio 0,Change 2,
 Bihar,Polio 1,NFHS 4,89.9
 Bihar,Polio 1,NFHS 5,92.3
 Bihar,Polio 1,Change,2.4
+Bihar,Polio 1,NFHS 6,
+Bihar,Polio 1,Change 2,
 Bihar,Polio 2,NFHS 4,85.1
 Bihar,Polio 2,NFHS 5,87.3
 Bihar,Polio 2,Change,2.2
+Bihar,Polio 2,NFHS 6,
+Bihar,Polio 2,Change 2,
 Bihar,Polio 3,NFHS 4,72.9
 Bihar,Polio 3,NFHS 5,75.5
 Bihar,Polio 3,Change,2.6
+Bihar,Polio 3,NFHS 6,79.3
+Bihar,Polio 3,Change 2,3.8
 Bihar,MCV Measles and MMR,NFHS 4,79.4
 Bihar,MCV Measles and MMR,NFHS 5,85.7
 Bihar,MCV Measles and MMR,Change,6.3
+Bihar,MCV Measles and MMR,NFHS 6,89.9
+Bihar,MCV Measles and MMR,Change 2,4.2
 Bihar,Fully Vaccinated,NFHS 4,61.7
-Bihar,Fully Vaccinated,NFHS 5,71
+Bihar,Fully Vaccinated,NFHS 5,71.0
 Bihar,Fully Vaccinated,Change,9.3
+Bihar,Fully Vaccinated,NFHS 6,77.3
+Bihar,Fully Vaccinated,Change 2,6.3
 Bihar,All Age Appropriate Vaccines,NFHS 4,43.5
-Bihar,All Age Appropriate Vaccines,NFHS 5,52
+Bihar,All Age Appropriate Vaccines,NFHS 5,52.0
 Bihar,All Age Appropriate Vaccines,Change,8.5
+Bihar,All Age Appropriate Vaccines,NFHS 6,
+Bihar,All Age Appropriate Vaccines,Change 2,
 Bihar,No Vaccination,NFHS 4,6.5
 Bihar,No Vaccination,NFHS 5,3.2
 Bihar,No Vaccination,Change,-3.3
+Bihar,No Vaccination,NFHS 6,2.9
+Bihar,No Vaccination,Change 2,-0.3
 Bihar,Vaccination Card Seen,NFHS 4,58.9
 Bihar,Vaccination Card Seen,NFHS 5,76.5
 Bihar,Vaccination Card Seen,Change,17.6
+Bihar,Vaccination Card Seen,NFHS 6,
+Bihar,Vaccination Card Seen,Change 2,
+Bihar,Fully Vaccinated Card Only,NFHS 4,
+Bihar,Fully Vaccinated Card Only,NFHS 5,82.7
+Bihar,Fully Vaccinated Card Only,Change,
+Bihar,Fully Vaccinated Card Only,NFHS 6,86
+Bihar,Fully Vaccinated Card Only,Change 2,3.3
+Bihar,MCV 2nd Dose,NFHS 4,
+Bihar,MCV 2nd Dose,NFHS 5,55.7
+Bihar,MCV 2nd Dose,Change,
+Bihar,MCV 2nd Dose,NFHS 6,66.2
+Bihar,MCV 2nd Dose,Change 2,10.5
+Bihar,Rotavirus 3 Doses,NFHS 4,
+Bihar,Rotavirus 3 Doses,NFHS 5,3.4
+Bihar,Rotavirus 3 Doses,Change,
+Bihar,Rotavirus 3 Doses,NFHS 6,84.3
+Bihar,Rotavirus 3 Doses,Change 2,80.9
 Jharkhand,BCG,NFHS 4,95.8
-Jharkhand,BCG,NFHS 5,95
+Jharkhand,BCG,NFHS 5,95.0
 Jharkhand,BCG,Change,-0.8
-Jharkhand,Hepatitis B 0 Dose,NFHS 4,55
+Jharkhand,BCG,NFHS 6,94.9
+Jharkhand,BCG,Change 2,-0.1
+Jharkhand,Hepatitis B 0 Dose,NFHS 4,55.0
 Jharkhand,Hepatitis B 0 Dose,NFHS 5,61.3
 Jharkhand,Hepatitis B 0 Dose,Change,6.3
+Jharkhand,Hepatitis B 0 Dose,NFHS 6,65.7
+Jharkhand,Hepatitis B 0 Dose,Change 2,4.4
 Jharkhand,Hepatitis B 1st Dose,NFHS 4,75.3
 Jharkhand,Hepatitis B 1st Dose,NFHS 5,91.9
 Jharkhand,Hepatitis B 1st Dose,Change,16.6
+Jharkhand,Hepatitis B 1st Dose,NFHS 6,
+Jharkhand,Hepatitis B 1st Dose,Change 2,
 Jharkhand,Hepatitis B 2nd Dose,NFHS 4,70.6
 Jharkhand,Hepatitis B 2nd Dose,NFHS 5,88.5
 Jharkhand,Hepatitis B 2nd Dose,Change,17.9
+Jharkhand,Hepatitis B 2nd Dose,NFHS 6,
+Jharkhand,Hepatitis B 2nd Dose,Change 2,
 Jharkhand,Hepatitis B 3rd Dose,NFHS 4,56.3
 Jharkhand,Hepatitis B 3rd Dose,NFHS 5,84.4
 Jharkhand,Hepatitis B 3rd Dose,Change,28.1
+Jharkhand,Hepatitis B 3rd Dose,NFHS 6,
+Jharkhand,Hepatitis B 3rd Dose,Change 2,
 Jharkhand,Pentavalent and DPT 1,NFHS 4,93.5
 Jharkhand,Pentavalent and DPT 1,NFHS 5,92.5
-Jharkhand,Pentavalent and DPT 1,Change,-1
+Jharkhand,Pentavalent and DPT 1,Change,-1.0
+Jharkhand,Pentavalent and DPT 1,NFHS 6,
+Jharkhand,Pentavalent and DPT 1,Change 2,
 Jharkhand,Pentavalent and DPT 2,NFHS 4,89.1
 Jharkhand,Pentavalent and DPT 2,NFHS 5,89.7
 Jharkhand,Pentavalent and DPT 2,Change,0.6
+Jharkhand,Pentavalent and DPT 2,NFHS 6,
+Jharkhand,Pentavalent and DPT 2,Change 2,
 Jharkhand,Pentavalent and DPT 3,NFHS 4,82.3
-Jharkhand,Pentavalent and DPT 3,NFHS 5,86
+Jharkhand,Pentavalent and DPT 3,NFHS 5,86.0
 Jharkhand,Pentavalent and DPT 3,Change,3.7
+Jharkhand,Pentavalent and DPT 3,NFHS 6,87.3
+Jharkhand,Pentavalent and DPT 3,Change 2,1.3
 Jharkhand,Polio 0,NFHS 4,70.1
 Jharkhand,Polio 0,NFHS 5,77.3
 Jharkhand,Polio 0,Change,7.2
+Jharkhand,Polio 0,NFHS 6,
+Jharkhand,Polio 0,Change 2,
 Jharkhand,Polio 1,NFHS 4,92.8
 Jharkhand,Polio 1,NFHS 5,88.6
 Jharkhand,Polio 1,Change,-4.2
+Jharkhand,Polio 1,NFHS 6,
+Jharkhand,Polio 1,Change 2,
 Jharkhand,Polio 2,NFHS 4,87.9
 Jharkhand,Polio 2,NFHS 5,84.4
 Jharkhand,Polio 2,Change,-3.5
+Jharkhand,Polio 2,NFHS 6,
+Jharkhand,Polio 2,Change 2,
 Jharkhand,Polio 3,NFHS 4,73.8
 Jharkhand,Polio 3,NFHS 5,76.7
 Jharkhand,Polio 3,Change,2.9
+Jharkhand,Polio 3,NFHS 6,79.6
+Jharkhand,Polio 3,Change 2,2.9
 Jharkhand,MCV Measles and MMR,NFHS 4,82.6
 Jharkhand,MCV Measles and MMR,NFHS 5,86.9
 Jharkhand,MCV Measles and MMR,Change,4.3
+Jharkhand,MCV Measles and MMR,NFHS 6,89.5
+Jharkhand,MCV Measles and MMR,Change 2,2.6
 Jharkhand,Fully Vaccinated,NFHS 4,61.9
 Jharkhand,Fully Vaccinated,NFHS 5,74.1
 Jharkhand,Fully Vaccinated,Change,12.2
+Jharkhand,Fully Vaccinated,NFHS 6,78.1
+Jharkhand,Fully Vaccinated,Change 2,4.0
 Jharkhand,All Age Appropriate Vaccines,NFHS 4,29.6
 Jharkhand,All Age Appropriate Vaccines,NFHS 5,49.7
 Jharkhand,All Age Appropriate Vaccines,Change,20.1
+Jharkhand,All Age Appropriate Vaccines,NFHS 6,
+Jharkhand,All Age Appropriate Vaccines,Change 2,
 Jharkhand,No Vaccination,NFHS 4,2.9
 Jharkhand,No Vaccination,NFHS 5,3.8
 Jharkhand,No Vaccination,Change,0.9
+Jharkhand,No Vaccination,NFHS 6,4.1
+Jharkhand,No Vaccination,Change 2,0.3
 Jharkhand,Vaccination Card Seen,NFHS 4,64.1
 Jharkhand,Vaccination Card Seen,NFHS 5,90.5
 Jharkhand,Vaccination Card Seen,Change,26.4
+Jharkhand,Vaccination Card Seen,NFHS 6,
+Jharkhand,Vaccination Card Seen,Change 2,
+Jharkhand,Fully Vaccinated Card Only,NFHS 4,
+Jharkhand,Fully Vaccinated Card Only,NFHS 5,79.2
+Jharkhand,Fully Vaccinated Card Only,Change,
+Jharkhand,Fully Vaccinated Card Only,NFHS 6,87.6
+Jharkhand,Fully Vaccinated Card Only,Change 2,8.4
+Jharkhand,MCV 2nd Dose,NFHS 4,
+Jharkhand,MCV 2nd Dose,NFHS 5,59.8
+Jharkhand,MCV 2nd Dose,Change,
+Jharkhand,MCV 2nd Dose,NFHS 6,70.7
+Jharkhand,MCV 2nd Dose,Change 2,10.9
+Jharkhand,Rotavirus 3 Doses,NFHS 4,
+Jharkhand,Rotavirus 3 Doses,NFHS 5,74.6
+Jharkhand,Rotavirus 3 Doses,Change,
+Jharkhand,Rotavirus 3 Doses,NFHS 6,84.9
+Jharkhand,Rotavirus 3 Doses,Change 2,10.3
 Odisha,BCG,NFHS 4,94.1
 Odisha,BCG,NFHS 5,97.3
 Odisha,BCG,Change,3.2
+Odisha,BCG,NFHS 6,95.3
+Odisha,BCG,Change 2,-2.0
 Odisha,Hepatitis B 0 Dose,NFHS 4,81.2
 Odisha,Hepatitis B 0 Dose,NFHS 5,88.6
 Odisha,Hepatitis B 0 Dose,Change,7.4
+Odisha,Hepatitis B 0 Dose,NFHS 6,89.6
+Odisha,Hepatitis B 0 Dose,Change 2,1.0
 Odisha,Hepatitis B 1st Dose,NFHS 4,92.2
-Odisha,Hepatitis B 1st Dose,NFHS 5,97
+Odisha,Hepatitis B 1st Dose,NFHS 5,97.0
 Odisha,Hepatitis B 1st Dose,Change,4.8
+Odisha,Hepatitis B 1st Dose,NFHS 6,
+Odisha,Hepatitis B 1st Dose,Change 2,
 Odisha,Hepatitis B 2nd Dose,NFHS 4,90.1
 Odisha,Hepatitis B 2nd Dose,NFHS 5,96.4
 Odisha,Hepatitis B 2nd Dose,Change,6.3
+Odisha,Hepatitis B 2nd Dose,NFHS 6,
+Odisha,Hepatitis B 2nd Dose,Change 2,
 Odisha,Hepatitis B 3rd Dose,NFHS 4,83.2
 Odisha,Hepatitis B 3rd Dose,NFHS 5,94.4
 Odisha,Hepatitis B 3rd Dose,Change,11.2
+Odisha,Hepatitis B 3rd Dose,NFHS 6,
+Odisha,Hepatitis B 3rd Dose,Change 2,
 Odisha,Pentavalent and DPT 1,NFHS 4,93.1
 Odisha,Pentavalent and DPT 1,NFHS 5,97.3
 Odisha,Pentavalent and DPT 1,Change,4.2
+Odisha,Pentavalent and DPT 1,NFHS 6,
+Odisha,Pentavalent and DPT 1,Change 2,
 Odisha,Pentavalent and DPT 2,NFHS 4,92.4
 Odisha,Pentavalent and DPT 2,NFHS 5,96.8
 Odisha,Pentavalent and DPT 2,Change,4.4
+Odisha,Pentavalent and DPT 2,NFHS 6,
+Odisha,Pentavalent and DPT 2,Change 2,
 Odisha,Pentavalent and DPT 3,NFHS 4,89.2
-Odisha,Pentavalent and DPT 3,NFHS 5,95
+Odisha,Pentavalent and DPT 3,NFHS 5,95.0
 Odisha,Pentavalent and DPT 3,Change,5.8
-Odisha,Polio 0,NFHS 4,89
+Odisha,Pentavalent and DPT 3,NFHS 6,93.8
+Odisha,Pentavalent and DPT 3,Change 2,-1.2
+Odisha,Polio 0,NFHS 4,89.0
 Odisha,Polio 0,NFHS 5,93.8
 Odisha,Polio 0,Change,4.8
+Odisha,Polio 0,NFHS 6,
+Odisha,Polio 0,Change 2,
 Odisha,Polio 1,NFHS 4,93.3
 Odisha,Polio 1,NFHS 5,96.3
-Odisha,Polio 1,Change,3
+Odisha,Polio 1,Change,3.0
+Odisha,Polio 1,NFHS 6,
+Odisha,Polio 1,Change 2,
 Odisha,Polio 2,NFHS 4,91.4
-Odisha,Polio 2,NFHS 5,95
+Odisha,Polio 2,NFHS 5,95.0
 Odisha,Polio 2,Change,3.6
+Odisha,Polio 2,NFHS 6,
+Odisha,Polio 2,Change 2,
 Odisha,Polio 3,NFHS 4,82.8
 Odisha,Polio 3,NFHS 5,91.7
 Odisha,Polio 3,Change,8.9
+Odisha,Polio 3,NFHS 6,92.3
+Odisha,Polio 3,Change 2,0.6
 Odisha,MCV Measles and MMR,NFHS 4,87.9
 Odisha,MCV Measles and MMR,NFHS 5,95.9
-Odisha,MCV Measles and MMR,Change,8
+Odisha,MCV Measles and MMR,Change,8.0
+Odisha,MCV Measles and MMR,NFHS 6,94.0
+Odisha,MCV Measles and MMR,Change 2,-1.9
 Odisha,Fully Vaccinated,NFHS 4,78.6
 Odisha,Fully Vaccinated,NFHS 5,90.7
 Odisha,Fully Vaccinated,Change,12.1
+Odisha,Fully Vaccinated,NFHS 6,90.8
+Odisha,Fully Vaccinated,Change 2,0.1
 Odisha,All Age Appropriate Vaccines,NFHS 4,69.1
 Odisha,All Age Appropriate Vaccines,NFHS 5,83.2
 Odisha,All Age Appropriate Vaccines,Change,14.1
+Odisha,All Age Appropriate Vaccines,NFHS 6,
+Odisha,All Age Appropriate Vaccines,Change 2,
 Odisha,No Vaccination,NFHS 4,5.8
 Odisha,No Vaccination,NFHS 5,2.1
 Odisha,No Vaccination,Change,-3.7
+Odisha,No Vaccination,NFHS 6,3.9
+Odisha,No Vaccination,Change 2,1.8
 Odisha,Vaccination Card Seen,NFHS 4,81.1
 Odisha,Vaccination Card Seen,NFHS 5,96.2
 Odisha,Vaccination Card Seen,Change,15.1
+Odisha,Vaccination Card Seen,NFHS 6,
+Odisha,Vaccination Card Seen,Change 2,
+Odisha,Fully Vaccinated Card Only,NFHS 4,
+Odisha,Fully Vaccinated Card Only,NFHS 5,90.7
+Odisha,Fully Vaccinated Card Only,Change,
+Odisha,Fully Vaccinated Card Only,NFHS 6,92.7
+Odisha,Fully Vaccinated Card Only,Change 2,2.0
+Odisha,MCV 2nd Dose,NFHS 4,
+Odisha,MCV 2nd Dose,NFHS 5,78.9
+Odisha,MCV 2nd Dose,Change,
+Odisha,MCV 2nd Dose,NFHS 6,86.3
+Odisha,MCV 2nd Dose,Change 2,7.4
+Odisha,Rotavirus 3 Doses,NFHS 4,
+Odisha,Rotavirus 3 Doses,NFHS 5,88.1
+Odisha,Rotavirus 3 Doses,Change,
+Odisha,Rotavirus 3 Doses,NFHS 6,89.5
+Odisha,Rotavirus 3 Doses,Change 2,1.4
 West Bengal,BCG,NFHS 4,97.5
 West Bengal,BCG,NFHS 5,98.6
 West Bengal,BCG,Change,1.1
+West Bengal,BCG,NFHS 6,97.3
+West Bengal,BCG,Change 2,-1.3
 West Bengal,Hepatitis B 0 Dose,NFHS 4,55.7
 West Bengal,Hepatitis B 0 Dose,NFHS 5,70.2
 West Bengal,Hepatitis B 0 Dose,Change,14.5
+West Bengal,Hepatitis B 0 Dose,NFHS 6,89.0
+West Bengal,Hepatitis B 0 Dose,Change 2,18.8
 West Bengal,Hepatitis B 1st Dose,NFHS 4,95.3
 West Bengal,Hepatitis B 1st Dose,NFHS 5,95.6
 West Bengal,Hepatitis B 1st Dose,Change,0.3
+West Bengal,Hepatitis B 1st Dose,NFHS 6,
+West Bengal,Hepatitis B 1st Dose,Change 2,
 West Bengal,Hepatitis B 2nd Dose,NFHS 4,93.8
 West Bengal,Hepatitis B 2nd Dose,NFHS 5,94.3
 West Bengal,Hepatitis B 2nd Dose,Change,0.5
+West Bengal,Hepatitis B 2nd Dose,NFHS 6,
+West Bengal,Hepatitis B 2nd Dose,Change 2,
 West Bengal,Hepatitis B 3rd Dose,NFHS 4,86.4
-West Bengal,Hepatitis B 3rd Dose,NFHS 5,92
+West Bengal,Hepatitis B 3rd Dose,NFHS 5,92.0
 West Bengal,Hepatitis B 3rd Dose,Change,5.6
+West Bengal,Hepatitis B 3rd Dose,NFHS 6,
+West Bengal,Hepatitis B 3rd Dose,Change 2,
 West Bengal,Pentavalent and DPT 1,NFHS 4,96.6
 West Bengal,Pentavalent and DPT 1,NFHS 5,97.7
 West Bengal,Pentavalent and DPT 1,Change,1.1
+West Bengal,Pentavalent and DPT 1,NFHS 6,
+West Bengal,Pentavalent and DPT 1,Change 2,
 West Bengal,Pentavalent and DPT 2,NFHS 4,95.3
 West Bengal,Pentavalent and DPT 2,NFHS 5,96.9
 West Bengal,Pentavalent and DPT 2,Change,1.6
+West Bengal,Pentavalent and DPT 2,NFHS 6,
+West Bengal,Pentavalent and DPT 2,Change 2,
 West Bengal,Pentavalent and DPT 3,NFHS 4,92.7
 West Bengal,Pentavalent and DPT 3,NFHS 5,95.3
 West Bengal,Pentavalent and DPT 3,Change,2.6
+West Bengal,Pentavalent and DPT 3,NFHS 6,93.7
+West Bengal,Pentavalent and DPT 3,Change 2,-1.6
 West Bengal,Polio 0,NFHS 4,81.9
 West Bengal,Polio 0,NFHS 5,88.8
 West Bengal,Polio 0,Change,6.9
+West Bengal,Polio 0,NFHS 6,
+West Bengal,Polio 0,Change 2,
 West Bengal,Polio 1,NFHS 4,96.7
 West Bengal,Polio 1,NFHS 5,97.6
 West Bengal,Polio 1,Change,0.9
-West Bengal,Polio 2,NFHS 4,95
+West Bengal,Polio 1,NFHS 6,
+West Bengal,Polio 1,Change 2,
+West Bengal,Polio 2,NFHS 4,95.0
 West Bengal,Polio 2,NFHS 5,95.9
 West Bengal,Polio 2,Change,0.9
+West Bengal,Polio 2,NFHS 6,
+West Bengal,Polio 2,Change 2,
 West Bengal,Polio 3,NFHS 4,87.9
 West Bengal,Polio 3,NFHS 5,90.8
 West Bengal,Polio 3,Change,2.9
+West Bengal,Polio 3,NFHS 6,88.7
+West Bengal,Polio 3,Change 2,-2.1
 West Bengal,MCV Measles and MMR,NFHS 4,92.8
 West Bengal,MCV Measles and MMR,NFHS 5,94.4
 West Bengal,MCV Measles and MMR,Change,1.6
+West Bengal,MCV Measles and MMR,NFHS 6,95.3
+West Bengal,MCV Measles and MMR,Change 2,0.9
 West Bengal,Fully Vaccinated,NFHS 4,84.4
 West Bengal,Fully Vaccinated,NFHS 5,88.2
 West Bengal,Fully Vaccinated,Change,3.8
+West Bengal,Fully Vaccinated,NFHS 6,88.1
+West Bengal,Fully Vaccinated,Change 2,-0.1
 West Bengal,All Age Appropriate Vaccines,NFHS 4,46.7
 West Bengal,All Age Appropriate Vaccines,NFHS 5,63.7
-West Bengal,All Age Appropriate Vaccines,Change,17
-West Bengal,No Vaccination,NFHS 4,2
+West Bengal,All Age Appropriate Vaccines,Change,17.0
+West Bengal,All Age Appropriate Vaccines,NFHS 6,
+West Bengal,All Age Appropriate Vaccines,Change 2,
+West Bengal,No Vaccination,NFHS 4,2.0
 West Bengal,No Vaccination,NFHS 5,0.8
 West Bengal,No Vaccination,Change,-1.2
+West Bengal,No Vaccination,NFHS 6,2.0
+West Bengal,No Vaccination,Change 2,1.2
 West Bengal,Vaccination Card Seen,NFHS 4,84.2
 West Bengal,Vaccination Card Seen,NFHS 5,93.2
-West Bengal,Vaccination Card Seen,Change,9
+West Bengal,Vaccination Card Seen,Change,9.0
+West Bengal,Vaccination Card Seen,NFHS 6,
+West Bengal,Vaccination Card Seen,Change 2,
+West Bengal,Fully Vaccinated Card Only,NFHS 4,
+West Bengal,Fully Vaccinated Card Only,NFHS 5,90.8
+West Bengal,Fully Vaccinated Card Only,Change,
+West Bengal,Fully Vaccinated Card Only,NFHS 6,93.9
+West Bengal,Fully Vaccinated Card Only,Change 2,3.1
+West Bengal,MCV 2nd Dose,NFHS 4,
+West Bengal,MCV 2nd Dose,NFHS 5,72.6
+West Bengal,MCV 2nd Dose,Change,
+West Bengal,MCV 2nd Dose,NFHS 6,86.2
+West Bengal,MCV 2nd Dose,Change 2,13.6
+West Bengal,Rotavirus 3 Doses,NFHS 4,
+West Bengal,Rotavirus 3 Doses,NFHS 5,1.8
+West Bengal,Rotavirus 3 Doses,Change,
+West Bengal,Rotavirus 3 Doses,NFHS 6,92.3
+West Bengal,Rotavirus 3 Doses,Change 2,90.5
 Arunachal Pradesh,BCG,NFHS 4,70.9
 Arunachal Pradesh,BCG,NFHS 5,87.9
-Arunachal Pradesh,BCG,Change,17
+Arunachal Pradesh,BCG,Change,17.0
+Arunachal Pradesh,BCG,NFHS 6,89.3
+Arunachal Pradesh,BCG,Change 2,1.4
 Arunachal Pradesh,Hepatitis B 0 Dose,NFHS 4,30.1
 Arunachal Pradesh,Hepatitis B 0 Dose,NFHS 5,65.1
-Arunachal Pradesh,Hepatitis B 0 Dose,Change,35
+Arunachal Pradesh,Hepatitis B 0 Dose,Change,35.0
+Arunachal Pradesh,Hepatitis B 0 Dose,NFHS 6,74.7
+Arunachal Pradesh,Hepatitis B 0 Dose,Change 2,9.6
 Arunachal Pradesh,Hepatitis B 1st Dose,NFHS 4,61.3
 Arunachal Pradesh,Hepatitis B 1st Dose,NFHS 5,83.5
 Arunachal Pradesh,Hepatitis B 1st Dose,Change,22.2
+Arunachal Pradesh,Hepatitis B 1st Dose,NFHS 6,
+Arunachal Pradesh,Hepatitis B 1st Dose,Change 2,
 Arunachal Pradesh,Hepatitis B 2nd Dose,NFHS 4,53.3
 Arunachal Pradesh,Hepatitis B 2nd Dose,NFHS 5,77.2
 Arunachal Pradesh,Hepatitis B 2nd Dose,Change,23.9
+Arunachal Pradesh,Hepatitis B 2nd Dose,NFHS 6,
+Arunachal Pradesh,Hepatitis B 2nd Dose,Change 2,
 Arunachal Pradesh,Hepatitis B 3rd Dose,NFHS 4,40.9
-Arunachal Pradesh,Hepatitis B 3rd Dose,NFHS 5,73
+Arunachal Pradesh,Hepatitis B 3rd Dose,NFHS 5,73.0
 Arunachal Pradesh,Hepatitis B 3rd Dose,Change,32.1
+Arunachal Pradesh,Hepatitis B 3rd Dose,NFHS 6,
+Arunachal Pradesh,Hepatitis B 3rd Dose,Change 2,
 Arunachal Pradesh,Pentavalent and DPT 1,NFHS 4,68.4
 Arunachal Pradesh,Pentavalent and DPT 1,NFHS 5,86.6
 Arunachal Pradesh,Pentavalent and DPT 1,Change,18.2
+Arunachal Pradesh,Pentavalent and DPT 1,NFHS 6,
+Arunachal Pradesh,Pentavalent and DPT 1,Change 2,
 Arunachal Pradesh,Pentavalent and DPT 2,NFHS 4,60.3
 Arunachal Pradesh,Pentavalent and DPT 2,NFHS 5,82.2
 Arunachal Pradesh,Pentavalent and DPT 2,Change,21.9
+Arunachal Pradesh,Pentavalent and DPT 2,NFHS 6,
+Arunachal Pradesh,Pentavalent and DPT 2,Change 2,
 Arunachal Pradesh,Pentavalent and DPT 3,NFHS 4,52.3
 Arunachal Pradesh,Pentavalent and DPT 3,NFHS 5,77.6
 Arunachal Pradesh,Pentavalent and DPT 3,Change,25.3
+Arunachal Pradesh,Pentavalent and DPT 3,NFHS 6,82.0
+Arunachal Pradesh,Pentavalent and DPT 3,Change 2,4.4
 Arunachal Pradesh,Polio 0,NFHS 4,45.1
 Arunachal Pradesh,Polio 0,NFHS 5,76.3
 Arunachal Pradesh,Polio 0,Change,31.2
+Arunachal Pradesh,Polio 0,NFHS 6,
+Arunachal Pradesh,Polio 0,Change 2,
 Arunachal Pradesh,Polio 1,NFHS 4,75.2
 Arunachal Pradesh,Polio 1,NFHS 5,80.6
 Arunachal Pradesh,Polio 1,Change,5.4
+Arunachal Pradesh,Polio 1,NFHS 6,
+Arunachal Pradesh,Polio 1,Change 2,
 Arunachal Pradesh,Polio 2,NFHS 4,65.8
 Arunachal Pradesh,Polio 2,NFHS 5,75.2
 Arunachal Pradesh,Polio 2,Change,9.4
+Arunachal Pradesh,Polio 2,NFHS 6,
+Arunachal Pradesh,Polio 2,Change 2,
 Arunachal Pradesh,Polio 3,NFHS 4,53.7
-Arunachal Pradesh,Polio 3,NFHS 5,69
+Arunachal Pradesh,Polio 3,NFHS 5,69.0
 Arunachal Pradesh,Polio 3,Change,15.3
+Arunachal Pradesh,Polio 3,NFHS 6,78.6
+Arunachal Pradesh,Polio 3,Change 2,9.6
 Arunachal Pradesh,MCV Measles and MMR,NFHS 4,54.6
 Arunachal Pradesh,MCV Measles and MMR,NFHS 5,80.7
 Arunachal Pradesh,MCV Measles and MMR,Change,26.1
+Arunachal Pradesh,MCV Measles and MMR,NFHS 6,83.8
+Arunachal Pradesh,MCV Measles and MMR,Change 2,3.1
 Arunachal Pradesh,Fully Vaccinated,NFHS 4,38.2
 Arunachal Pradesh,Fully Vaccinated,NFHS 5,64.9
 Arunachal Pradesh,Fully Vaccinated,Change,26.7
+Arunachal Pradesh,Fully Vaccinated,NFHS 6,75.9
+Arunachal Pradesh,Fully Vaccinated,Change 2,11.0
 Arunachal Pradesh,All Age Appropriate Vaccines,NFHS 4,17.2
 Arunachal Pradesh,All Age Appropriate Vaccines,NFHS 5,48.3
 Arunachal Pradesh,All Age Appropriate Vaccines,Change,31.1
+Arunachal Pradesh,All Age Appropriate Vaccines,NFHS 6,
+Arunachal Pradesh,All Age Appropriate Vaccines,Change 2,
 Arunachal Pradesh,No Vaccination,NFHS 4,19.7
 Arunachal Pradesh,No Vaccination,NFHS 5,9.4
 Arunachal Pradesh,No Vaccination,Change,-10.3
+Arunachal Pradesh,No Vaccination,NFHS 6,9.2
+Arunachal Pradesh,No Vaccination,Change 2,-0.2
 Arunachal Pradesh,Vaccination Card Seen,NFHS 4,47.1
 Arunachal Pradesh,Vaccination Card Seen,NFHS 5,81.8
 Arunachal Pradesh,Vaccination Card Seen,Change,34.7
+Arunachal Pradesh,Vaccination Card Seen,NFHS 6,
+Arunachal Pradesh,Vaccination Card Seen,Change 2,
+Arunachal Pradesh,Fully Vaccinated Card Only,NFHS 4,
+Arunachal Pradesh,Fully Vaccinated Card Only,NFHS 5,76.4
+Arunachal Pradesh,Fully Vaccinated Card Only,Change,
+Arunachal Pradesh,Fully Vaccinated Card Only,NFHS 6,89.1
+Arunachal Pradesh,Fully Vaccinated Card Only,Change 2,12.7
+Arunachal Pradesh,MCV 2nd Dose,NFHS 4,
+Arunachal Pradesh,MCV 2nd Dose,NFHS 5,51.9
+Arunachal Pradesh,MCV 2nd Dose,Change,
+Arunachal Pradesh,MCV 2nd Dose,NFHS 6,65.7
+Arunachal Pradesh,MCV 2nd Dose,Change 2,13.8
+Arunachal Pradesh,Rotavirus 3 Doses,NFHS 4,
+Arunachal Pradesh,Rotavirus 3 Doses,NFHS 5,32.0
+Arunachal Pradesh,Rotavirus 3 Doses,Change,
+Arunachal Pradesh,Rotavirus 3 Doses,NFHS 6,79.3
+Arunachal Pradesh,Rotavirus 3 Doses,Change 2,47.3
 Assam,BCG,NFHS 4,82.3
 Assam,BCG,NFHS 5,92.5
 Assam,BCG,Change,10.2
+Assam,BCG,NFHS 6,94.0
+Assam,BCG,Change 2,1.5
 Assam,Hepatitis B 0 Dose,NFHS 4,45.4
 Assam,Hepatitis B 0 Dose,NFHS 5,53.9
 Assam,Hepatitis B 0 Dose,Change,8.5
+Assam,Hepatitis B 0 Dose,NFHS 6,71.7
+Assam,Hepatitis B 0 Dose,Change 2,17.8
 Assam,Hepatitis B 1st Dose,NFHS 4,74.9
 Assam,Hepatitis B 1st Dose,NFHS 5,84.8
 Assam,Hepatitis B 1st Dose,Change,9.9
+Assam,Hepatitis B 1st Dose,NFHS 6,
+Assam,Hepatitis B 1st Dose,Change 2,
 Assam,Hepatitis B 2nd Dose,NFHS 4,68.2
 Assam,Hepatitis B 2nd Dose,NFHS 5,81.5
 Assam,Hepatitis B 2nd Dose,Change,13.3
-Assam,Hepatitis B 3rd Dose,NFHS 4,52
+Assam,Hepatitis B 2nd Dose,NFHS 6,
+Assam,Hepatitis B 2nd Dose,Change 2,
+Assam,Hepatitis B 3rd Dose,NFHS 4,52.0
 Assam,Hepatitis B 3rd Dose,NFHS 5,75.1
 Assam,Hepatitis B 3rd Dose,Change,23.1
+Assam,Hepatitis B 3rd Dose,NFHS 6,
+Assam,Hepatitis B 3rd Dose,Change 2,
 Assam,Pentavalent and DPT 1,NFHS 4,81.4
 Assam,Pentavalent and DPT 1,NFHS 5,90.7
 Assam,Pentavalent and DPT 1,Change,9.3
+Assam,Pentavalent and DPT 1,NFHS 6,
+Assam,Pentavalent and DPT 1,Change 2,
 Assam,Pentavalent and DPT 2,NFHS 4,76.9
 Assam,Pentavalent and DPT 2,NFHS 5,87.4
 Assam,Pentavalent and DPT 2,Change,10.5
+Assam,Pentavalent and DPT 2,NFHS 6,
+Assam,Pentavalent and DPT 2,Change 2,
 Assam,Pentavalent and DPT 3,NFHS 4,66.5
 Assam,Pentavalent and DPT 3,NFHS 5,82.5
-Assam,Pentavalent and DPT 3,Change,16
+Assam,Pentavalent and DPT 3,Change,16.0
+Assam,Pentavalent and DPT 3,NFHS 6,88.6
+Assam,Pentavalent and DPT 3,Change 2,6.1
 Assam,Polio 0,NFHS 4,56.6
 Assam,Polio 0,NFHS 5,70.5
 Assam,Polio 0,Change,13.9
-Assam,Polio 1,NFHS 4,83
+Assam,Polio 0,NFHS 6,
+Assam,Polio 0,Change 2,
+Assam,Polio 1,NFHS 4,83.0
 Assam,Polio 1,NFHS 5,89.1
 Assam,Polio 1,Change,6.1
-Assam,Polio 2,NFHS 4,75
+Assam,Polio 1,NFHS 6,
+Assam,Polio 1,Change 2,
+Assam,Polio 2,NFHS 4,75.0
 Assam,Polio 2,NFHS 5,84.3
 Assam,Polio 2,Change,9.3
-Assam,Polio 3,NFHS 4,56
+Assam,Polio 2,NFHS 6,
+Assam,Polio 2,Change 2,
+Assam,Polio 3,NFHS 4,56.0
 Assam,Polio 3,NFHS 5,73.4
 Assam,Polio 3,Change,17.4
+Assam,Polio 3,NFHS 6,84.1
+Assam,Polio 3,Change 2,10.7
 Assam,MCV Measles and MMR,NFHS 4,71.4
 Assam,MCV Measles and MMR,NFHS 5,82.8
 Assam,MCV Measles and MMR,Change,11.4
+Assam,MCV Measles and MMR,NFHS 6,90.5
+Assam,MCV Measles and MMR,Change 2,7.7
 Assam,Fully Vaccinated,NFHS 4,47.1
 Assam,Fully Vaccinated,NFHS 5,66.7
 Assam,Fully Vaccinated,Change,19.6
+Assam,Fully Vaccinated,NFHS 6,81.7
+Assam,Fully Vaccinated,Change 2,15.0
 Assam,All Age Appropriate Vaccines,NFHS 4,25.3
 Assam,All Age Appropriate Vaccines,NFHS 5,37.7
 Assam,All Age Appropriate Vaccines,Change,12.4
+Assam,All Age Appropriate Vaccines,NFHS 6,
+Assam,All Age Appropriate Vaccines,Change 2,
 Assam,No Vaccination,NFHS 4,13.8
 Assam,No Vaccination,NFHS 5,5.2
 Assam,No Vaccination,Change,-8.6
+Assam,No Vaccination,NFHS 6,4.5
+Assam,No Vaccination,Change 2,-0.7
 Assam,Vaccination Card Seen,NFHS 4,55.3
 Assam,Vaccination Card Seen,NFHS 5,88.3
-Assam,Vaccination Card Seen,Change,33
+Assam,Vaccination Card Seen,Change,33.0
+Assam,Vaccination Card Seen,NFHS 6,
+Assam,Vaccination Card Seen,Change 2,
+Assam,Fully Vaccinated Card Only,NFHS 4,
+Assam,Fully Vaccinated Card Only,NFHS 5,71.8
+Assam,Fully Vaccinated Card Only,Change,
+Assam,Fully Vaccinated Card Only,NFHS 6,87.7
+Assam,Fully Vaccinated Card Only,Change 2,15.9
+Assam,MCV 2nd Dose,NFHS 4,
+Assam,MCV 2nd Dose,NFHS 5,35.5
+Assam,MCV 2nd Dose,Change,
+Assam,MCV 2nd Dose,NFHS 6,68.1
+Assam,MCV 2nd Dose,Change 2,32.6
+Assam,Rotavirus 3 Doses,NFHS 4,
+Assam,Rotavirus 3 Doses,NFHS 5,45.4
+Assam,Rotavirus 3 Doses,Change,
+Assam,Rotavirus 3 Doses,NFHS 6,87.4
+Assam,Rotavirus 3 Doses,Change 2,42.0
 Manipur,BCG,NFHS 4,91.2
 Manipur,BCG,NFHS 5,95.4
 Manipur,BCG,Change,4.2
+Manipur,BCG,NFHS 6,
+Manipur,BCG,Change 2,
 Manipur,Hepatitis B 0 Dose,NFHS 4,25.9
 Manipur,Hepatitis B 0 Dose,NFHS 5,48.1
 Manipur,Hepatitis B 0 Dose,Change,22.2
+Manipur,Hepatitis B 0 Dose,NFHS 6,
+Manipur,Hepatitis B 0 Dose,Change 2,
 Manipur,Hepatitis B 1st Dose,NFHS 4,84.5
 Manipur,Hepatitis B 1st Dose,NFHS 5,91.8
 Manipur,Hepatitis B 1st Dose,Change,7.3
+Manipur,Hepatitis B 1st Dose,NFHS 6,
+Manipur,Hepatitis B 1st Dose,Change 2,
 Manipur,Hepatitis B 2nd Dose,NFHS 4,80.1
 Manipur,Hepatitis B 2nd Dose,NFHS 5,87.5
 Manipur,Hepatitis B 2nd Dose,Change,7.4
+Manipur,Hepatitis B 2nd Dose,NFHS 6,
+Manipur,Hepatitis B 2nd Dose,Change 2,
 Manipur,Hepatitis B 3rd Dose,NFHS 4,69.8
-Manipur,Hepatitis B 3rd Dose,NFHS 5,80
+Manipur,Hepatitis B 3rd Dose,NFHS 5,80.0
 Manipur,Hepatitis B 3rd Dose,Change,10.2
+Manipur,Hepatitis B 3rd Dose,NFHS 6,
+Manipur,Hepatitis B 3rd Dose,Change 2,
 Manipur,Pentavalent and DPT 1,NFHS 4,90.4
 Manipur,Pentavalent and DPT 1,NFHS 5,93.4
-Manipur,Pentavalent and DPT 1,Change,3
-Manipur,Pentavalent and DPT 2,NFHS 4,86
+Manipur,Pentavalent and DPT 1,Change,3.0
+Manipur,Pentavalent and DPT 1,NFHS 6,
+Manipur,Pentavalent and DPT 1,Change 2,
+Manipur,Pentavalent and DPT 2,NFHS 4,86.0
 Manipur,Pentavalent and DPT 2,NFHS 5,88.4
 Manipur,Pentavalent and DPT 2,Change,2.4
+Manipur,Pentavalent and DPT 2,NFHS 6,
+Manipur,Pentavalent and DPT 2,Change 2,
 Manipur,Pentavalent and DPT 3,NFHS 4,77.8
 Manipur,Pentavalent and DPT 3,NFHS 5,81.5
 Manipur,Pentavalent and DPT 3,Change,3.7
+Manipur,Pentavalent and DPT 3,NFHS 6,
+Manipur,Pentavalent and DPT 3,Change 2,
 Manipur,Polio 0,NFHS 4,38.5
 Manipur,Polio 0,NFHS 5,62.6
 Manipur,Polio 0,Change,24.1
+Manipur,Polio 0,NFHS 6,
+Manipur,Polio 0,Change 2,
 Manipur,Polio 1,NFHS 4,93.3
 Manipur,Polio 1,NFHS 5,95.1
 Manipur,Polio 1,Change,1.8
+Manipur,Polio 1,NFHS 6,
+Manipur,Polio 1,Change 2,
 Manipur,Polio 2,NFHS 4,88.7
 Manipur,Polio 2,NFHS 5,89.1
 Manipur,Polio 2,Change,0.4
+Manipur,Polio 2,NFHS 6,
+Manipur,Polio 2,Change 2,
 Manipur,Polio 3,NFHS 4,76.6
 Manipur,Polio 3,NFHS 5,75.6
-Manipur,Polio 3,Change,-1
+Manipur,Polio 3,Change,-1.0
+Manipur,Polio 3,NFHS 6,
+Manipur,Polio 3,Change 2,
 Manipur,MCV Measles and MMR,NFHS 4,74.2
 Manipur,MCV Measles and MMR,NFHS 5,76.7
 Manipur,MCV Measles and MMR,Change,2.5
+Manipur,MCV Measles and MMR,NFHS 6,
+Manipur,MCV Measles and MMR,Change 2,
 Manipur,Fully Vaccinated,NFHS 4,65.8
 Manipur,Fully Vaccinated,NFHS 5,68.8
-Manipur,Fully Vaccinated,Change,3
+Manipur,Fully Vaccinated,Change,3.0
+Manipur,Fully Vaccinated,NFHS 6,
+Manipur,Fully Vaccinated,Change 2,
 Manipur,All Age Appropriate Vaccines,NFHS 4,19.5
 Manipur,All Age Appropriate Vaccines,NFHS 5,39.2
 Manipur,All Age Appropriate Vaccines,Change,19.7
+Manipur,All Age Appropriate Vaccines,NFHS 6,
+Manipur,All Age Appropriate Vaccines,Change 2,
 Manipur,No Vaccination,NFHS 4,5.2
 Manipur,No Vaccination,NFHS 5,2.8
 Manipur,No Vaccination,Change,-2.4
+Manipur,No Vaccination,NFHS 6,
+Manipur,No Vaccination,Change 2,
 Manipur,Vaccination Card Seen,NFHS 4,69.5
 Manipur,Vaccination Card Seen,NFHS 5,85.8
 Manipur,Vaccination Card Seen,Change,16.3
+Manipur,Vaccination Card Seen,NFHS 6,
+Manipur,Vaccination Card Seen,Change 2,
+Manipur,Fully Vaccinated Card Only,NFHS 4,
+Manipur,Fully Vaccinated Card Only,NFHS 5,
+Manipur,Fully Vaccinated Card Only,Change,
+Manipur,Fully Vaccinated Card Only,NFHS 6,
+Manipur,Fully Vaccinated Card Only,Change 2,
+Manipur,MCV 2nd Dose,NFHS 4,
+Manipur,MCV 2nd Dose,NFHS 5,
+Manipur,MCV 2nd Dose,Change,
+Manipur,MCV 2nd Dose,NFHS 6,
+Manipur,MCV 2nd Dose,Change 2,
+Manipur,Rotavirus 3 Doses,NFHS 4,
+Manipur,Rotavirus 3 Doses,NFHS 5,
+Manipur,Rotavirus 3 Doses,Change,
+Manipur,Rotavirus 3 Doses,NFHS 6,
+Manipur,Rotavirus 3 Doses,Change 2,
 Meghalaya,BCG,NFHS 4,85.9
 Meghalaya,BCG,NFHS 5,89.3
 Meghalaya,BCG,Change,3.4
+Meghalaya,BCG,NFHS 6,90.4
+Meghalaya,BCG,Change 2,1.1
 Meghalaya,Hepatitis B 0 Dose,NFHS 4,33.9
 Meghalaya,Hepatitis B 0 Dose,NFHS 5,46.5
 Meghalaya,Hepatitis B 0 Dose,Change,12.6
+Meghalaya,Hepatitis B 0 Dose,NFHS 6,67.5
+Meghalaya,Hepatitis B 0 Dose,Change 2,21.0
 Meghalaya,Hepatitis B 1st Dose,NFHS 4,77.1
 Meghalaya,Hepatitis B 1st Dose,NFHS 5,77.6
 Meghalaya,Hepatitis B 1st Dose,Change,0.5
-Meghalaya,Hepatitis B 2nd Dose,NFHS 4,73
+Meghalaya,Hepatitis B 1st Dose,NFHS 6,
+Meghalaya,Hepatitis B 1st Dose,Change 2,
+Meghalaya,Hepatitis B 2nd Dose,NFHS 4,73.0
 Meghalaya,Hepatitis B 2nd Dose,NFHS 5,73.2
 Meghalaya,Hepatitis B 2nd Dose,Change,0.2
+Meghalaya,Hepatitis B 2nd Dose,NFHS 6,
+Meghalaya,Hepatitis B 2nd Dose,Change 2,
 Meghalaya,Hepatitis B 3rd Dose,NFHS 4,62.8
 Meghalaya,Hepatitis B 3rd Dose,NFHS 5,65.7
 Meghalaya,Hepatitis B 3rd Dose,Change,2.9
-Meghalaya,Pentavalent and DPT 1,NFHS 4,83
+Meghalaya,Hepatitis B 3rd Dose,NFHS 6,
+Meghalaya,Hepatitis B 3rd Dose,Change 2,
+Meghalaya,Pentavalent and DPT 1,NFHS 4,83.0
 Meghalaya,Pentavalent and DPT 1,NFHS 5,82.2
 Meghalaya,Pentavalent and DPT 1,Change,-0.8
-Meghalaya,Pentavalent and DPT 2,NFHS 4,80
+Meghalaya,Pentavalent and DPT 1,NFHS 6,
+Meghalaya,Pentavalent and DPT 1,Change 2,
+Meghalaya,Pentavalent and DPT 2,NFHS 4,80.0
 Meghalaya,Pentavalent and DPT 2,NFHS 5,78.9
 Meghalaya,Pentavalent and DPT 2,Change,-1.1
+Meghalaya,Pentavalent and DPT 2,NFHS 6,
+Meghalaya,Pentavalent and DPT 2,Change 2,
 Meghalaya,Pentavalent and DPT 3,NFHS 4,73.9
 Meghalaya,Pentavalent and DPT 3,NFHS 5,73.5
 Meghalaya,Pentavalent and DPT 3,Change,-0.4
+Meghalaya,Pentavalent and DPT 3,NFHS 6,79.3
+Meghalaya,Pentavalent and DPT 3,Change 2,5.8
 Meghalaya,Polio 0,NFHS 4,53.1
 Meghalaya,Polio 0,NFHS 5,58.8
 Meghalaya,Polio 0,Change,5.7
+Meghalaya,Polio 0,NFHS 6,
+Meghalaya,Polio 0,Change 2,
 Meghalaya,Polio 1,NFHS 4,86.2
 Meghalaya,Polio 1,NFHS 5,84.1
 Meghalaya,Polio 1,Change,-2.1
+Meghalaya,Polio 1,NFHS 6,
+Meghalaya,Polio 1,Change 2,
 Meghalaya,Polio 2,NFHS 4,80.9
 Meghalaya,Polio 2,NFHS 5,77.8
 Meghalaya,Polio 2,Change,-3.1
+Meghalaya,Polio 2,NFHS 6,
+Meghalaya,Polio 2,Change 2,
 Meghalaya,Polio 3,NFHS 4,70.9
 Meghalaya,Polio 3,NFHS 5,68.5
 Meghalaya,Polio 3,Change,-2.4
+Meghalaya,Polio 3,NFHS 6,78.2
+Meghalaya,Polio 3,Change 2,9.7
 Meghalaya,MCV Measles and MMR,NFHS 4,71.8
 Meghalaya,MCV Measles and MMR,NFHS 5,72.5
 Meghalaya,MCV Measles and MMR,Change,0.7
+Meghalaya,MCV Measles and MMR,NFHS 6,83.2
+Meghalaya,MCV Measles and MMR,Change 2,10.7
 Meghalaya,Fully Vaccinated,NFHS 4,61.4
-Meghalaya,Fully Vaccinated,NFHS 5,64
+Meghalaya,Fully Vaccinated,NFHS 5,64.0
 Meghalaya,Fully Vaccinated,Change,2.6
+Meghalaya,Fully Vaccinated,NFHS 6,75.3
+Meghalaya,Fully Vaccinated,Change 2,11.3
 Meghalaya,All Age Appropriate Vaccines,NFHS 4,23.2
 Meghalaya,All Age Appropriate Vaccines,NFHS 5,34.3
 Meghalaya,All Age Appropriate Vaccines,Change,11.1
+Meghalaya,All Age Appropriate Vaccines,NFHS 6,
+Meghalaya,All Age Appropriate Vaccines,Change 2,
 Meghalaya,No Vaccination,NFHS 4,11.6
 Meghalaya,No Vaccination,NFHS 5,9.4
 Meghalaya,No Vaccination,Change,-2.2
+Meghalaya,No Vaccination,NFHS 6,8.7
+Meghalaya,No Vaccination,Change 2,-0.7
 Meghalaya,Vaccination Card Seen,NFHS 4,67.1
-Meghalaya,Vaccination Card Seen,NFHS 5,77
+Meghalaya,Vaccination Card Seen,NFHS 5,77.0
 Meghalaya,Vaccination Card Seen,Change,9.9
+Meghalaya,Vaccination Card Seen,NFHS 6,
+Meghalaya,Vaccination Card Seen,Change 2,
+Meghalaya,Fully Vaccinated Card Only,NFHS 4,
+Meghalaya,Fully Vaccinated Card Only,NFHS 5,80.0
+Meghalaya,Fully Vaccinated Card Only,Change,
+Meghalaya,Fully Vaccinated Card Only,NFHS 6,84.9
+Meghalaya,Fully Vaccinated Card Only,Change 2,4.9
+Meghalaya,MCV 2nd Dose,NFHS 4,
+Meghalaya,MCV 2nd Dose,NFHS 5,25.9
+Meghalaya,MCV 2nd Dose,Change,
+Meghalaya,MCV 2nd Dose,NFHS 6,60.0
+Meghalaya,MCV 2nd Dose,Change 2,34.1
+Meghalaya,Rotavirus 3 Doses,NFHS 4,
+Meghalaya,Rotavirus 3 Doses,NFHS 5,4.1
+Meghalaya,Rotavirus 3 Doses,Change,
+Meghalaya,Rotavirus 3 Doses,NFHS 6,77.2
+Meghalaya,Rotavirus 3 Doses,Change 2,73.1
 Mizoram,BCG,NFHS 4,75.3
 Mizoram,BCG,NFHS 5,83.4
 Mizoram,BCG,Change,8.1
+Mizoram,BCG,NFHS 6,92.6
+Mizoram,BCG,Change 2,9.2
 Mizoram,Hepatitis B 0 Dose,NFHS 4,40.5
 Mizoram,Hepatitis B 0 Dose,NFHS 5,59.8
 Mizoram,Hepatitis B 0 Dose,Change,19.3
+Mizoram,Hepatitis B 0 Dose,NFHS 6,88.4
+Mizoram,Hepatitis B 0 Dose,Change 2,28.6
 Mizoram,Hepatitis B 1st Dose,NFHS 4,72.3
 Mizoram,Hepatitis B 1st Dose,NFHS 5,80.5
 Mizoram,Hepatitis B 1st Dose,Change,8.2
+Mizoram,Hepatitis B 1st Dose,NFHS 6,
+Mizoram,Hepatitis B 1st Dose,Change 2,
 Mizoram,Hepatitis B 2nd Dose,NFHS 4,66.3
 Mizoram,Hepatitis B 2nd Dose,NFHS 5,79.1
 Mizoram,Hepatitis B 2nd Dose,Change,12.8
-Mizoram,Hepatitis B 3rd Dose,NFHS 4,57
+Mizoram,Hepatitis B 2nd Dose,NFHS 6,
+Mizoram,Hepatitis B 2nd Dose,Change 2,
+Mizoram,Hepatitis B 3rd Dose,NFHS 4,57.0
 Mizoram,Hepatitis B 3rd Dose,NFHS 5,76.4
 Mizoram,Hepatitis B 3rd Dose,Change,19.4
+Mizoram,Hepatitis B 3rd Dose,NFHS 6,
+Mizoram,Hepatitis B 3rd Dose,Change 2,
 Mizoram,Pentavalent and DPT 1,NFHS 4,75.5
 Mizoram,Pentavalent and DPT 1,NFHS 5,85.5
-Mizoram,Pentavalent and DPT 1,Change,10
+Mizoram,Pentavalent and DPT 1,Change,10.0
+Mizoram,Pentavalent and DPT 1,NFHS 6,
+Mizoram,Pentavalent and DPT 1,Change 2,
 Mizoram,Pentavalent and DPT 2,NFHS 4,71.9
 Mizoram,Pentavalent and DPT 2,NFHS 5,84.4
 Mizoram,Pentavalent and DPT 2,Change,12.5
+Mizoram,Pentavalent and DPT 2,NFHS 6,
+Mizoram,Pentavalent and DPT 2,Change 2,
 Mizoram,Pentavalent and DPT 3,NFHS 4,61.9
 Mizoram,Pentavalent and DPT 3,NFHS 5,80.9
-Mizoram,Pentavalent and DPT 3,Change,19
+Mizoram,Pentavalent and DPT 3,Change,19.0
+Mizoram,Pentavalent and DPT 3,NFHS 6,77.6
+Mizoram,Pentavalent and DPT 3,Change 2,-3.3
 Mizoram,Polio 0,NFHS 4,47.4
-Mizoram,Polio 0,NFHS 5,65
+Mizoram,Polio 0,NFHS 5,65.0
 Mizoram,Polio 0,Change,17.6
+Mizoram,Polio 0,NFHS 6,
+Mizoram,Polio 0,Change 2,
 Mizoram,Polio 1,NFHS 4,76.5
 Mizoram,Polio 1,NFHS 5,81.9
 Mizoram,Polio 1,Change,5.4
+Mizoram,Polio 1,NFHS 6,
+Mizoram,Polio 1,Change 2,
 Mizoram,Polio 2,NFHS 4,72.2
 Mizoram,Polio 2,NFHS 5,80.2
-Mizoram,Polio 2,Change,8
+Mizoram,Polio 2,Change,8.0
+Mizoram,Polio 2,NFHS 6,
+Mizoram,Polio 2,Change 2,
 Mizoram,Polio 3,NFHS 4,61.8
 Mizoram,Polio 3,NFHS 5,76.2
 Mizoram,Polio 3,Change,14.4
+Mizoram,Polio 3,NFHS 6,86.7
+Mizoram,Polio 3,Change 2,10.5
 Mizoram,MCV Measles and MMR,NFHS 4,61.3
-Mizoram,MCV Measles and MMR,NFHS 5,81
+Mizoram,MCV Measles and MMR,NFHS 5,81.0
 Mizoram,MCV Measles and MMR,Change,19.7
+Mizoram,MCV Measles and MMR,NFHS 6,89.5
+Mizoram,MCV Measles and MMR,Change 2,8.5
 Mizoram,Fully Vaccinated,NFHS 4,50.7
 Mizoram,Fully Vaccinated,NFHS 5,72.7
-Mizoram,Fully Vaccinated,Change,22
+Mizoram,Fully Vaccinated,Change,22.0
+Mizoram,Fully Vaccinated,NFHS 6,72.1
+Mizoram,Fully Vaccinated,Change 2,-0.6
 Mizoram,All Age Appropriate Vaccines,NFHS 4,25.1
-Mizoram,All Age Appropriate Vaccines,NFHS 5,55
+Mizoram,All Age Appropriate Vaccines,NFHS 5,55.0
 Mizoram,All Age Appropriate Vaccines,Change,29.9
+Mizoram,All Age Appropriate Vaccines,NFHS 6,
+Mizoram,All Age Appropriate Vaccines,Change 2,
 Mizoram,No Vaccination,NFHS 4,22.1
 Mizoram,No Vaccination,NFHS 5,13.6
 Mizoram,No Vaccination,Change,-8.5
+Mizoram,No Vaccination,NFHS 6,4.0
+Mizoram,No Vaccination,Change 2,-9.6
 Mizoram,Vaccination Card Seen,NFHS 4,63.2
 Mizoram,Vaccination Card Seen,NFHS 5,83.7
 Mizoram,Vaccination Card Seen,Change,20.5
+Mizoram,Vaccination Card Seen,NFHS 6,
+Mizoram,Vaccination Card Seen,Change 2,
+Mizoram,Fully Vaccinated Card Only,NFHS 4,
+Mizoram,Fully Vaccinated Card Only,NFHS 5,83.7
+Mizoram,Fully Vaccinated Card Only,Change,
+Mizoram,Fully Vaccinated Card Only,NFHS 6,74.0
+Mizoram,Fully Vaccinated Card Only,Change 2,-9.7
+Mizoram,MCV 2nd Dose,NFHS 4,
+Mizoram,MCV 2nd Dose,NFHS 5,48.7
+Mizoram,MCV 2nd Dose,Change,
+Mizoram,MCV 2nd Dose,NFHS 6,59.6
+Mizoram,MCV 2nd Dose,Change 2,10.9
+Mizoram,Rotavirus 3 Doses,NFHS 4,
+Mizoram,Rotavirus 3 Doses,NFHS 5,7.2
+Mizoram,Rotavirus 3 Doses,Change,
+Mizoram,Rotavirus 3 Doses,NFHS 6,85.8
+Mizoram,Rotavirus 3 Doses,Change 2,78.6
 Nagaland,BCG,NFHS 4,68.1
 Nagaland,BCG,NFHS 5,85.5
 Nagaland,BCG,Change,17.4
+Nagaland,BCG,NFHS 6,86.0
+Nagaland,BCG,Change 2,0.5
 Nagaland,Hepatitis B 0 Dose,NFHS 4,29.4
 Nagaland,Hepatitis B 0 Dose,NFHS 5,40.8
 Nagaland,Hepatitis B 0 Dose,Change,11.4
+Nagaland,Hepatitis B 0 Dose,NFHS 6,46.4
+Nagaland,Hepatitis B 0 Dose,Change 2,5.6
 Nagaland,Hepatitis B 1st Dose,NFHS 4,61.1
-Nagaland,Hepatitis B 1st Dose,NFHS 5,81
+Nagaland,Hepatitis B 1st Dose,NFHS 5,81.0
 Nagaland,Hepatitis B 1st Dose,Change,19.9
+Nagaland,Hepatitis B 1st Dose,NFHS 6,
+Nagaland,Hepatitis B 1st Dose,Change 2,
 Nagaland,Hepatitis B 2nd Dose,NFHS 4,53.5
 Nagaland,Hepatitis B 2nd Dose,NFHS 5,73.2
 Nagaland,Hepatitis B 2nd Dose,Change,19.7
+Nagaland,Hepatitis B 2nd Dose,NFHS 6,
+Nagaland,Hepatitis B 2nd Dose,Change 2,
 Nagaland,Hepatitis B 3rd Dose,NFHS 4,45.3
 Nagaland,Hepatitis B 3rd Dose,NFHS 5,66.4
 Nagaland,Hepatitis B 3rd Dose,Change,21.1
+Nagaland,Hepatitis B 3rd Dose,NFHS 6,
+Nagaland,Hepatitis B 3rd Dose,Change 2,
 Nagaland,Pentavalent and DPT 1,NFHS 4,67.8
 Nagaland,Pentavalent and DPT 1,NFHS 5,84.2
 Nagaland,Pentavalent and DPT 1,Change,16.4
+Nagaland,Pentavalent and DPT 1,NFHS 6,
+Nagaland,Pentavalent and DPT 1,Change 2,
 Nagaland,Pentavalent and DPT 2,NFHS 4,60.5
 Nagaland,Pentavalent and DPT 2,NFHS 5,79.7
 Nagaland,Pentavalent and DPT 2,Change,19.2
+Nagaland,Pentavalent and DPT 2,NFHS 6,
+Nagaland,Pentavalent and DPT 2,Change 2,
 Nagaland,Pentavalent and DPT 3,NFHS 4,51.6
 Nagaland,Pentavalent and DPT 3,NFHS 5,71.7
 Nagaland,Pentavalent and DPT 3,Change,20.1
+Nagaland,Pentavalent and DPT 3,NFHS 6,73.4
+Nagaland,Pentavalent and DPT 3,Change 2,1.7
 Nagaland,Polio 0,NFHS 4,45.9
 Nagaland,Polio 0,NFHS 5,59.5
 Nagaland,Polio 0,Change,13.6
+Nagaland,Polio 0,NFHS 6,
+Nagaland,Polio 0,Change 2,
 Nagaland,Polio 1,NFHS 4,76.2
 Nagaland,Polio 1,NFHS 5,85.9
 Nagaland,Polio 1,Change,9.7
-Nagaland,Polio 2,NFHS 4,67
+Nagaland,Polio 1,NFHS 6,
+Nagaland,Polio 1,Change 2,
+Nagaland,Polio 2,NFHS 4,67.0
 Nagaland,Polio 2,NFHS 5,78.4
 Nagaland,Polio 2,Change,11.4
+Nagaland,Polio 2,NFHS 6,
+Nagaland,Polio 2,Change 2,
 Nagaland,Polio 3,NFHS 4,52.1
 Nagaland,Polio 3,NFHS 5,65.4
 Nagaland,Polio 3,Change,13.3
+Nagaland,Polio 3,NFHS 6,68.5
+Nagaland,Polio 3,Change 2,3.1
 Nagaland,MCV Measles and MMR,NFHS 4,50.1
-Nagaland,MCV Measles and MMR,NFHS 5,74
+Nagaland,MCV Measles and MMR,NFHS 5,74.0
 Nagaland,MCV Measles and MMR,Change,23.9
+Nagaland,MCV Measles and MMR,NFHS 6,79.4
+Nagaland,MCV Measles and MMR,Change 2,5.4
 Nagaland,Fully Vaccinated,NFHS 4,35.4
 Nagaland,Fully Vaccinated,NFHS 5,57.9
 Nagaland,Fully Vaccinated,Change,22.5
+Nagaland,Fully Vaccinated,NFHS 6,64.3
+Nagaland,Fully Vaccinated,Change 2,6.4
 Nagaland,All Age Appropriate Vaccines,NFHS 4,17.4
 Nagaland,All Age Appropriate Vaccines,NFHS 5,29.3
 Nagaland,All Age Appropriate Vaccines,Change,11.9
+Nagaland,All Age Appropriate Vaccines,NFHS 6,
+Nagaland,All Age Appropriate Vaccines,Change 2,
 Nagaland,No Vaccination,NFHS 4,19.1
 Nagaland,No Vaccination,NFHS 5,7.2
 Nagaland,No Vaccination,Change,-11.9
+Nagaland,No Vaccination,NFHS 6,8.9
+Nagaland,No Vaccination,Change 2,1.7
 Nagaland,Vaccination Card Seen,NFHS 4,52.1
 Nagaland,Vaccination Card Seen,NFHS 5,79.8
 Nagaland,Vaccination Card Seen,Change,27.7
+Nagaland,Vaccination Card Seen,NFHS 6,
+Nagaland,Vaccination Card Seen,Change 2,
+Nagaland,Fully Vaccinated Card Only,NFHS 4,
+Nagaland,Fully Vaccinated Card Only,NFHS 5,71.3
+Nagaland,Fully Vaccinated Card Only,Change,
+Nagaland,Fully Vaccinated Card Only,NFHS 6,74.2
+Nagaland,Fully Vaccinated Card Only,Change 2,2.9
+Nagaland,MCV 2nd Dose,NFHS 4,
+Nagaland,MCV 2nd Dose,NFHS 5,41.1
+Nagaland,MCV 2nd Dose,Change,
+Nagaland,MCV 2nd Dose,NFHS 6,62.7
+Nagaland,MCV 2nd Dose,Change 2,21.6
+Nagaland,Rotavirus 3 Doses,NFHS 4,
+Nagaland,Rotavirus 3 Doses,NFHS 5,6.5
+Nagaland,Rotavirus 3 Doses,Change,
+Nagaland,Rotavirus 3 Doses,NFHS 6,68.5
+Nagaland,Rotavirus 3 Doses,Change 2,62.0
 Sikkim,BCG,NFHS 4,98.9
 Sikkim,BCG,NFHS 5,96.6
 Sikkim,BCG,Change,-2.3
+Sikkim,BCG,NFHS 6,96.2
+Sikkim,BCG,Change 2,-0.4
 Sikkim,Hepatitis B 0 Dose,NFHS 4,84.6
 Sikkim,Hepatitis B 0 Dose,NFHS 5,87.6
-Sikkim,Hepatitis B 0 Dose,Change,3
+Sikkim,Hepatitis B 0 Dose,Change,3.0
+Sikkim,Hepatitis B 0 Dose,NFHS 6,94.4
+Sikkim,Hepatitis B 0 Dose,Change 2,6.8
 Sikkim,Hepatitis B 1st Dose,NFHS 4,94.7
 Sikkim,Hepatitis B 1st Dose,NFHS 5,94.2
 Sikkim,Hepatitis B 1st Dose,Change,-0.5
+Sikkim,Hepatitis B 1st Dose,NFHS 6,
+Sikkim,Hepatitis B 1st Dose,Change 2,
 Sikkim,Hepatitis B 2nd Dose,NFHS 4,90.8
 Sikkim,Hepatitis B 2nd Dose,NFHS 5,94.2
 Sikkim,Hepatitis B 2nd Dose,Change,3.4
+Sikkim,Hepatitis B 2nd Dose,NFHS 6,
+Sikkim,Hepatitis B 2nd Dose,Change 2,
 Sikkim,Hepatitis B 3rd Dose,NFHS 4,84.1
-Sikkim,Hepatitis B 3rd Dose,NFHS 5,89
+Sikkim,Hepatitis B 3rd Dose,NFHS 5,89.0
 Sikkim,Hepatitis B 3rd Dose,Change,4.9
+Sikkim,Hepatitis B 3rd Dose,NFHS 6,
+Sikkim,Hepatitis B 3rd Dose,Change 2,
 Sikkim,Pentavalent and DPT 1,NFHS 4,98.9
 Sikkim,Pentavalent and DPT 1,NFHS 5,95.1
 Sikkim,Pentavalent and DPT 1,Change,-3.8
+Sikkim,Pentavalent and DPT 1,NFHS 6,
+Sikkim,Pentavalent and DPT 1,Change 2,
 Sikkim,Pentavalent and DPT 2,NFHS 4,97.5
 Sikkim,Pentavalent and DPT 2,NFHS 5,95.1
 Sikkim,Pentavalent and DPT 2,Change,-2.4
-Sikkim,Pentavalent and DPT 3,NFHS 4,93
+Sikkim,Pentavalent and DPT 2,NFHS 6,
+Sikkim,Pentavalent and DPT 2,Change 2,
+Sikkim,Pentavalent and DPT 3,NFHS 4,93.0
 Sikkim,Pentavalent and DPT 3,NFHS 5,93.3
 Sikkim,Pentavalent and DPT 3,Change,0.3
+Sikkim,Pentavalent and DPT 3,NFHS 6,94.5
+Sikkim,Pentavalent and DPT 3,Change 2,1.2
 Sikkim,Polio 0,NFHS 4,94.8
 Sikkim,Polio 0,NFHS 5,92.2
 Sikkim,Polio 0,Change,-2.6
+Sikkim,Polio 0,NFHS 6,
+Sikkim,Polio 0,Change 2,
 Sikkim,Polio 1,NFHS 4,98.9
 Sikkim,Polio 1,NFHS 5,93.2
 Sikkim,Polio 1,Change,-5.7
+Sikkim,Polio 1,NFHS 6,
+Sikkim,Polio 1,Change 2,
 Sikkim,Polio 2,NFHS 4,94.9
 Sikkim,Polio 2,NFHS 5,93.2
 Sikkim,Polio 2,Change,-1.7
+Sikkim,Polio 2,NFHS 6,
+Sikkim,Polio 2,Change 2,
 Sikkim,Polio 3,NFHS 4,87.7
-Sikkim,Polio 3,NFHS 5,89
+Sikkim,Polio 3,NFHS 5,89.0
 Sikkim,Polio 3,Change,1.3
+Sikkim,Polio 3,NFHS 6,92.9
+Sikkim,Polio 3,Change 2,3.9
 Sikkim,MCV Measles and MMR,NFHS 4,93.3
 Sikkim,MCV Measles and MMR,NFHS 5,90.5
 Sikkim,MCV Measles and MMR,Change,-2.8
-Sikkim,Fully Vaccinated,NFHS 4,83
+Sikkim,MCV Measles and MMR,NFHS 6,94.5
+Sikkim,MCV Measles and MMR,Change 2,4.0
+Sikkim,Fully Vaccinated,NFHS 4,83.0
 Sikkim,Fully Vaccinated,NFHS 5,82.5
 Sikkim,Fully Vaccinated,Change,-0.5
+Sikkim,Fully Vaccinated,NFHS 6,92.9
+Sikkim,Fully Vaccinated,Change 2,10.4
 Sikkim,All Age Appropriate Vaccines,NFHS 4,71.7
 Sikkim,All Age Appropriate Vaccines,NFHS 5,73.1
 Sikkim,All Age Appropriate Vaccines,Change,1.4
+Sikkim,All Age Appropriate Vaccines,NFHS 6,
+Sikkim,All Age Appropriate Vaccines,Change 2,
 Sikkim,No Vaccination,NFHS 4,1.1
 Sikkim,No Vaccination,NFHS 5,3.1
-Sikkim,No Vaccination,Change,2
+Sikkim,No Vaccination,Change,2.0
+Sikkim,No Vaccination,NFHS 6,3.8
+Sikkim,No Vaccination,Change 2,0.7
 Sikkim,Vaccination Card Seen,NFHS 4,79.6
 Sikkim,Vaccination Card Seen,NFHS 5,90.5
 Sikkim,Vaccination Card Seen,Change,10.9
+Sikkim,Vaccination Card Seen,NFHS 6,
+Sikkim,Vaccination Card Seen,Change 2,
+Sikkim,Fully Vaccinated Card Only,NFHS 4,
+Sikkim,Fully Vaccinated Card Only,NFHS 5,87.6
+Sikkim,Fully Vaccinated Card Only,Change,
+Sikkim,Fully Vaccinated Card Only,NFHS 6,95.1
+Sikkim,Fully Vaccinated Card Only,Change 2,7.5
+Sikkim,MCV 2nd Dose,NFHS 4,
+Sikkim,MCV 2nd Dose,NFHS 5,35.7
+Sikkim,MCV 2nd Dose,Change,
+Sikkim,MCV 2nd Dose,NFHS 6,85.6
+Sikkim,MCV 2nd Dose,Change 2,49.9
+Sikkim,Rotavirus 3 Doses,NFHS 4,
+Sikkim,Rotavirus 3 Doses,NFHS 5,0.0
+Sikkim,Rotavirus 3 Doses,Change,
+Sikkim,Rotavirus 3 Doses,NFHS 6,94.1
+Sikkim,Rotavirus 3 Doses,Change 2,94.1
 Tripura,BCG,NFHS 4,82.4
 Tripura,BCG,NFHS 5,94.7
 Tripura,BCG,Change,12.3
+Tripura,BCG,NFHS 6,87.0
+Tripura,BCG,Change 2,-7.7
 Tripura,Hepatitis B 0 Dose,NFHS 4,32.3
 Tripura,Hepatitis B 0 Dose,NFHS 5,61.2
 Tripura,Hepatitis B 0 Dose,Change,28.9
+Tripura,Hepatitis B 0 Dose,NFHS 6,75.0
+Tripura,Hepatitis B 0 Dose,Change 2,13.8
 Tripura,Hepatitis B 1st Dose,NFHS 4,65.2
 Tripura,Hepatitis B 1st Dose,NFHS 5,93.1
 Tripura,Hepatitis B 1st Dose,Change,27.9
+Tripura,Hepatitis B 1st Dose,NFHS 6,
+Tripura,Hepatitis B 1st Dose,Change 2,
 Tripura,Hepatitis B 2nd Dose,NFHS 4,60.1
 Tripura,Hepatitis B 2nd Dose,NFHS 5,88.1
-Tripura,Hepatitis B 2nd Dose,Change,28
+Tripura,Hepatitis B 2nd Dose,Change,28.0
+Tripura,Hepatitis B 2nd Dose,NFHS 6,
+Tripura,Hepatitis B 2nd Dose,Change 2,
 Tripura,Hepatitis B 3rd Dose,NFHS 4,54.4
 Tripura,Hepatitis B 3rd Dose,NFHS 5,82.5
 Tripura,Hepatitis B 3rd Dose,Change,28.1
+Tripura,Hepatitis B 3rd Dose,NFHS 6,
+Tripura,Hepatitis B 3rd Dose,Change 2,
 Tripura,Pentavalent and DPT 1,NFHS 4,80.4
 Tripura,Pentavalent and DPT 1,NFHS 5,94.6
 Tripura,Pentavalent and DPT 1,Change,14.2
-Tripura,Pentavalent and DPT 2,NFHS 4,78
-Tripura,Pentavalent and DPT 2,NFHS 5,91
-Tripura,Pentavalent and DPT 2,Change,13
+Tripura,Pentavalent and DPT 1,NFHS 6,
+Tripura,Pentavalent and DPT 1,Change 2,
+Tripura,Pentavalent and DPT 2,NFHS 4,78.0
+Tripura,Pentavalent and DPT 2,NFHS 5,91.0
+Tripura,Pentavalent and DPT 2,Change,13.0
+Tripura,Pentavalent and DPT 2,NFHS 6,
+Tripura,Pentavalent and DPT 2,Change 2,
 Tripura,Pentavalent and DPT 3,NFHS 4,71.1
 Tripura,Pentavalent and DPT 3,NFHS 5,85.9
 Tripura,Pentavalent and DPT 3,Change,14.8
+Tripura,Pentavalent and DPT 3,NFHS 6,80.0
+Tripura,Pentavalent and DPT 3,Change 2,-5.9
 Tripura,Polio 0,NFHS 4,49.3
 Tripura,Polio 0,NFHS 5,69.9
 Tripura,Polio 0,Change,20.6
+Tripura,Polio 0,NFHS 6,
+Tripura,Polio 0,Change 2,
 Tripura,Polio 1,NFHS 4,85.8
 Tripura,Polio 1,NFHS 5,88.3
 Tripura,Polio 1,Change,2.5
+Tripura,Polio 1,NFHS 6,
+Tripura,Polio 1,Change 2,
 Tripura,Polio 2,NFHS 4,78.8
 Tripura,Polio 2,NFHS 5,82.4
 Tripura,Polio 2,Change,3.6
+Tripura,Polio 2,NFHS 6,
+Tripura,Polio 2,Change 2,
 Tripura,Polio 3,NFHS 4,70.1
 Tripura,Polio 3,NFHS 5,73.4
 Tripura,Polio 3,Change,3.3
+Tripura,Polio 3,NFHS 6,78.2
+Tripura,Polio 3,Change 2,4.8
 Tripura,MCV Measles and MMR,NFHS 4,69.7
 Tripura,MCV Measles and MMR,NFHS 5,86.3
 Tripura,MCV Measles and MMR,Change,16.6
+Tripura,MCV Measles and MMR,NFHS 6,82.7
+Tripura,MCV Measles and MMR,Change 2,-3.6
 Tripura,Fully Vaccinated,NFHS 4,54.5
 Tripura,Fully Vaccinated,NFHS 5,69.5
-Tripura,Fully Vaccinated,Change,15
+Tripura,Fully Vaccinated,Change,15.0
+Tripura,Fully Vaccinated,NFHS 6,74.4
+Tripura,Fully Vaccinated,Change 2,4.9
 Tripura,All Age Appropriate Vaccines,NFHS 4,19.6
 Tripura,All Age Appropriate Vaccines,NFHS 5,48.9
 Tripura,All Age Appropriate Vaccines,Change,29.3
-Tripura,No Vaccination,NFHS 4,13
-Tripura,No Vaccination,NFHS 5,2
-Tripura,No Vaccination,Change,-11
+Tripura,All Age Appropriate Vaccines,NFHS 6,
+Tripura,All Age Appropriate Vaccines,Change 2,
+Tripura,No Vaccination,NFHS 4,13.0
+Tripura,No Vaccination,NFHS 5,2.0
+Tripura,No Vaccination,Change,-11.0
+Tripura,No Vaccination,NFHS 6,10.7
+Tripura,No Vaccination,Change 2,8.7
 Tripura,Vaccination Card Seen,NFHS 4,66.5
-Tripura,Vaccination Card Seen,NFHS 5,87
+Tripura,Vaccination Card Seen,NFHS 5,87.0
 Tripura,Vaccination Card Seen,Change,20.5
+Tripura,Vaccination Card Seen,NFHS 6,
+Tripura,Vaccination Card Seen,Change 2,
+Tripura,Fully Vaccinated Card Only,NFHS 4,
+Tripura,Fully Vaccinated Card Only,NFHS 5,77.1
+Tripura,Fully Vaccinated Card Only,Change,
+Tripura,Fully Vaccinated Card Only,NFHS 6,87.8
+Tripura,Fully Vaccinated Card Only,Change 2,10.7
+Tripura,MCV 2nd Dose,NFHS 4,
+Tripura,MCV 2nd Dose,NFHS 5,49.5
+Tripura,MCV 2nd Dose,Change,
+Tripura,MCV 2nd Dose,NFHS 6,62.0
+Tripura,MCV 2nd Dose,Change 2,12.5
+Tripura,Rotavirus 3 Doses,NFHS 4,
+Tripura,Rotavirus 3 Doses,NFHS 5,59.6
+Tripura,Rotavirus 3 Doses,Change,
+Tripura,Rotavirus 3 Doses,NFHS 6,79.9
+Tripura,Rotavirus 3 Doses,Change 2,20.3
 Dadra & Nagar Haveli,BCG,NFHS 4,88.9
 Dadra & Nagar Haveli,BCG,NFHS 5,98.1
 Dadra & Nagar Haveli,BCG,Change,9.2
-Dadra & Nagar Haveli,Hepatitis B 0 Dose,NFHS 4,55
+Dadra & Nagar Haveli,BCG,NFHS 6,100.0
+Dadra & Nagar Haveli,BCG,Change 2,1.9
+Dadra & Nagar Haveli,Hepatitis B 0 Dose,NFHS 4,55.0
 Dadra & Nagar Haveli,Hepatitis B 0 Dose,NFHS 5,69.9
 Dadra & Nagar Haveli,Hepatitis B 0 Dose,Change,14.9
+Dadra & Nagar Haveli,Hepatitis B 0 Dose,NFHS 6,95.3
+Dadra & Nagar Haveli,Hepatitis B 0 Dose,Change 2,25.4
 Dadra & Nagar Haveli,Hepatitis B 1st Dose,NFHS 4,77.5
 Dadra & Nagar Haveli,Hepatitis B 1st Dose,NFHS 5,95.6
 Dadra & Nagar Haveli,Hepatitis B 1st Dose,Change,18.1
+Dadra & Nagar Haveli,Hepatitis B 1st Dose,NFHS 6,
+Dadra & Nagar Haveli,Hepatitis B 1st Dose,Change 2,
 Dadra & Nagar Haveli,Hepatitis B 2nd Dose,NFHS 4,72.6
 Dadra & Nagar Haveli,Hepatitis B 2nd Dose,NFHS 5,93.6
-Dadra & Nagar Haveli,Hepatitis B 2nd Dose,Change,21
+Dadra & Nagar Haveli,Hepatitis B 2nd Dose,Change,21.0
+Dadra & Nagar Haveli,Hepatitis B 2nd Dose,NFHS 6,
+Dadra & Nagar Haveli,Hepatitis B 2nd Dose,Change 2,
 Dadra & Nagar Haveli,Hepatitis B 3rd Dose,NFHS 4,52.1
 Dadra & Nagar Haveli,Hepatitis B 3rd Dose,NFHS 5,93.1
-Dadra & Nagar Haveli,Hepatitis B 3rd Dose,Change,41
+Dadra & Nagar Haveli,Hepatitis B 3rd Dose,Change,41.0
+Dadra & Nagar Haveli,Hepatitis B 3rd Dose,NFHS 6,
+Dadra & Nagar Haveli,Hepatitis B 3rd Dose,Change 2,
 Dadra & Nagar Haveli,Pentavalent and DPT 1,NFHS 4,92.9
 Dadra & Nagar Haveli,Pentavalent and DPT 1,NFHS 5,97.8
 Dadra & Nagar Haveli,Pentavalent and DPT 1,Change,4.9
+Dadra & Nagar Haveli,Pentavalent and DPT 1,NFHS 6,
+Dadra & Nagar Haveli,Pentavalent and DPT 1,Change 2,
 Dadra & Nagar Haveli,Pentavalent and DPT 2,NFHS 4,90.8
 Dadra & Nagar Haveli,Pentavalent and DPT 2,NFHS 5,97.2
 Dadra & Nagar Haveli,Pentavalent and DPT 2,Change,6.4
+Dadra & Nagar Haveli,Pentavalent and DPT 2,NFHS 6,
+Dadra & Nagar Haveli,Pentavalent and DPT 2,Change 2,
 Dadra & Nagar Haveli,Pentavalent and DPT 3,NFHS 4,73.3
 Dadra & Nagar Haveli,Pentavalent and DPT 3,NFHS 5,97.2
 Dadra & Nagar Haveli,Pentavalent and DPT 3,Change,23.9
+Dadra & Nagar Haveli,Pentavalent and DPT 3,NFHS 6,95.1
+Dadra & Nagar Haveli,Pentavalent and DPT 3,Change 2,-2.1
 Dadra & Nagar Haveli,Polio 0,NFHS 4,69.6
-Dadra & Nagar Haveli,Polio 0,NFHS 5,92
+Dadra & Nagar Haveli,Polio 0,NFHS 5,92.0
 Dadra & Nagar Haveli,Polio 0,Change,22.4
+Dadra & Nagar Haveli,Polio 0,NFHS 6,
+Dadra & Nagar Haveli,Polio 0,Change 2,
 Dadra & Nagar Haveli,Polio 1,NFHS 4,93.2
-Dadra & Nagar Haveli,Polio 1,NFHS 5,98
+Dadra & Nagar Haveli,Polio 1,NFHS 5,98.0
 Dadra & Nagar Haveli,Polio 1,Change,4.8
+Dadra & Nagar Haveli,Polio 1,NFHS 6,
+Dadra & Nagar Haveli,Polio 1,Change 2,
 Dadra & Nagar Haveli,Polio 2,NFHS 4,85.9
 Dadra & Nagar Haveli,Polio 2,NFHS 5,97.5
 Dadra & Nagar Haveli,Polio 2,Change,11.6
+Dadra & Nagar Haveli,Polio 2,NFHS 6,
+Dadra & Nagar Haveli,Polio 2,Change 2,
 Dadra & Nagar Haveli,Polio 3,NFHS 4,58.1
 Dadra & Nagar Haveli,Polio 3,NFHS 5,96.1
-Dadra & Nagar Haveli,Polio 3,Change,38
+Dadra & Nagar Haveli,Polio 3,Change,38.0
+Dadra & Nagar Haveli,Polio 3,NFHS 6,91.6
+Dadra & Nagar Haveli,Polio 3,Change 2,-4.5
 Dadra & Nagar Haveli,MCV Measles and MMR,NFHS 4,81.7
 Dadra & Nagar Haveli,MCV Measles and MMR,NFHS 5,96.2
 Dadra & Nagar Haveli,MCV Measles and MMR,Change,14.5
+Dadra & Nagar Haveli,MCV Measles and MMR,NFHS 6,98.9
+Dadra & Nagar Haveli,MCV Measles and MMR,Change 2,2.7
 Dadra & Nagar Haveli,Fully Vaccinated,NFHS 4,43.2
 Dadra & Nagar Haveli,Fully Vaccinated,NFHS 5,94.9
 Dadra & Nagar Haveli,Fully Vaccinated,Change,51.7
+Dadra & Nagar Haveli,Fully Vaccinated,NFHS 6,89.0
+Dadra & Nagar Haveli,Fully Vaccinated,Change 2,-5.9
 Dadra & Nagar Haveli,All Age Appropriate Vaccines,NFHS 4,27.5
 Dadra & Nagar Haveli,All Age Appropriate Vaccines,NFHS 5,67.7
 Dadra & Nagar Haveli,All Age Appropriate Vaccines,Change,40.2
+Dadra & Nagar Haveli,All Age Appropriate Vaccines,NFHS 6,
+Dadra & Nagar Haveli,All Age Appropriate Vaccines,Change 2,
 Dadra & Nagar Haveli,No Vaccination,NFHS 4,3.4
 Dadra & Nagar Haveli,No Vaccination,NFHS 5,0.7
 Dadra & Nagar Haveli,No Vaccination,Change,-2.7
+Dadra & Nagar Haveli,No Vaccination,NFHS 6,0.0
+Dadra & Nagar Haveli,No Vaccination,Change 2,-0.7
 Dadra & Nagar Haveli,Vaccination Card Seen,NFHS 4,63.3
 Dadra & Nagar Haveli,Vaccination Card Seen,NFHS 5,96.7
 Dadra & Nagar Haveli,Vaccination Card Seen,Change,33.4
-Goa,BCG,NFHS 4,100
+Dadra & Nagar Haveli,Vaccination Card Seen,NFHS 6,
+Dadra & Nagar Haveli,Vaccination Card Seen,Change 2,
+Dadra & Nagar Haveli,Fully Vaccinated Card Only,NFHS 4,
+Dadra & Nagar Haveli,Fully Vaccinated Card Only,NFHS 5,93.4
+Dadra & Nagar Haveli,Fully Vaccinated Card Only,Change,
+Dadra & Nagar Haveli,Fully Vaccinated Card Only,NFHS 6,90.5
+Dadra & Nagar Haveli,Fully Vaccinated Card Only,Change 2,-2.9
+Dadra & Nagar Haveli,MCV 2nd Dose,NFHS 4,
+Dadra & Nagar Haveli,MCV 2nd Dose,NFHS 5,84.2
+Dadra & Nagar Haveli,MCV 2nd Dose,Change,
+Dadra & Nagar Haveli,MCV 2nd Dose,NFHS 6,80.8
+Dadra & Nagar Haveli,MCV 2nd Dose,Change 2,-3.4
+Dadra & Nagar Haveli,Rotavirus 3 Doses,NFHS 4,
+Dadra & Nagar Haveli,Rotavirus 3 Doses,NFHS 5,3.7
+Dadra & Nagar Haveli,Rotavirus 3 Doses,Change,
+Dadra & Nagar Haveli,Rotavirus 3 Doses,NFHS 6,93.8
+Dadra & Nagar Haveli,Rotavirus 3 Doses,Change 2,90.1
+Goa,BCG,NFHS 4,100.0
 Goa,BCG,NFHS 5,97.9
 Goa,BCG,Change,-2.1
+Goa,BCG,NFHS 6,98.6
+Goa,BCG,Change 2,0.7
 Goa,Hepatitis B 0 Dose,NFHS 4,91.5
 Goa,Hepatitis B 0 Dose,NFHS 5,80.2
 Goa,Hepatitis B 0 Dose,Change,-11.3
+Goa,Hepatitis B 0 Dose,NFHS 6,91.9
+Goa,Hepatitis B 0 Dose,Change 2,11.7
 Goa,Hepatitis B 1st Dose,NFHS 4,91.8
 Goa,Hepatitis B 1st Dose,NFHS 5,96.5
 Goa,Hepatitis B 1st Dose,Change,4.7
-Goa,Hepatitis B 2nd Dose,NFHS 4,90
+Goa,Hepatitis B 1st Dose,NFHS 6,
+Goa,Hepatitis B 1st Dose,Change 2,
+Goa,Hepatitis B 2nd Dose,NFHS 4,90.0
 Goa,Hepatitis B 2nd Dose,NFHS 5,95.7
 Goa,Hepatitis B 2nd Dose,Change,5.7
+Goa,Hepatitis B 2nd Dose,NFHS 6,
+Goa,Hepatitis B 2nd Dose,Change 2,
 Goa,Hepatitis B 3rd Dose,NFHS 4,85.2
 Goa,Hepatitis B 3rd Dose,NFHS 5,92.8
 Goa,Hepatitis B 3rd Dose,Change,7.6
+Goa,Hepatitis B 3rd Dose,NFHS 6,
+Goa,Hepatitis B 3rd Dose,Change 2,
 Goa,Pentavalent and DPT 1,NFHS 4,95.9
 Goa,Pentavalent and DPT 1,NFHS 5,97.9
-Goa,Pentavalent and DPT 1,Change,2
+Goa,Pentavalent and DPT 1,Change,2.0
+Goa,Pentavalent and DPT 1,NFHS 6,
+Goa,Pentavalent and DPT 1,Change 2,
 Goa,Pentavalent and DPT 2,NFHS 4,95.4
 Goa,Pentavalent and DPT 2,NFHS 5,97.1
 Goa,Pentavalent and DPT 2,Change,1.7
+Goa,Pentavalent and DPT 2,NFHS 6,
+Goa,Pentavalent and DPT 2,Change 2,
 Goa,Pentavalent and DPT 3,NFHS 4,94.2
 Goa,Pentavalent and DPT 3,NFHS 5,90.8
 Goa,Pentavalent and DPT 3,Change,-3.4
+Goa,Pentavalent and DPT 3,NFHS 6,98.6
+Goa,Pentavalent and DPT 3,Change 2,7.8
 Goa,Polio 0,NFHS 4,97.6
-Goa,Polio 0,NFHS 5,92
+Goa,Polio 0,NFHS 5,92.0
 Goa,Polio 0,Change,-5.6
-Goa,Polio 1,NFHS 4,100
-Goa,Polio 1,NFHS 5,97
-Goa,Polio 1,Change,-3
+Goa,Polio 0,NFHS 6,
+Goa,Polio 0,Change 2,
+Goa,Polio 1,NFHS 4,100.0
+Goa,Polio 1,NFHS 5,97.0
+Goa,Polio 1,Change,-3.0
+Goa,Polio 1,NFHS 6,
+Goa,Polio 1,Change 2,
 Goa,Polio 2,NFHS 4,98.7
 Goa,Polio 2,NFHS 5,97.9
 Goa,Polio 2,Change,-0.8
+Goa,Polio 2,NFHS 6,
+Goa,Polio 2,Change 2,
 Goa,Polio 3,NFHS 4,92.9
 Goa,Polio 3,NFHS 5,88.3
 Goa,Polio 3,Change,-4.6
+Goa,Polio 3,NFHS 6,93.8
+Goa,Polio 3,Change 2,5.5
 Goa,MCV Measles and MMR,NFHS 4,96.5
 Goa,MCV Measles and MMR,NFHS 5,92.9
 Goa,MCV Measles and MMR,Change,-3.6
+Goa,MCV Measles and MMR,NFHS 6,98.6
+Goa,MCV Measles and MMR,Change 2,5.7
 Goa,Fully Vaccinated,NFHS 4,88.4
 Goa,Fully Vaccinated,NFHS 5,81.9
 Goa,Fully Vaccinated,Change,-6.5
+Goa,Fully Vaccinated,NFHS 6,93.8
+Goa,Fully Vaccinated,Change 2,11.9
 Goa,All Age Appropriate Vaccines,NFHS 4,82.7
 Goa,All Age Appropriate Vaccines,NFHS 5,69.3
 Goa,All Age Appropriate Vaccines,Change,-13.4
-Goa,No Vaccination,NFHS 4,0
+Goa,All Age Appropriate Vaccines,NFHS 6,
+Goa,All Age Appropriate Vaccines,Change 2,
+Goa,No Vaccination,NFHS 4,0.0
 Goa,No Vaccination,NFHS 5,2.1
 Goa,No Vaccination,Change,2.1
+Goa,No Vaccination,NFHS 6,1.4
+Goa,No Vaccination,Change 2,-0.7
 Goa,Vaccination Card Seen,NFHS 4,90.3
-Goa,Vaccination Card Seen,NFHS 5,88
+Goa,Vaccination Card Seen,NFHS 5,88.0
 Goa,Vaccination Card Seen,Change,-2.3
+Goa,Vaccination Card Seen,NFHS 6,
+Goa,Vaccination Card Seen,Change 2,
+Goa,Fully Vaccinated Card Only,NFHS 4,
+Goa,Fully Vaccinated Card Only,NFHS 5,91.0
+Goa,Fully Vaccinated Card Only,Change,
+Goa,Fully Vaccinated Card Only,NFHS 6,94.4
+Goa,Fully Vaccinated Card Only,Change 2,3.4
+Goa,MCV 2nd Dose,NFHS 4,
+Goa,MCV 2nd Dose,NFHS 5,33.0
+Goa,MCV 2nd Dose,Change,
+Goa,MCV 2nd Dose,NFHS 6,88.3
+Goa,MCV 2nd Dose,Change 2,55.3
+Goa,Rotavirus 3 Doses,NFHS 4,
+Goa,Rotavirus 3 Doses,NFHS 5,6.3
+Goa,Rotavirus 3 Doses,Change,
+Goa,Rotavirus 3 Doses,NFHS 6,97.1
+Goa,Rotavirus 3 Doses,Change 2,90.8
 Gujarat,BCG,NFHS 4,87.9
 Gujarat,BCG,NFHS 5,94.7
 Gujarat,BCG,Change,6.8
+Gujarat,BCG,NFHS 6,95.7
+Gujarat,BCG,Change 2,1.0
 Gujarat,Hepatitis B 0 Dose,NFHS 4,55.6
 Gujarat,Hepatitis B 0 Dose,NFHS 5,62.8
 Gujarat,Hepatitis B 0 Dose,Change,7.2
+Gujarat,Hepatitis B 0 Dose,NFHS 6,86.0
+Gujarat,Hepatitis B 0 Dose,Change 2,23.2
 Gujarat,Hepatitis B 1st Dose,NFHS 4,62.4
 Gujarat,Hepatitis B 1st Dose,NFHS 5,92.3
 Gujarat,Hepatitis B 1st Dose,Change,29.9
+Gujarat,Hepatitis B 1st Dose,NFHS 6,
+Gujarat,Hepatitis B 1st Dose,Change 2,
 Gujarat,Hepatitis B 2nd Dose,NFHS 4,54.7
 Gujarat,Hepatitis B 2nd Dose,NFHS 5,88.5
 Gujarat,Hepatitis B 2nd Dose,Change,33.8
+Gujarat,Hepatitis B 2nd Dose,NFHS 6,
+Gujarat,Hepatitis B 2nd Dose,Change 2,
 Gujarat,Hepatitis B 3rd Dose,NFHS 4,38.6
 Gujarat,Hepatitis B 3rd Dose,NFHS 5,84.9
 Gujarat,Hepatitis B 3rd Dose,Change,46.3
+Gujarat,Hepatitis B 3rd Dose,NFHS 6,
+Gujarat,Hepatitis B 3rd Dose,Change 2,
 Gujarat,Pentavalent and DPT 1,NFHS 4,85.3
 Gujarat,Pentavalent and DPT 1,NFHS 5,92.6
 Gujarat,Pentavalent and DPT 1,Change,7.3
+Gujarat,Pentavalent and DPT 1,NFHS 6,
+Gujarat,Pentavalent and DPT 1,Change 2,
 Gujarat,Pentavalent and DPT 2,NFHS 4,80.8
 Gujarat,Pentavalent and DPT 2,NFHS 5,89.3
 Gujarat,Pentavalent and DPT 2,Change,8.5
+Gujarat,Pentavalent and DPT 2,NFHS 6,
+Gujarat,Pentavalent and DPT 2,Change 2,
 Gujarat,Pentavalent and DPT 3,NFHS 4,72.7
 Gujarat,Pentavalent and DPT 3,NFHS 5,86.2
 Gujarat,Pentavalent and DPT 3,Change,13.5
+Gujarat,Pentavalent and DPT 3,NFHS 6,86.6
+Gujarat,Pentavalent and DPT 3,Change 2,0.4
 Gujarat,Polio 0,NFHS 4,77.2
 Gujarat,Polio 0,NFHS 5,85.4
 Gujarat,Polio 0,Change,8.2
+Gujarat,Polio 0,NFHS 6,
+Gujarat,Polio 0,Change 2,
 Gujarat,Polio 1,NFHS 4,88.4
 Gujarat,Polio 1,NFHS 5,93.5
 Gujarat,Polio 1,Change,5.1
+Gujarat,Polio 1,NFHS 6,
+Gujarat,Polio 1,Change 2,
 Gujarat,Polio 2,NFHS 4,83.9
 Gujarat,Polio 2,NFHS 5,88.4
 Gujarat,Polio 2,Change,4.5
+Gujarat,Polio 2,NFHS 6,
+Gujarat,Polio 2,Change 2,
 Gujarat,Polio 3,NFHS 4,62.3
 Gujarat,Polio 3,NFHS 5,79.6
 Gujarat,Polio 3,Change,17.3
-Gujarat,MCV Measles and MMR,NFHS 4,75
+Gujarat,Polio 3,NFHS 6,83.6
+Gujarat,Polio 3,Change 2,4.0
+Gujarat,MCV Measles and MMR,NFHS 4,75.0
 Gujarat,MCV Measles and MMR,NFHS 5,86.8
 Gujarat,MCV Measles and MMR,Change,11.8
+Gujarat,MCV Measles and MMR,NFHS 6,89.2
+Gujarat,MCV Measles and MMR,Change 2,2.4
 Gujarat,Fully Vaccinated,NFHS 4,50.4
 Gujarat,Fully Vaccinated,NFHS 5,76.4
-Gujarat,Fully Vaccinated,Change,26
+Gujarat,Fully Vaccinated,Change,26.0
+Gujarat,Fully Vaccinated,NFHS 6,81.7
+Gujarat,Fully Vaccinated,Change 2,5.3
 Gujarat,All Age Appropriate Vaccines,NFHS 4,26.6
 Gujarat,All Age Appropriate Vaccines,NFHS 5,52.5
 Gujarat,All Age Appropriate Vaccines,Change,25.9
+Gujarat,All Age Appropriate Vaccines,NFHS 6,
+Gujarat,All Age Appropriate Vaccines,Change 2,
 Gujarat,No Vaccination,NFHS 4,8.7
 Gujarat,No Vaccination,NFHS 5,4.4
 Gujarat,No Vaccination,Change,-4.3
+Gujarat,No Vaccination,NFHS 6,3.7
+Gujarat,No Vaccination,Change 2,-0.7
 Gujarat,Vaccination Card Seen,NFHS 4,50.3
 Gujarat,Vaccination Card Seen,NFHS 5,86.6
 Gujarat,Vaccination Card Seen,Change,36.3
-Maharashtra,BCG,NFHS 4,90
+Gujarat,Vaccination Card Seen,NFHS 6,
+Gujarat,Vaccination Card Seen,Change 2,
+Gujarat,Fully Vaccinated Card Only,NFHS 4,
+Gujarat,Fully Vaccinated Card Only,NFHS 5,85.0
+Gujarat,Fully Vaccinated Card Only,Change,
+Gujarat,Fully Vaccinated Card Only,NFHS 6,84.5
+Gujarat,Fully Vaccinated Card Only,Change 2,-0.5
+Gujarat,MCV 2nd Dose,NFHS 4,
+Gujarat,MCV 2nd Dose,NFHS 5,50.8
+Gujarat,MCV 2nd Dose,Change,
+Gujarat,MCV 2nd Dose,NFHS 6,70.2
+Gujarat,MCV 2nd Dose,Change 2,19.4
+Gujarat,Rotavirus 3 Doses,NFHS 4,
+Gujarat,Rotavirus 3 Doses,NFHS 5,2.2
+Gujarat,Rotavirus 3 Doses,Change,
+Gujarat,Rotavirus 3 Doses,NFHS 6,80.0
+Gujarat,Rotavirus 3 Doses,Change 2,77.8
+Maharashtra,BCG,NFHS 4,90.0
 Maharashtra,BCG,NFHS 5,93.8
 Maharashtra,BCG,Change,3.8
+Maharashtra,BCG,NFHS 6,94.7
+Maharashtra,BCG,Change 2,0.9
 Maharashtra,Hepatitis B 0 Dose,NFHS 4,69.5
 Maharashtra,Hepatitis B 0 Dose,NFHS 5,50.5
-Maharashtra,Hepatitis B 0 Dose,Change,-19
+Maharashtra,Hepatitis B 0 Dose,Change,-19.0
+Maharashtra,Hepatitis B 0 Dose,NFHS 6,76.2
+Maharashtra,Hepatitis B 0 Dose,Change 2,25.7
 Maharashtra,Hepatitis B 1st Dose,NFHS 4,84.6
-Maharashtra,Hepatitis B 1st Dose,NFHS 5,86
+Maharashtra,Hepatitis B 1st Dose,NFHS 5,86.0
 Maharashtra,Hepatitis B 1st Dose,Change,1.4
-Maharashtra,Hepatitis B 2nd Dose,NFHS 4,80
+Maharashtra,Hepatitis B 1st Dose,NFHS 6,
+Maharashtra,Hepatitis B 1st Dose,Change 2,
+Maharashtra,Hepatitis B 2nd Dose,NFHS 4,80.0
 Maharashtra,Hepatitis B 2nd Dose,NFHS 5,81.9
 Maharashtra,Hepatitis B 2nd Dose,Change,1.9
+Maharashtra,Hepatitis B 2nd Dose,NFHS 6,
+Maharashtra,Hepatitis B 2nd Dose,Change 2,
 Maharashtra,Hepatitis B 3rd Dose,NFHS 4,60.8
 Maharashtra,Hepatitis B 3rd Dose,NFHS 5,75.6
 Maharashtra,Hepatitis B 3rd Dose,Change,14.8
+Maharashtra,Hepatitis B 3rd Dose,NFHS 6,
+Maharashtra,Hepatitis B 3rd Dose,Change 2,
 Maharashtra,Pentavalent and DPT 1,NFHS 4,85.8
 Maharashtra,Pentavalent and DPT 1,NFHS 5,92.4
 Maharashtra,Pentavalent and DPT 1,Change,6.6
+Maharashtra,Pentavalent and DPT 1,NFHS 6,
+Maharashtra,Pentavalent and DPT 1,Change 2,
 Maharashtra,Pentavalent and DPT 2,NFHS 4,80.9
 Maharashtra,Pentavalent and DPT 2,NFHS 5,89.2
 Maharashtra,Pentavalent and DPT 2,Change,8.3
+Maharashtra,Pentavalent and DPT 2,NFHS 6,
+Maharashtra,Pentavalent and DPT 2,Change 2,
 Maharashtra,Pentavalent and DPT 3,NFHS 4,74.8
 Maharashtra,Pentavalent and DPT 3,NFHS 5,83.6
 Maharashtra,Pentavalent and DPT 3,Change,8.8
+Maharashtra,Pentavalent and DPT 3,NFHS 6,90.4
+Maharashtra,Pentavalent and DPT 3,Change 2,6.8
 Maharashtra,Polio 0,NFHS 4,82.8
 Maharashtra,Polio 0,NFHS 5,86.3
 Maharashtra,Polio 0,Change,3.5
-Maharashtra,Polio 1,NFHS 4,89
-Maharashtra,Polio 1,NFHS 5,92
-Maharashtra,Polio 1,Change,3
+Maharashtra,Polio 0,NFHS 6,
+Maharashtra,Polio 0,Change 2,
+Maharashtra,Polio 1,NFHS 4,89.0
+Maharashtra,Polio 1,NFHS 5,92.0
+Maharashtra,Polio 1,Change,3.0
+Maharashtra,Polio 1,NFHS 6,
+Maharashtra,Polio 1,Change 2,
 Maharashtra,Polio 2,NFHS 4,84.3
-Maharashtra,Polio 2,NFHS 5,87
+Maharashtra,Polio 2,NFHS 5,87.0
 Maharashtra,Polio 2,Change,2.7
-Maharashtra,Polio 3,NFHS 4,67
-Maharashtra,Polio 3,NFHS 5,79
-Maharashtra,Polio 3,Change,12
+Maharashtra,Polio 2,NFHS 6,
+Maharashtra,Polio 2,Change 2,
+Maharashtra,Polio 3,NFHS 4,67.0
+Maharashtra,Polio 3,NFHS 5,79.0
+Maharashtra,Polio 3,Change,12.0
+Maharashtra,Polio 3,NFHS 6,85.5
+Maharashtra,Polio 3,Change 2,6.5
 Maharashtra,MCV Measles and MMR,NFHS 4,82.8
-Maharashtra,MCV Measles and MMR,NFHS 5,85
+Maharashtra,MCV Measles and MMR,NFHS 5,85.0
 Maharashtra,MCV Measles and MMR,Change,2.2
+Maharashtra,MCV Measles and MMR,NFHS 6,93.5
+Maharashtra,MCV Measles and MMR,Change 2,8.5
 Maharashtra,Fully Vaccinated,NFHS 4,56.2
 Maharashtra,Fully Vaccinated,NFHS 5,73.6
 Maharashtra,Fully Vaccinated,Change,17.4
+Maharashtra,Fully Vaccinated,NFHS 6,83.4
+Maharashtra,Fully Vaccinated,Change 2,9.8
 Maharashtra,All Age Appropriate Vaccines,NFHS 4,41.2
 Maharashtra,All Age Appropriate Vaccines,NFHS 5,42.1
 Maharashtra,All Age Appropriate Vaccines,Change,0.9
+Maharashtra,All Age Appropriate Vaccines,NFHS 6,
+Maharashtra,All Age Appropriate Vaccines,Change 2,
 Maharashtra,No Vaccination,NFHS 4,8.2
 Maharashtra,No Vaccination,NFHS 5,5.2
-Maharashtra,No Vaccination,Change,-3
+Maharashtra,No Vaccination,Change,-3.0
+Maharashtra,No Vaccination,NFHS 6,3.7
+Maharashtra,No Vaccination,Change 2,-1.5
 Maharashtra,Vaccination Card Seen,NFHS 4,60.7
 Maharashtra,Vaccination Card Seen,NFHS 5,83.8
 Maharashtra,Vaccination Card Seen,Change,23.1
+Maharashtra,Vaccination Card Seen,NFHS 6,
+Maharashtra,Vaccination Card Seen,Change 2,
+Maharashtra,Fully Vaccinated Card Only,NFHS 4,
+Maharashtra,Fully Vaccinated Card Only,NFHS 5,81.7
+Maharashtra,Fully Vaccinated Card Only,Change,
+Maharashtra,Fully Vaccinated Card Only,NFHS 6,88.6
+Maharashtra,Fully Vaccinated Card Only,Change 2,6.9
+Maharashtra,MCV 2nd Dose,NFHS 4,
+Maharashtra,MCV 2nd Dose,NFHS 5,50.3
+Maharashtra,MCV 2nd Dose,Change,
+Maharashtra,MCV 2nd Dose,NFHS 6,66.7
+Maharashtra,MCV 2nd Dose,Change 2,16.4
+Maharashtra,Rotavirus 3 Doses,NFHS 4,
+Maharashtra,Rotavirus 3 Doses,NFHS 5,8.2
+Maharashtra,Rotavirus 3 Doses,Change,
+Maharashtra,Rotavirus 3 Doses,NFHS 6,87.0
+Maharashtra,Rotavirus 3 Doses,Change 2,78.8
 Andaman & Nicobar Island,BCG,NFHS 4,87.4
 Andaman & Nicobar Island,BCG,NFHS 5,98.2
 Andaman & Nicobar Island,BCG,Change,10.8
+Andaman & Nicobar Island,BCG,NFHS 6,97.2
+Andaman & Nicobar Island,BCG,Change 2,-1.0
 Andaman & Nicobar Island,Hepatitis B 0 Dose,NFHS 4,75.9
 Andaman & Nicobar Island,Hepatitis B 0 Dose,NFHS 5,59.5
 Andaman & Nicobar Island,Hepatitis B 0 Dose,Change,-16.4
-Andaman & Nicobar Island,Hepatitis B 1st Dose,NFHS 4,87
+Andaman & Nicobar Island,Hepatitis B 0 Dose,NFHS 6,96.6
+Andaman & Nicobar Island,Hepatitis B 0 Dose,Change 2,37.1
+Andaman & Nicobar Island,Hepatitis B 1st Dose,NFHS 4,87.0
 Andaman & Nicobar Island,Hepatitis B 1st Dose,NFHS 5,92.1
 Andaman & Nicobar Island,Hepatitis B 1st Dose,Change,5.1
+Andaman & Nicobar Island,Hepatitis B 1st Dose,NFHS 6,
+Andaman & Nicobar Island,Hepatitis B 1st Dose,Change 2,
 Andaman & Nicobar Island,Hepatitis B 2nd Dose,NFHS 4,86.6
 Andaman & Nicobar Island,Hepatitis B 2nd Dose,NFHS 5,89.3
 Andaman & Nicobar Island,Hepatitis B 2nd Dose,Change,2.7
+Andaman & Nicobar Island,Hepatitis B 2nd Dose,NFHS 6,
+Andaman & Nicobar Island,Hepatitis B 2nd Dose,Change 2,
 Andaman & Nicobar Island,Hepatitis B 3rd Dose,NFHS 4,83.1
 Andaman & Nicobar Island,Hepatitis B 3rd Dose,NFHS 5,85.4
 Andaman & Nicobar Island,Hepatitis B 3rd Dose,Change,2.3
+Andaman & Nicobar Island,Hepatitis B 3rd Dose,NFHS 6,
+Andaman & Nicobar Island,Hepatitis B 3rd Dose,Change 2,
 Andaman & Nicobar Island,Pentavalent and DPT 1,NFHS 4,87.4
 Andaman & Nicobar Island,Pentavalent and DPT 1,NFHS 5,97.8
 Andaman & Nicobar Island,Pentavalent and DPT 1,Change,10.4
+Andaman & Nicobar Island,Pentavalent and DPT 1,NFHS 6,
+Andaman & Nicobar Island,Pentavalent and DPT 1,Change 2,
 Andaman & Nicobar Island,Pentavalent and DPT 2,NFHS 4,87.4
 Andaman & Nicobar Island,Pentavalent and DPT 2,NFHS 5,97.5
 Andaman & Nicobar Island,Pentavalent and DPT 2,Change,10.1
+Andaman & Nicobar Island,Pentavalent and DPT 2,NFHS 6,
+Andaman & Nicobar Island,Pentavalent and DPT 2,Change 2,
 Andaman & Nicobar Island,Pentavalent and DPT 3,NFHS 4,83.5
 Andaman & Nicobar Island,Pentavalent and DPT 3,NFHS 5,92.8
 Andaman & Nicobar Island,Pentavalent and DPT 3,Change,9.3
+Andaman & Nicobar Island,Pentavalent and DPT 3,NFHS 6,92.3
+Andaman & Nicobar Island,Pentavalent and DPT 3,Change 2,-0.5
 Andaman & Nicobar Island,Polio 0,NFHS 4,85.5
 Andaman & Nicobar Island,Polio 0,NFHS 5,92.5
-Andaman & Nicobar Island,Polio 0,Change,7
+Andaman & Nicobar Island,Polio 0,Change,7.0
+Andaman & Nicobar Island,Polio 0,NFHS 6,
+Andaman & Nicobar Island,Polio 0,Change 2,
 Andaman & Nicobar Island,Polio 1,NFHS 4,87.4
 Andaman & Nicobar Island,Polio 1,NFHS 5,96.1
 Andaman & Nicobar Island,Polio 1,Change,8.7
+Andaman & Nicobar Island,Polio 1,NFHS 6,
+Andaman & Nicobar Island,Polio 1,Change 2,
 Andaman & Nicobar Island,Polio 2,NFHS 4,87.4
 Andaman & Nicobar Island,Polio 2,NFHS 5,89.5
 Andaman & Nicobar Island,Polio 2,Change,2.1
+Andaman & Nicobar Island,Polio 2,NFHS 6,
+Andaman & Nicobar Island,Polio 2,Change 2,
 Andaman & Nicobar Island,Polio 3,NFHS 4,83.8
 Andaman & Nicobar Island,Polio 3,NFHS 5,80.9
 Andaman & Nicobar Island,Polio 3,Change,-2.9
+Andaman & Nicobar Island,Polio 3,NFHS 6,92.2
+Andaman & Nicobar Island,Polio 3,Change 2,11.3
 Andaman & Nicobar Island,MCV Measles and MMR,NFHS 4,76.4
-Andaman & Nicobar Island,MCV Measles and MMR,NFHS 5,84
+Andaman & Nicobar Island,MCV Measles and MMR,NFHS 5,84.0
 Andaman & Nicobar Island,MCV Measles and MMR,Change,7.6
+Andaman & Nicobar Island,MCV Measles and MMR,NFHS 6,96.0
+Andaman & Nicobar Island,MCV Measles and MMR,Change 2,12.0
 Andaman & Nicobar Island,Fully Vaccinated,NFHS 4,73.2
 Andaman & Nicobar Island,Fully Vaccinated,NFHS 5,79.9
 Andaman & Nicobar Island,Fully Vaccinated,Change,6.7
+Andaman & Nicobar Island,Fully Vaccinated,NFHS 6,88.5
+Andaman & Nicobar Island,Fully Vaccinated,Change 2,8.6
 Andaman & Nicobar Island,All Age Appropriate Vaccines,NFHS 4,62.3
 Andaman & Nicobar Island,All Age Appropriate Vaccines,NFHS 5,44.7
 Andaman & Nicobar Island,All Age Appropriate Vaccines,Change,-17.6
+Andaman & Nicobar Island,All Age Appropriate Vaccines,NFHS 6,
+Andaman & Nicobar Island,All Age Appropriate Vaccines,Change 2,
 Andaman & Nicobar Island,No Vaccination,NFHS 4,12.6
 Andaman & Nicobar Island,No Vaccination,NFHS 5,1.8
 Andaman & Nicobar Island,No Vaccination,Change,-10.8
+Andaman & Nicobar Island,No Vaccination,NFHS 6,2.8
+Andaman & Nicobar Island,No Vaccination,Change 2,1.0
 Andaman & Nicobar Island,Vaccination Card Seen,NFHS 4,86.3
 Andaman & Nicobar Island,Vaccination Card Seen,NFHS 5,80.5
 Andaman & Nicobar Island,Vaccination Card Seen,Change,-5.8
+Andaman & Nicobar Island,Vaccination Card Seen,NFHS 6,
+Andaman & Nicobar Island,Vaccination Card Seen,Change 2,
+Andaman & Nicobar Island,Fully Vaccinated Card Only,NFHS 4,
+Andaman & Nicobar Island,Fully Vaccinated Card Only,NFHS 5,96.0
+Andaman & Nicobar Island,Fully Vaccinated Card Only,Change,
+Andaman & Nicobar Island,Fully Vaccinated Card Only,NFHS 6,91.3
+Andaman & Nicobar Island,Fully Vaccinated Card Only,Change 2,-4.7
+Andaman & Nicobar Island,MCV 2nd Dose,NFHS 4,
+Andaman & Nicobar Island,MCV 2nd Dose,NFHS 5,77.4
+Andaman & Nicobar Island,MCV 2nd Dose,Change,
+Andaman & Nicobar Island,MCV 2nd Dose,NFHS 6,90.9
+Andaman & Nicobar Island,MCV 2nd Dose,Change 2,13.5
+Andaman & Nicobar Island,Rotavirus 3 Doses,NFHS 4,
+Andaman & Nicobar Island,Rotavirus 3 Doses,NFHS 5,0.3
+Andaman & Nicobar Island,Rotavirus 3 Doses,Change,
+Andaman & Nicobar Island,Rotavirus 3 Doses,NFHS 6,76.0
+Andaman & Nicobar Island,Rotavirus 3 Doses,Change 2,75.7
 Andhra Pradesh,BCG,NFHS 4,97.2
 Andhra Pradesh,BCG,NFHS 5,94.6
 Andhra Pradesh,BCG,Change,-2.6
+Andhra Pradesh,BCG,NFHS 6,96.6
+Andhra Pradesh,BCG,Change 2,2.0
 Andhra Pradesh,Hepatitis B 0 Dose,NFHS 4,84.4
 Andhra Pradesh,Hepatitis B 0 Dose,NFHS 5,79.5
 Andhra Pradesh,Hepatitis B 0 Dose,Change,-4.9
+Andhra Pradesh,Hepatitis B 0 Dose,NFHS 6,91.8
+Andhra Pradesh,Hepatitis B 0 Dose,Change 2,12.3
 Andhra Pradesh,Hepatitis B 1st Dose,NFHS 4,93.4
 Andhra Pradesh,Hepatitis B 1st Dose,NFHS 5,91.8
 Andhra Pradesh,Hepatitis B 1st Dose,Change,-1.6
-Andhra Pradesh,Hepatitis B 2nd Dose,NFHS 4,88
+Andhra Pradesh,Hepatitis B 1st Dose,NFHS 6,
+Andhra Pradesh,Hepatitis B 1st Dose,Change 2,
+Andhra Pradesh,Hepatitis B 2nd Dose,NFHS 4,88.0
 Andhra Pradesh,Hepatitis B 2nd Dose,NFHS 5,89.9
 Andhra Pradesh,Hepatitis B 2nd Dose,Change,1.9
+Andhra Pradesh,Hepatitis B 2nd Dose,NFHS 6,
+Andhra Pradesh,Hepatitis B 2nd Dose,Change 2,
 Andhra Pradesh,Hepatitis B 3rd Dose,NFHS 4,68.8
 Andhra Pradesh,Hepatitis B 3rd Dose,NFHS 5,85.3
 Andhra Pradesh,Hepatitis B 3rd Dose,Change,16.5
+Andhra Pradesh,Hepatitis B 3rd Dose,NFHS 6,
+Andhra Pradesh,Hepatitis B 3rd Dose,Change 2,
 Andhra Pradesh,Pentavalent and DPT 1,NFHS 4,96.5
-Andhra Pradesh,Pentavalent and DPT 1,NFHS 5,93
+Andhra Pradesh,Pentavalent and DPT 1,NFHS 5,93.0
 Andhra Pradesh,Pentavalent and DPT 1,Change,-3.5
+Andhra Pradesh,Pentavalent and DPT 1,NFHS 6,
+Andhra Pradesh,Pentavalent and DPT 1,Change 2,
 Andhra Pradesh,Pentavalent and DPT 2,NFHS 4,94.5
 Andhra Pradesh,Pentavalent and DPT 2,NFHS 5,92.4
 Andhra Pradesh,Pentavalent and DPT 2,Change,-2.1
-Andhra Pradesh,Pentavalent and DPT 3,NFHS 4,89
+Andhra Pradesh,Pentavalent and DPT 2,NFHS 6,
+Andhra Pradesh,Pentavalent and DPT 2,Change 2,
+Andhra Pradesh,Pentavalent and DPT 3,NFHS 4,89.0
 Andhra Pradesh,Pentavalent and DPT 3,NFHS 5,88.5
 Andhra Pradesh,Pentavalent and DPT 3,Change,-0.5
+Andhra Pradesh,Pentavalent and DPT 3,NFHS 6,94.5
+Andhra Pradesh,Pentavalent and DPT 3,Change 2,6.0
 Andhra Pradesh,Polio 0,NFHS 4,93.1
 Andhra Pradesh,Polio 0,NFHS 5,91.8
 Andhra Pradesh,Polio 0,Change,-1.3
+Andhra Pradesh,Polio 0,NFHS 6,
+Andhra Pradesh,Polio 0,Change 2,
 Andhra Pradesh,Polio 1,NFHS 4,94.8
 Andhra Pradesh,Polio 1,NFHS 5,91.1
 Andhra Pradesh,Polio 1,Change,-3.7
+Andhra Pradesh,Polio 1,NFHS 6,
+Andhra Pradesh,Polio 1,Change 2,
 Andhra Pradesh,Polio 2,NFHS 4,89.3
 Andhra Pradesh,Polio 2,NFHS 5,87.4
 Andhra Pradesh,Polio 2,Change,-1.9
+Andhra Pradesh,Polio 2,NFHS 6,
+Andhra Pradesh,Polio 2,Change 2,
 Andhra Pradesh,Polio 3,NFHS 4,72.3
-Andhra Pradesh,Polio 3,NFHS 5,75
+Andhra Pradesh,Polio 3,NFHS 5,75.0
 Andhra Pradesh,Polio 3,Change,2.7
+Andhra Pradesh,Polio 3,NFHS 6,88.9
+Andhra Pradesh,Polio 3,Change 2,13.9
 Andhra Pradesh,MCV Measles and MMR,NFHS 4,89.4
 Andhra Pradesh,MCV Measles and MMR,NFHS 5,87.1
 Andhra Pradesh,MCV Measles and MMR,Change,-2.3
+Andhra Pradesh,MCV Measles and MMR,NFHS 6,96.0
+Andhra Pradesh,MCV Measles and MMR,Change 2,8.9
 Andhra Pradesh,Fully Vaccinated,NFHS 4,65.2
 Andhra Pradesh,Fully Vaccinated,NFHS 5,73.2
-Andhra Pradesh,Fully Vaccinated,Change,8
+Andhra Pradesh,Fully Vaccinated,Change,8.0
+Andhra Pradesh,Fully Vaccinated,NFHS 6,87.7
+Andhra Pradesh,Fully Vaccinated,Change 2,14.5
 Andhra Pradesh,All Age Appropriate Vaccines,NFHS 4,55.5
-Andhra Pradesh,All Age Appropriate Vaccines,NFHS 5,61
+Andhra Pradesh,All Age Appropriate Vaccines,NFHS 5,61.0
 Andhra Pradesh,All Age Appropriate Vaccines,Change,5.5
+Andhra Pradesh,All Age Appropriate Vaccines,NFHS 6,
+Andhra Pradesh,All Age Appropriate Vaccines,Change 2,
 Andhra Pradesh,No Vaccination,NFHS 4,2.3
 Andhra Pradesh,No Vaccination,NFHS 5,4.7
 Andhra Pradesh,No Vaccination,Change,2.4
+Andhra Pradesh,No Vaccination,NFHS 6,2.3
+Andhra Pradesh,No Vaccination,Change 2,-2.4
 Andhra Pradesh,Vaccination Card Seen,NFHS 4,62.2
 Andhra Pradesh,Vaccination Card Seen,NFHS 5,76.8
 Andhra Pradesh,Vaccination Card Seen,Change,14.6
+Andhra Pradesh,Vaccination Card Seen,NFHS 6,
+Andhra Pradesh,Vaccination Card Seen,Change 2,
+Andhra Pradesh,Fully Vaccinated Card Only,NFHS 4,
+Andhra Pradesh,Fully Vaccinated Card Only,NFHS 5,88.0
+Andhra Pradesh,Fully Vaccinated Card Only,Change,
+Andhra Pradesh,Fully Vaccinated Card Only,NFHS 6,92.3
+Andhra Pradesh,Fully Vaccinated Card Only,Change 2,4.3
+Andhra Pradesh,MCV 2nd Dose,NFHS 4,
+Andhra Pradesh,MCV 2nd Dose,NFHS 5,57.5
+Andhra Pradesh,MCV 2nd Dose,Change,
+Andhra Pradesh,MCV 2nd Dose,NFHS 6,84.1
+Andhra Pradesh,MCV 2nd Dose,Change 2,26.6
+Andhra Pradesh,Rotavirus 3 Doses,NFHS 4,
+Andhra Pradesh,Rotavirus 3 Doses,NFHS 5,75.5
+Andhra Pradesh,Rotavirus 3 Doses,Change,
+Andhra Pradesh,Rotavirus 3 Doses,NFHS 6,92.7
+Andhra Pradesh,Rotavirus 3 Doses,Change 2,17.2
 Karnataka,BCG,NFHS 4,92.5
 Karnataka,BCG,NFHS 5,97.1
 Karnataka,BCG,Change,4.6
+Karnataka,BCG,NFHS 6,96.4
+Karnataka,BCG,Change 2,-0.7
 Karnataka,Hepatitis B 0 Dose,NFHS 4,80.9
 Karnataka,Hepatitis B 0 Dose,NFHS 5,84.5
 Karnataka,Hepatitis B 0 Dose,Change,3.6
+Karnataka,Hepatitis B 0 Dose,NFHS 6,92.5
+Karnataka,Hepatitis B 0 Dose,Change 2,8.0
 Karnataka,Hepatitis B 1st Dose,NFHS 4,81.5
-Karnataka,Hepatitis B 1st Dose,NFHS 5,93
+Karnataka,Hepatitis B 1st Dose,NFHS 5,93.0
 Karnataka,Hepatitis B 1st Dose,Change,11.5
+Karnataka,Hepatitis B 1st Dose,NFHS 6,
+Karnataka,Hepatitis B 1st Dose,Change 2,
 Karnataka,Hepatitis B 2nd Dose,NFHS 4,74.1
 Karnataka,Hepatitis B 2nd Dose,NFHS 5,91.7
 Karnataka,Hepatitis B 2nd Dose,Change,17.6
+Karnataka,Hepatitis B 2nd Dose,NFHS 6,
+Karnataka,Hepatitis B 2nd Dose,Change 2,
 Karnataka,Hepatitis B 3rd Dose,NFHS 4,58.9
 Karnataka,Hepatitis B 3rd Dose,NFHS 5,88.8
 Karnataka,Hepatitis B 3rd Dose,Change,29.9
+Karnataka,Hepatitis B 3rd Dose,NFHS 6,
+Karnataka,Hepatitis B 3rd Dose,Change 2,
 Karnataka,Pentavalent and DPT 1,NFHS 4,90.3
 Karnataka,Pentavalent and DPT 1,NFHS 5,95.9
 Karnataka,Pentavalent and DPT 1,Change,5.6
-Karnataka,Pentavalent and DPT 2,NFHS 4,86
+Karnataka,Pentavalent and DPT 1,NFHS 6,
+Karnataka,Pentavalent and DPT 1,Change 2,
+Karnataka,Pentavalent and DPT 2,NFHS 4,86.0
 Karnataka,Pentavalent and DPT 2,NFHS 5,94.4
 Karnataka,Pentavalent and DPT 2,Change,8.4
+Karnataka,Pentavalent and DPT 2,NFHS 6,
+Karnataka,Pentavalent and DPT 2,Change 2,
 Karnataka,Pentavalent and DPT 3,NFHS 4,77.9
 Karnataka,Pentavalent and DPT 3,NFHS 5,92.3
 Karnataka,Pentavalent and DPT 3,Change,14.4
+Karnataka,Pentavalent and DPT 3,NFHS 6,93.3
+Karnataka,Pentavalent and DPT 3,Change 2,1.0
 Karnataka,Polio 0,NFHS 4,87.9
 Karnataka,Polio 0,NFHS 5,93.6
 Karnataka,Polio 0,Change,5.7
+Karnataka,Polio 0,NFHS 6,
+Karnataka,Polio 0,Change 2,
 Karnataka,Polio 1,NFHS 4,91.8
 Karnataka,Polio 1,NFHS 5,95.5
 Karnataka,Polio 1,Change,3.7
-Karnataka,Polio 2,NFHS 4,88
-Karnataka,Polio 2,NFHS 5,93
-Karnataka,Polio 2,Change,5
+Karnataka,Polio 1,NFHS 6,
+Karnataka,Polio 1,Change 2,
+Karnataka,Polio 2,NFHS 4,88.0
+Karnataka,Polio 2,NFHS 5,93.0
+Karnataka,Polio 2,Change,5.0
+Karnataka,Polio 2,NFHS 6,
+Karnataka,Polio 2,Change 2,
 Karnataka,Polio 3,NFHS 4,74.6
 Karnataka,Polio 3,NFHS 5,87.5
 Karnataka,Polio 3,Change,12.9
+Karnataka,Polio 3,NFHS 6,91.3
+Karnataka,Polio 3,Change 2,3.8
 Karnataka,MCV Measles and MMR,NFHS 4,82.4
 Karnataka,MCV Measles and MMR,NFHS 5,91.4
-Karnataka,MCV Measles and MMR,Change,9
+Karnataka,MCV Measles and MMR,Change,9.0
+Karnataka,MCV Measles and MMR,NFHS 6,95.6
+Karnataka,MCV Measles and MMR,Change 2,4.2
 Karnataka,Fully Vaccinated,NFHS 4,62.6
 Karnataka,Fully Vaccinated,NFHS 5,84.3
 Karnataka,Fully Vaccinated,Change,21.7
+Karnataka,Fully Vaccinated,NFHS 6,90.2
+Karnataka,Fully Vaccinated,Change 2,5.9
 Karnataka,All Age Appropriate Vaccines,NFHS 4,50.2
 Karnataka,All Age Appropriate Vaccines,NFHS 5,72.7
 Karnataka,All Age Appropriate Vaccines,Change,22.5
+Karnataka,All Age Appropriate Vaccines,NFHS 6,
+Karnataka,All Age Appropriate Vaccines,Change 2,
 Karnataka,No Vaccination,NFHS 4,6.2
 Karnataka,No Vaccination,NFHS 5,2.5
 Karnataka,No Vaccination,Change,-3.7
+Karnataka,No Vaccination,NFHS 6,3.2
+Karnataka,No Vaccination,Change 2,0.7
 Karnataka,Vaccination Card Seen,NFHS 4,63.2
 Karnataka,Vaccination Card Seen,NFHS 5,90.8
 Karnataka,Vaccination Card Seen,Change,27.6
+Karnataka,Vaccination Card Seen,NFHS 6,
+Karnataka,Vaccination Card Seen,Change 2,
+Karnataka,Fully Vaccinated Card Only,NFHS 4,
+Karnataka,Fully Vaccinated Card Only,NFHS 5,88.3
+Karnataka,Fully Vaccinated Card Only,Change,
+Karnataka,Fully Vaccinated Card Only,NFHS 6,91.8
+Karnataka,Fully Vaccinated Card Only,Change 2,3.5
+Karnataka,MCV 2nd Dose,NFHS 4,
+Karnataka,MCV 2nd Dose,NFHS 5,62.4
+Karnataka,MCV 2nd Dose,Change,
+Karnataka,MCV 2nd Dose,NFHS 6,79.4
+Karnataka,MCV 2nd Dose,Change 2,17.0
+Karnataka,Rotavirus 3 Doses,NFHS 4,
+Karnataka,Rotavirus 3 Doses,NFHS 5,5.9
+Karnataka,Rotavirus 3 Doses,Change,
+Karnataka,Rotavirus 3 Doses,NFHS 6,84.4
+Karnataka,Rotavirus 3 Doses,Change 2,78.5
 Kerala,BCG,NFHS 4,98.1
 Kerala,BCG,NFHS 5,97.6
 Kerala,BCG,Change,-0.5
+Kerala,BCG,NFHS 6,96.8
+Kerala,BCG,Change 2,-0.8
 Kerala,Hepatitis B 0 Dose,NFHS 4,76.4
 Kerala,Hepatitis B 0 Dose,NFHS 5,81.4
-Kerala,Hepatitis B 0 Dose,Change,5
+Kerala,Hepatitis B 0 Dose,Change,5.0
+Kerala,Hepatitis B 0 Dose,NFHS 6,86.9
+Kerala,Hepatitis B 0 Dose,Change 2,5.5
 Kerala,Hepatitis B 1st Dose,NFHS 4,92.6
 Kerala,Hepatitis B 1st Dose,NFHS 5,93.7
 Kerala,Hepatitis B 1st Dose,Change,1.1
-Kerala,Hepatitis B 2nd Dose,NFHS 4,90
+Kerala,Hepatitis B 1st Dose,NFHS 6,
+Kerala,Hepatitis B 1st Dose,Change 2,
+Kerala,Hepatitis B 2nd Dose,NFHS 4,90.0
 Kerala,Hepatitis B 2nd Dose,NFHS 5,89.9
 Kerala,Hepatitis B 2nd Dose,Change,-0.1
+Kerala,Hepatitis B 2nd Dose,NFHS 6,
+Kerala,Hepatitis B 2nd Dose,Change 2,
 Kerala,Hepatitis B 3rd Dose,NFHS 4,82.4
-Kerala,Hepatitis B 3rd Dose,NFHS 5,83
+Kerala,Hepatitis B 3rd Dose,NFHS 5,83.0
 Kerala,Hepatitis B 3rd Dose,Change,0.6
+Kerala,Hepatitis B 3rd Dose,NFHS 6,
+Kerala,Hepatitis B 3rd Dose,Change 2,
 Kerala,Pentavalent and DPT 1,NFHS 4,95.4
 Kerala,Pentavalent and DPT 1,NFHS 5,95.8
 Kerala,Pentavalent and DPT 1,Change,0.4
+Kerala,Pentavalent and DPT 1,NFHS 6,
+Kerala,Pentavalent and DPT 1,Change 2,
 Kerala,Pentavalent and DPT 2,NFHS 4,93.8
 Kerala,Pentavalent and DPT 2,NFHS 5,92.2
 Kerala,Pentavalent and DPT 2,Change,-1.6
+Kerala,Pentavalent and DPT 2,NFHS 6,
+Kerala,Pentavalent and DPT 2,Change 2,
 Kerala,Pentavalent and DPT 3,NFHS 4,90.4
 Kerala,Pentavalent and DPT 3,NFHS 5,85.9
 Kerala,Pentavalent and DPT 3,Change,-4.5
+Kerala,Pentavalent and DPT 3,NFHS 6,88.8
+Kerala,Pentavalent and DPT 3,Change 2,2.9
 Kerala,Polio 0,NFHS 4,95.1
 Kerala,Polio 0,NFHS 5,92.5
 Kerala,Polio 0,Change,-2.6
+Kerala,Polio 0,NFHS 6,
+Kerala,Polio 0,Change 2,
 Kerala,Polio 1,NFHS 4,96.7
 Kerala,Polio 1,NFHS 5,95.2
 Kerala,Polio 1,Change,-1.5
+Kerala,Polio 1,NFHS 6,
+Kerala,Polio 1,Change 2,
 Kerala,Polio 2,NFHS 4,94.5
-Kerala,Polio 2,NFHS 5,90
+Kerala,Polio 2,NFHS 5,90.0
 Kerala,Polio 2,Change,-4.5
+Kerala,Polio 2,NFHS 6,
+Kerala,Polio 2,Change 2,
 Kerala,Polio 3,NFHS 4,88.5
 Kerala,Polio 3,NFHS 5,84.1
 Kerala,Polio 3,Change,-4.4
+Kerala,Polio 3,NFHS 6,88.6
+Kerala,Polio 3,Change 2,4.5
 Kerala,MCV Measles and MMR,NFHS 4,89.4
 Kerala,MCV Measles and MMR,NFHS 5,88.9
 Kerala,MCV Measles and MMR,Change,-0.5
+Kerala,MCV Measles and MMR,NFHS 6,92.8
+Kerala,MCV Measles and MMR,Change 2,3.9
 Kerala,Fully Vaccinated,NFHS 4,82.1
 Kerala,Fully Vaccinated,NFHS 5,78.4
 Kerala,Fully Vaccinated,Change,-3.7
-Kerala,All Age Appropriate Vaccines,NFHS 4,61
+Kerala,Fully Vaccinated,NFHS 6,84.9
+Kerala,Fully Vaccinated,Change 2,6.5
+Kerala,All Age Appropriate Vaccines,NFHS 4,61.0
 Kerala,All Age Appropriate Vaccines,NFHS 5,65.6
 Kerala,All Age Appropriate Vaccines,Change,4.6
+Kerala,All Age Appropriate Vaccines,NFHS 6,
+Kerala,All Age Appropriate Vaccines,Change 2,
 Kerala,No Vaccination,NFHS 4,1.7
 Kerala,No Vaccination,NFHS 5,1.8
 Kerala,No Vaccination,Change,0.1
+Kerala,No Vaccination,NFHS 6,2.4
+Kerala,No Vaccination,Change 2,0.6
 Kerala,Vaccination Card Seen,NFHS 4,86.1
 Kerala,Vaccination Card Seen,NFHS 5,88.6
 Kerala,Vaccination Card Seen,Change,2.5
-Lakshadweep,BCG,NFHS 4,100
+Kerala,Vaccination Card Seen,NFHS 6,
+Kerala,Vaccination Card Seen,Change 2,
+Kerala,Fully Vaccinated Card Only,NFHS 4,
+Kerala,Fully Vaccinated Card Only,NFHS 5,85.2
+Kerala,Fully Vaccinated Card Only,Change,
+Kerala,Fully Vaccinated Card Only,NFHS 6,86.8
+Kerala,Fully Vaccinated Card Only,Change 2,1.6
+Kerala,MCV 2nd Dose,NFHS 4,
+Kerala,MCV 2nd Dose,NFHS 5,31.9
+Kerala,MCV 2nd Dose,Change,
+Kerala,MCV 2nd Dose,NFHS 6,83.3
+Kerala,MCV 2nd Dose,Change 2,51.4
+Kerala,Rotavirus 3 Doses,NFHS 4,
+Kerala,Rotavirus 3 Doses,NFHS 5,9.5
+Kerala,Rotavirus 3 Doses,Change,
+Kerala,Rotavirus 3 Doses,NFHS 6,87.2
+Kerala,Rotavirus 3 Doses,Change 2,77.7
+Lakshadweep,BCG,NFHS 4,100.0
 Lakshadweep,BCG,NFHS 5,94.2
 Lakshadweep,BCG,Change,-5.8
+Lakshadweep,BCG,NFHS 6,94.8
+Lakshadweep,BCG,Change 2,0.6
 Lakshadweep,Hepatitis B 0 Dose,NFHS 4,85.8
 Lakshadweep,Hepatitis B 0 Dose,NFHS 5,94.2
 Lakshadweep,Hepatitis B 0 Dose,Change,8.4
+Lakshadweep,Hepatitis B 0 Dose,NFHS 6,83.0
+Lakshadweep,Hepatitis B 0 Dose,Change 2,-11.2
 Lakshadweep,Hepatitis B 1st Dose,NFHS 4,96.8
 Lakshadweep,Hepatitis B 1st Dose,NFHS 5,88.9
 Lakshadweep,Hepatitis B 1st Dose,Change,-7.9
+Lakshadweep,Hepatitis B 1st Dose,NFHS 6,
+Lakshadweep,Hepatitis B 1st Dose,Change 2,
 Lakshadweep,Hepatitis B 2nd Dose,NFHS 4,96.8
 Lakshadweep,Hepatitis B 2nd Dose,NFHS 5,88.9
 Lakshadweep,Hepatitis B 2nd Dose,Change,-7.9
+Lakshadweep,Hepatitis B 2nd Dose,NFHS 6,
+Lakshadweep,Hepatitis B 2nd Dose,Change 2,
 Lakshadweep,Hepatitis B 3rd Dose,NFHS 4,88.9
 Lakshadweep,Hepatitis B 3rd Dose,NFHS 5,88.9
-Lakshadweep,Hepatitis B 3rd Dose,Change,0
+Lakshadweep,Hepatitis B 3rd Dose,Change,0.0
+Lakshadweep,Hepatitis B 3rd Dose,NFHS 6,
+Lakshadweep,Hepatitis B 3rd Dose,Change 2,
 Lakshadweep,Pentavalent and DPT 1,NFHS 4,96.8
-Lakshadweep,Pentavalent and DPT 1,NFHS 5,91
+Lakshadweep,Pentavalent and DPT 1,NFHS 5,91.0
 Lakshadweep,Pentavalent and DPT 1,Change,-5.8
+Lakshadweep,Pentavalent and DPT 1,NFHS 6,
+Lakshadweep,Pentavalent and DPT 1,Change 2,
 Lakshadweep,Pentavalent and DPT 2,NFHS 4,96.8
-Lakshadweep,Pentavalent and DPT 2,NFHS 5,91
+Lakshadweep,Pentavalent and DPT 2,NFHS 5,91.0
 Lakshadweep,Pentavalent and DPT 2,Change,-5.8
+Lakshadweep,Pentavalent and DPT 2,NFHS 6,
+Lakshadweep,Pentavalent and DPT 2,Change 2,
 Lakshadweep,Pentavalent and DPT 3,NFHS 4,95.1
-Lakshadweep,Pentavalent and DPT 3,NFHS 5,91
+Lakshadweep,Pentavalent and DPT 3,NFHS 5,91.0
 Lakshadweep,Pentavalent and DPT 3,Change,-4.1
+Lakshadweep,Pentavalent and DPT 3,NFHS 6,93.7
+Lakshadweep,Pentavalent and DPT 3,Change 2,2.7
 Lakshadweep,Polio 0,NFHS 4,98.4
 Lakshadweep,Polio 0,NFHS 5,94.2
 Lakshadweep,Polio 0,Change,-4.2
+Lakshadweep,Polio 0,NFHS 6,
+Lakshadweep,Polio 0,Change 2,
 Lakshadweep,Polio 1,NFHS 4,98.5
-Lakshadweep,Polio 1,NFHS 5,91
+Lakshadweep,Polio 1,NFHS 5,91.0
 Lakshadweep,Polio 1,Change,-7.5
+Lakshadweep,Polio 1,NFHS 6,
+Lakshadweep,Polio 1,Change 2,
 Lakshadweep,Polio 2,NFHS 4,98.5
 Lakshadweep,Polio 2,NFHS 5,88.5
-Lakshadweep,Polio 2,Change,-10
+Lakshadweep,Polio 2,Change,-10.0
+Lakshadweep,Polio 2,NFHS 6,
+Lakshadweep,Polio 2,Change 2,
 Lakshadweep,Polio 3,NFHS 4,92.1
 Lakshadweep,Polio 3,NFHS 5,86.1
-Lakshadweep,Polio 3,Change,-6
+Lakshadweep,Polio 3,Change,-6.0
+Lakshadweep,Polio 3,NFHS 6,90.5
+Lakshadweep,Polio 3,Change 2,4.4
 Lakshadweep,MCV Measles and MMR,NFHS 4,93.7
-Lakshadweep,MCV Measles and MMR,NFHS 5,91
+Lakshadweep,MCV Measles and MMR,NFHS 5,91.0
 Lakshadweep,MCV Measles and MMR,Change,-2.7
-Lakshadweep,Fully Vaccinated,NFHS 4,89
+Lakshadweep,MCV Measles and MMR,NFHS 6,93.7
+Lakshadweep,MCV Measles and MMR,Change 2,2.7
+Lakshadweep,Fully Vaccinated,NFHS 4,89.0
 Lakshadweep,Fully Vaccinated,NFHS 5,86.1
 Lakshadweep,Fully Vaccinated,Change,-2.9
+Lakshadweep,Fully Vaccinated,NFHS 6,90.5
+Lakshadweep,Fully Vaccinated,Change 2,4.4
 Lakshadweep,All Age Appropriate Vaccines,NFHS 4,74.9
-Lakshadweep,All Age Appropriate Vaccines,NFHS 5,84
+Lakshadweep,All Age Appropriate Vaccines,NFHS 5,84.0
 Lakshadweep,All Age Appropriate Vaccines,Change,9.1
-Lakshadweep,No Vaccination,NFHS 4,0
+Lakshadweep,All Age Appropriate Vaccines,NFHS 6,
+Lakshadweep,All Age Appropriate Vaccines,Change 2,
+Lakshadweep,No Vaccination,NFHS 4,0.0
 Lakshadweep,No Vaccination,NFHS 5,5.8
 Lakshadweep,No Vaccination,Change,5.8
+Lakshadweep,No Vaccination,NFHS 6,5.2
+Lakshadweep,No Vaccination,Change 2,-0.6
 Lakshadweep,Vaccination Card Seen,NFHS 4,92.1
-Lakshadweep,Vaccination Card Seen,NFHS 5,94
+Lakshadweep,Vaccination Card Seen,NFHS 5,94.0
 Lakshadweep,Vaccination Card Seen,Change,1.9
+Lakshadweep,Vaccination Card Seen,NFHS 6,
+Lakshadweep,Vaccination Card Seen,Change 2,
+Lakshadweep,Fully Vaccinated Card Only,NFHS 4,
+Lakshadweep,Fully Vaccinated Card Only,NFHS 5,91.7
+Lakshadweep,Fully Vaccinated Card Only,Change,
+Lakshadweep,Fully Vaccinated Card Only,NFHS 6,95.0
+Lakshadweep,Fully Vaccinated Card Only,Change 2,3.3
+Lakshadweep,MCV 2nd Dose,NFHS 4,
+Lakshadweep,MCV 2nd Dose,NFHS 5,12.5
+Lakshadweep,MCV 2nd Dose,Change,
+Lakshadweep,MCV 2nd Dose,NFHS 6,37.2
+Lakshadweep,MCV 2nd Dose,Change 2,24.7
+Lakshadweep,Rotavirus 3 Doses,NFHS 4,
+Lakshadweep,Rotavirus 3 Doses,NFHS 5,12.7
+Lakshadweep,Rotavirus 3 Doses,Change,
+Lakshadweep,Rotavirus 3 Doses,NFHS 6,22.0
+Lakshadweep,Rotavirus 3 Doses,Change 2,9.3
 Puducherry,BCG,NFHS 4,99.9
 Puducherry,BCG,NFHS 5,96.4
 Puducherry,BCG,Change,-3.5
+Puducherry,BCG,NFHS 6,95.8
+Puducherry,BCG,Change 2,-0.6
 Puducherry,Hepatitis B 0 Dose,NFHS 4,93.8
 Puducherry,Hepatitis B 0 Dose,NFHS 5,81.1
 Puducherry,Hepatitis B 0 Dose,Change,-12.7
+Puducherry,Hepatitis B 0 Dose,NFHS 6,92.8
+Puducherry,Hepatitis B 0 Dose,Change 2,11.7
 Puducherry,Hepatitis B 1st Dose,NFHS 4,96.6
 Puducherry,Hepatitis B 1st Dose,NFHS 5,96.2
 Puducherry,Hepatitis B 1st Dose,Change,-0.4
+Puducherry,Hepatitis B 1st Dose,NFHS 6,
+Puducherry,Hepatitis B 1st Dose,Change 2,
 Puducherry,Hepatitis B 2nd Dose,NFHS 4,93.4
-Puducherry,Hepatitis B 2nd Dose,NFHS 5,96
+Puducherry,Hepatitis B 2nd Dose,NFHS 5,96.0
 Puducherry,Hepatitis B 2nd Dose,Change,2.6
+Puducherry,Hepatitis B 2nd Dose,NFHS 6,
+Puducherry,Hepatitis B 2nd Dose,Change 2,
 Puducherry,Hepatitis B 3rd Dose,NFHS 4,89.4
 Puducherry,Hepatitis B 3rd Dose,NFHS 5,88.8
 Puducherry,Hepatitis B 3rd Dose,Change,-0.6
+Puducherry,Hepatitis B 3rd Dose,NFHS 6,
+Puducherry,Hepatitis B 3rd Dose,Change 2,
 Puducherry,Pentavalent and DPT 1,NFHS 4,99.5
 Puducherry,Pentavalent and DPT 1,NFHS 5,99.4
 Puducherry,Pentavalent and DPT 1,Change,-0.1
+Puducherry,Pentavalent and DPT 1,NFHS 6,
+Puducherry,Pentavalent and DPT 1,Change 2,
 Puducherry,Pentavalent and DPT 2,NFHS 4,98.5
 Puducherry,Pentavalent and DPT 2,NFHS 5,99.3
 Puducherry,Pentavalent and DPT 2,Change,0.8
-Puducherry,Pentavalent and DPT 3,NFHS 4,96
+Puducherry,Pentavalent and DPT 2,NFHS 6,
+Puducherry,Pentavalent and DPT 2,Change 2,
+Puducherry,Pentavalent and DPT 3,NFHS 4,96.0
 Puducherry,Pentavalent and DPT 3,NFHS 5,92.3
 Puducherry,Pentavalent and DPT 3,Change,-3.7
+Puducherry,Pentavalent and DPT 3,NFHS 6,91.6
+Puducherry,Pentavalent and DPT 3,Change 2,-0.7
 Puducherry,Polio 0,NFHS 4,97.3
 Puducherry,Polio 0,NFHS 5,99.8
 Puducherry,Polio 0,Change,2.5
+Puducherry,Polio 0,NFHS 6,
+Puducherry,Polio 0,Change 2,
 Puducherry,Polio 1,NFHS 4,99.9
 Puducherry,Polio 1,NFHS 5,97.9
-Puducherry,Polio 1,Change,-2
+Puducherry,Polio 1,Change,-2.0
+Puducherry,Polio 1,NFHS 6,
+Puducherry,Polio 1,Change 2,
 Puducherry,Polio 2,NFHS 4,98.8
 Puducherry,Polio 2,NFHS 5,97.1
 Puducherry,Polio 2,Change,-1.7
+Puducherry,Polio 2,NFHS 6,
+Puducherry,Polio 2,Change 2,
 Puducherry,Polio 3,NFHS 4,95.4
 Puducherry,Polio 3,NFHS 5,87.3
 Puducherry,Polio 3,Change,-8.1
+Puducherry,Polio 3,NFHS 6,94.4
+Puducherry,Polio 3,Change 2,7.1
 Puducherry,MCV Measles and MMR,NFHS 4,95.4
 Puducherry,MCV Measles and MMR,NFHS 5,95.6
 Puducherry,MCV Measles and MMR,Change,0.2
+Puducherry,MCV Measles and MMR,NFHS 6,97.1
+Puducherry,MCV Measles and MMR,Change 2,1.5
 Puducherry,Fully Vaccinated,NFHS 4,91.2
 Puducherry,Fully Vaccinated,NFHS 5,82.3
 Puducherry,Fully Vaccinated,Change,-8.9
+Puducherry,Fully Vaccinated,NFHS 6,89.3
+Puducherry,Fully Vaccinated,Change 2,7.0
 Puducherry,All Age Appropriate Vaccines,NFHS 4,82.7
 Puducherry,All Age Appropriate Vaccines,NFHS 5,69.1
 Puducherry,All Age Appropriate Vaccines,Change,-13.6
+Puducherry,All Age Appropriate Vaccines,NFHS 6,
+Puducherry,All Age Appropriate Vaccines,Change 2,
 Puducherry,No Vaccination,NFHS 4,0.1
 Puducherry,No Vaccination,NFHS 5,0.1
-Puducherry,No Vaccination,Change,0
+Puducherry,No Vaccination,Change,0.0
+Puducherry,No Vaccination,NFHS 6,2.9
+Puducherry,No Vaccination,Change 2,2.8
 Puducherry,Vaccination Card Seen,NFHS 4,93.2
 Puducherry,Vaccination Card Seen,NFHS 5,91.5
 Puducherry,Vaccination Card Seen,Change,-1.7
+Puducherry,Vaccination Card Seen,NFHS 6,
+Puducherry,Vaccination Card Seen,Change 2,
+Puducherry,Fully Vaccinated Card Only,NFHS 4,
+Puducherry,Fully Vaccinated Card Only,NFHS 5,89.7
+Puducherry,Fully Vaccinated Card Only,Change,
+Puducherry,Fully Vaccinated Card Only,NFHS 6,89.7
+Puducherry,Fully Vaccinated Card Only,Change 2,0.0
+Puducherry,MCV 2nd Dose,NFHS 4,
+Puducherry,MCV 2nd Dose,NFHS 5,84.6
+Puducherry,MCV 2nd Dose,Change,
+Puducherry,MCV 2nd Dose,NFHS 6,85.0
+Puducherry,MCV 2nd Dose,Change 2,0.4
+Puducherry,Rotavirus 3 Doses,NFHS 4,
+Puducherry,Rotavirus 3 Doses,NFHS 5,8.0
+Puducherry,Rotavirus 3 Doses,Change,
+Puducherry,Rotavirus 3 Doses,NFHS 6,88.6
+Puducherry,Rotavirus 3 Doses,Change 2,80.6
 Tamil Nadu,BCG,NFHS 4,94.9
 Tamil Nadu,BCG,NFHS 5,97.6
 Tamil Nadu,BCG,Change,2.7
+Tamil Nadu,BCG,NFHS 6,95.0
+Tamil Nadu,BCG,Change 2,-2.6
 Tamil Nadu,Hepatitis B 0 Dose,NFHS 4,82.1
 Tamil Nadu,Hepatitis B 0 Dose,NFHS 5,84.9
 Tamil Nadu,Hepatitis B 0 Dose,Change,2.8
+Tamil Nadu,Hepatitis B 0 Dose,NFHS 6,90.6
+Tamil Nadu,Hepatitis B 0 Dose,Change 2,5.7
 Tamil Nadu,Hepatitis B 1st Dose,NFHS 4,83.7
 Tamil Nadu,Hepatitis B 1st Dose,NFHS 5,95.7
-Tamil Nadu,Hepatitis B 1st Dose,Change,12
+Tamil Nadu,Hepatitis B 1st Dose,Change,12.0
+Tamil Nadu,Hepatitis B 1st Dose,NFHS 6,
+Tamil Nadu,Hepatitis B 1st Dose,Change 2,
 Tamil Nadu,Hepatitis B 2nd Dose,NFHS 4,76.9
 Tamil Nadu,Hepatitis B 2nd Dose,NFHS 5,95.1
 Tamil Nadu,Hepatitis B 2nd Dose,Change,18.2
+Tamil Nadu,Hepatitis B 2nd Dose,NFHS 6,
+Tamil Nadu,Hepatitis B 2nd Dose,Change 2,
 Tamil Nadu,Hepatitis B 3rd Dose,NFHS 4,68.2
 Tamil Nadu,Hepatitis B 3rd Dose,NFHS 5,92.3
 Tamil Nadu,Hepatitis B 3rd Dose,Change,24.1
+Tamil Nadu,Hepatitis B 3rd Dose,NFHS 6,
+Tamil Nadu,Hepatitis B 3rd Dose,Change 2,
 Tamil Nadu,Pentavalent and DPT 1,NFHS 4,92.4
 Tamil Nadu,Pentavalent and DPT 1,NFHS 5,97.5
 Tamil Nadu,Pentavalent and DPT 1,Change,5.1
-Tamil Nadu,Pentavalent and DPT 2,NFHS 4,89
+Tamil Nadu,Pentavalent and DPT 1,NFHS 6,
+Tamil Nadu,Pentavalent and DPT 1,Change 2,
+Tamil Nadu,Pentavalent and DPT 2,NFHS 4,89.0
 Tamil Nadu,Pentavalent and DPT 2,NFHS 5,96.8
 Tamil Nadu,Pentavalent and DPT 2,Change,7.8
+Tamil Nadu,Pentavalent and DPT 2,NFHS 6,
+Tamil Nadu,Pentavalent and DPT 2,Change 2,
 Tamil Nadu,Pentavalent and DPT 3,NFHS 4,84.5
 Tamil Nadu,Pentavalent and DPT 3,NFHS 5,94.9
 Tamil Nadu,Pentavalent and DPT 3,Change,10.4
+Tamil Nadu,Pentavalent and DPT 3,NFHS 6,92.8
+Tamil Nadu,Pentavalent and DPT 3,Change 2,-2.1
 Tamil Nadu,Polio 0,NFHS 4,92.9
 Tamil Nadu,Polio 0,NFHS 5,96.9
-Tamil Nadu,Polio 0,Change,4
+Tamil Nadu,Polio 0,Change,4.0
+Tamil Nadu,Polio 0,NFHS 6,
+Tamil Nadu,Polio 0,Change 2,
 Tamil Nadu,Polio 1,NFHS 4,94.9
 Tamil Nadu,Polio 1,NFHS 5,96.6
 Tamil Nadu,Polio 1,Change,1.7
+Tamil Nadu,Polio 1,NFHS 6,
+Tamil Nadu,Polio 1,Change 2,
 Tamil Nadu,Polio 2,NFHS 4,92.2
 Tamil Nadu,Polio 2,NFHS 5,95.6
 Tamil Nadu,Polio 2,Change,3.4
+Tamil Nadu,Polio 2,NFHS 6,
+Tamil Nadu,Polio 2,Change 2,
 Tamil Nadu,Polio 3,NFHS 4,82.3
 Tamil Nadu,Polio 3,NFHS 5,91.5
 Tamil Nadu,Polio 3,Change,9.2
+Tamil Nadu,Polio 3,NFHS 6,92.1
+Tamil Nadu,Polio 3,Change 2,0.6
 Tamil Nadu,MCV Measles and MMR,NFHS 4,85.1
 Tamil Nadu,MCV Measles and MMR,NFHS 5,95.8
 Tamil Nadu,MCV Measles and MMR,Change,10.7
+Tamil Nadu,MCV Measles and MMR,NFHS 6,94.5
+Tamil Nadu,MCV Measles and MMR,Change 2,-1.3
 Tamil Nadu,Fully Vaccinated,NFHS 4,69.7
 Tamil Nadu,Fully Vaccinated,NFHS 5,89.4
 Tamil Nadu,Fully Vaccinated,Change,19.7
+Tamil Nadu,Fully Vaccinated,NFHS 6,90.0
+Tamil Nadu,Fully Vaccinated,Change 2,0.6
 Tamil Nadu,All Age Appropriate Vaccines,NFHS 4,57.4
 Tamil Nadu,All Age Appropriate Vaccines,NFHS 5,78.7
 Tamil Nadu,All Age Appropriate Vaccines,Change,21.3
+Tamil Nadu,All Age Appropriate Vaccines,NFHS 6,
+Tamil Nadu,All Age Appropriate Vaccines,Change 2,
 Tamil Nadu,No Vaccination,NFHS 4,3.4
 Tamil Nadu,No Vaccination,NFHS 5,1.5
 Tamil Nadu,No Vaccination,Change,-1.9
+Tamil Nadu,No Vaccination,NFHS 6,3.8
+Tamil Nadu,No Vaccination,Change 2,2.3
 Tamil Nadu,Vaccination Card Seen,NFHS 4,80.3
 Tamil Nadu,Vaccination Card Seen,NFHS 5,95.1
 Tamil Nadu,Vaccination Card Seen,Change,14.8
+Tamil Nadu,Vaccination Card Seen,NFHS 6,
+Tamil Nadu,Vaccination Card Seen,Change 2,
+Tamil Nadu,Fully Vaccinated Card Only,NFHS 4,
+Tamil Nadu,Fully Vaccinated Card Only,NFHS 5,90.4
+Tamil Nadu,Fully Vaccinated Card Only,Change,
+Tamil Nadu,Fully Vaccinated Card Only,NFHS 6,89.7
+Tamil Nadu,Fully Vaccinated Card Only,Change 2,-0.7
+Tamil Nadu,MCV 2nd Dose,NFHS 4,
+Tamil Nadu,MCV 2nd Dose,NFHS 5,75.0
+Tamil Nadu,MCV 2nd Dose,Change,
+Tamil Nadu,MCV 2nd Dose,NFHS 6,75.6
+Tamil Nadu,MCV 2nd Dose,Change 2,0.6
+Tamil Nadu,Rotavirus 3 Doses,NFHS 4,
+Tamil Nadu,Rotavirus 3 Doses,NFHS 5,66.4
+Tamil Nadu,Rotavirus 3 Doses,Change,
+Tamil Nadu,Rotavirus 3 Doses,NFHS 6,87.4
+Tamil Nadu,Rotavirus 3 Doses,Change 2,21.0
 Telangana,BCG,NFHS 4,97.4
 Telangana,BCG,NFHS 5,93.5
 Telangana,BCG,Change,-3.9
+Telangana,BCG,NFHS 6,95.1
+Telangana,BCG,Change 2,1.6
 Telangana,Hepatitis B 0 Dose,NFHS 4,88.2
 Telangana,Hepatitis B 0 Dose,NFHS 5,73.9
 Telangana,Hepatitis B 0 Dose,Change,-14.3
+Telangana,Hepatitis B 0 Dose,NFHS 6,88.9
+Telangana,Hepatitis B 0 Dose,Change 2,15.0
 Telangana,Hepatitis B 1st Dose,NFHS 4,93.8
 Telangana,Hepatitis B 1st Dose,NFHS 5,90.5
 Telangana,Hepatitis B 1st Dose,Change,-3.3
+Telangana,Hepatitis B 1st Dose,NFHS 6,
+Telangana,Hepatitis B 1st Dose,Change 2,
 Telangana,Hepatitis B 2nd Dose,NFHS 4,87.1
-Telangana,Hepatitis B 2nd Dose,NFHS 5,89
+Telangana,Hepatitis B 2nd Dose,NFHS 5,89.0
 Telangana,Hepatitis B 2nd Dose,Change,1.9
+Telangana,Hepatitis B 2nd Dose,NFHS 6,
+Telangana,Hepatitis B 2nd Dose,Change 2,
 Telangana,Hepatitis B 3rd Dose,NFHS 4,70.5
 Telangana,Hepatitis B 3rd Dose,NFHS 5,86.4
 Telangana,Hepatitis B 3rd Dose,Change,15.9
+Telangana,Hepatitis B 3rd Dose,NFHS 6,
+Telangana,Hepatitis B 3rd Dose,Change 2,
 Telangana,Pentavalent and DPT 1,NFHS 4,95.6
 Telangana,Pentavalent and DPT 1,NFHS 5,92.5
 Telangana,Pentavalent and DPT 1,Change,-3.1
+Telangana,Pentavalent and DPT 1,NFHS 6,
+Telangana,Pentavalent and DPT 1,Change 2,
 Telangana,Pentavalent and DPT 2,NFHS 4,93.9
 Telangana,Pentavalent and DPT 2,NFHS 5,91.5
 Telangana,Pentavalent and DPT 2,Change,-2.4
+Telangana,Pentavalent and DPT 2,NFHS 6,
+Telangana,Pentavalent and DPT 2,Change 2,
 Telangana,Pentavalent and DPT 3,NFHS 4,87.9
 Telangana,Pentavalent and DPT 3,NFHS 5,89.3
 Telangana,Pentavalent and DPT 3,Change,1.4
+Telangana,Pentavalent and DPT 3,NFHS 6,88.7
+Telangana,Pentavalent and DPT 3,Change 2,-0.6
 Telangana,Polio 0,NFHS 4,95.3
 Telangana,Polio 0,NFHS 5,88.1
 Telangana,Polio 0,Change,-7.2
+Telangana,Polio 0,NFHS 6,
+Telangana,Polio 0,Change 2,
 Telangana,Polio 1,NFHS 4,95.9
 Telangana,Polio 1,NFHS 5,90.5
 Telangana,Polio 1,Change,-5.4
+Telangana,Polio 1,NFHS 6,
+Telangana,Polio 1,Change 2,
 Telangana,Polio 2,NFHS 4,90.9
 Telangana,Polio 2,NFHS 5,87.1
 Telangana,Polio 2,Change,-3.8
+Telangana,Polio 2,NFHS 6,
+Telangana,Polio 2,Change 2,
 Telangana,Polio 3,NFHS 4,75.2
 Telangana,Polio 3,NFHS 5,81.6
 Telangana,Polio 3,Change,6.4
+Telangana,Polio 3,NFHS 6,83.3
+Telangana,Polio 3,Change 2,1.7
 Telangana,MCV Measles and MMR,NFHS 4,90.1
 Telangana,MCV Measles and MMR,NFHS 5,90.6
 Telangana,MCV Measles and MMR,Change,0.5
+Telangana,MCV Measles and MMR,NFHS 6,92.9
+Telangana,MCV Measles and MMR,Change 2,2.3
 Telangana,Fully Vaccinated,NFHS 4,67.5
 Telangana,Fully Vaccinated,NFHS 5,79.1
 Telangana,Fully Vaccinated,Change,11.6
+Telangana,Fully Vaccinated,NFHS 6,80.9
+Telangana,Fully Vaccinated,Change 2,1.8
 Telangana,All Age Appropriate Vaccines,NFHS 4,59.1
 Telangana,All Age Appropriate Vaccines,NFHS 5,62.5
 Telangana,All Age Appropriate Vaccines,Change,3.4
+Telangana,All Age Appropriate Vaccines,NFHS 6,
+Telangana,All Age Appropriate Vaccines,Change 2,
 Telangana,No Vaccination,NFHS 4,1.1
 Telangana,No Vaccination,NFHS 5,5.4
 Telangana,No Vaccination,Change,4.3
+Telangana,No Vaccination,NFHS 6,4.0
+Telangana,No Vaccination,Change 2,-1.4
 Telangana,Vaccination Card Seen,NFHS 4,68.3
-Telangana,Vaccination Card Seen,NFHS 5,87
+Telangana,Vaccination Card Seen,NFHS 5,87.0
 Telangana,Vaccination Card Seen,Change,18.7
+Telangana,Vaccination Card Seen,NFHS 6,
+Telangana,Vaccination Card Seen,Change 2,
+Telangana,Fully Vaccinated Card Only,NFHS 4,
+Telangana,Fully Vaccinated Card Only,NFHS 5,87.4
+Telangana,Fully Vaccinated Card Only,Change,
+Telangana,Fully Vaccinated Card Only,NFHS 6,87.9
+Telangana,Fully Vaccinated Card Only,Change 2,0.5
+Telangana,MCV 2nd Dose,NFHS 4,
+Telangana,MCV 2nd Dose,NFHS 5,63.1
+Telangana,MCV 2nd Dose,Change,
+Telangana,MCV 2nd Dose,NFHS 6,78.6
+Telangana,MCV 2nd Dose,Change 2,15.5
+Telangana,Rotavirus 3 Doses,NFHS 4,
+Telangana,Rotavirus 3 Doses,NFHS 5,5.3
+Telangana,Rotavirus 3 Doses,Change,
+Telangana,Rotavirus 3 Doses,NFHS 6,63.8
+Telangana,Rotavirus 3 Doses,Change 2,58.5
