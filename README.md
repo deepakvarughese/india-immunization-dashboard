@@ -8,9 +8,7 @@ An interactive web-based geospatial visualization dashboard exploring state-leve
 
 \- \*\*Live Dashboard:\*\* \[https://indiaimmunizationdashboard.netlify.app/](https://indiaimmunizationdashboard.netlify.app/)
 
-\- \*\*Permanent Archive (Zenodo):\*\* `https://doi.org/10.5281/zenodo.21259674` \*(update with the versioned DOI minted upon publishing the latest release)\*
-
-
+\- \*\*Permanent Archive (Zenodo):\*\* `https://doi.org/10.5281/zenodo.24461913` \*
 
 ### 
 
@@ -110,8 +108,7 @@ To prevent link rot and support reproducible research, releases of this reposito
 
 
 
-Varughese D. deepakvarughese/india-immunization-dashboard: India Immunization Dashboard compating NFHS 4 and NFHS 5 data. Zenodo; 2026. Available from: https://doi.org/10.5281/zenodo.21259674. doi:10.5281/zenodo.21259674.
-
+Varughese D. deepakvarughese/india-immunization-dashboard: India Immunization Dashboard compating NFHS 4 and NFHS 5 data. Zenodo; 2026. Available from: https://doi.org/10.5281/zenodo.24461913
 
 
 Author
