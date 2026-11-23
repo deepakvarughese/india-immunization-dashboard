@@ -1,6 +1,4 @@
-Markdown
-
-\# India Immunization Dashboard (NFHS-4, NFHS-5 \& NFHS-6)
+# India Immunization Dashboard (NFHS-4, NFHS-5 \& NFHS-6)
 
 
 
@@ -14,11 +12,9 @@ An interactive web-based geospatial visualization dashboard exploring state-leve
 
 
 
-\---
+### 
 
-
-
-\## Overview
+### Overview
 
 
 
@@ -26,29 +22,29 @@ This application accompanies public health and immunization research in India, p
 
 
 
-\### Key Features
+### Key Features
 
-\- \*\*Categorized Vaccine \& Indicator Selector:\*\* Organizes indicators into logical clinical and program groups (\*Summary measures\*, \*Birth doses\*, \*Primary series, 6–14 weeks\*, \*Measles and second year\*, \*Process indicators\*, and \*Other Vaccines\* where applicable).
+\- **Categorized Vaccine \& Indicator Selector**: Organizes indicators into logical clinical and program groups (\*Summary measures\*, \*Birth doses\*, \*Primary series, 6–14 weeks\*, \*Measles and second year\*, \*Process indicators\*, and \*Other Vaccines\* where applicable).
 
-\- \*\*Ordered Reference Timeframes:\*\* Displays survey rounds in chronological order followed by inter-survey change metrics (`NFHS-4 (2015–16)`, `NFHS-5 (2019–21)`, `NFHS-6 (2023–24)`, `Change, NFHS-4 to NFHS-5 (pp)`, and `Change, NFHS-5 to NFHS-6 (pp)`).
+\- **Ordered Reference Timeframes**: Displays survey rounds in chronological order followed by inter-survey change metrics (`NFHS-4 (2015–16)`, `NFHS-5 (2019–21)`, `NFHS-6 (2023–24)`, `Change, NFHS-4 to NFHS-5 (pp)`, and `Change, NFHS-5 to NFHS-6 (pp)`).
 
-\- \*\*Editorial Color Scales:\*\*
+\- **Editorial Color Scales**:
 
-&#x20; - \*Sequential scale (Muted Sand to Deep Teal)\* for absolute coverage percentages.
+&#x20; - *Sequential scale* (Muted Sand to Deep Teal) for absolute coverage percentages.
 
-&#x20; - \*Diverging scale (Plum to Slate Gray to Deep Teal)\* for percentage-point changes.
+&#x20; - *Diverging scale* (Plum to Slate Gray to Deep Teal)\* for percentage-point changes.
 
-\- \*\*Transparent Fact-Sheet Gap Handling:\*\* Disables `NFHS-6` and `Change, NFHS-5 to NFHS-6 (pp)` for indicators not yet reported in the NFHS-6 fact sheets and displays a clear notice (\*"Not reported in the NFHS-6 fact sheets"\*) so missing fact-sheet items are not misread as zero or omitted data.
+\- **Transparent Fact-Sheet Gap Handling**: Disables `NFHS-6` and `Change, NFHS-5 to NFHS-6 (pp)` for indicators not yet reported in the NFHS-6 fact sheets and displays a clear notice (\*"Not reported in the NFHS-6 fact sheets"\*) so missing fact-sheet items are not misread as zero or omitted data.
 
-\- \*\*Clean Basemap \& Responsive Layout:\*\* Built with React, Leaflet, and Esri World Gray Canvas tiles, with a collapsible sidebar on desktop and a compact colorbar legend on mobile.
-
-
-
-\---
+\- **Clean Basemap \& Responsive Layout**: Built with React, Leaflet, and Esri World Gray Canvas tiles, with a collapsible sidebar on desktop and a compact colorbar legend on mobile.
 
 
 
-\## Data \& Repository Structure
+
+
+
+
+### Data \& Repository Structure
 
 
 
